@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Movie Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <h2>영화 선택</h2>
+      <label class="field-label" for="movie-input">질문할 영화</label>
+      <input id="movie-input" list="movie-list" placeholder="영화 제목을 입력하세요" autocomplete="off">
+      <datalist id="movie-list"></datalist>
+
+      <details class="panel" id="recommend-panel" open>
+        <summary>🔎 이런 영화 찾아줘</summary>
+        <form id="recommend-form">
+          <input id="recommend-input" placeholder="우주 배경에 가족이 나오는 감동적인 영화" maxlength="200">
+          <button type="submit">영화 찾기</button>
+        </form>
+      </details>
+
+      <hr>
+      <p class="caption" id="index-status">색인 상태를 확인하는 중...</p>
+      <div class="notice warn hidden" id="setup-warning"></div>
+
+      <section id="movie-info" class="hidden">
+        <p class="caption" id="movie-director"></p>
+        <p class="caption" id="movie-cast"></p>
+        <p class="caption" id="movie-docs"></p>
+        <button id="review-button" type="button">📝 리뷰 생성</button>
+        <div id="similar-box" class="hidden">
+          <hr>
+          <p class="caption">이 영화와 비슷한 작품</p>
+          <div id="similar-list" class="button-list"></div>
+        </div>
+      </section>
+
+      <section id="talking-box" class="hidden">
+        <hr>
+        <p class="caption">대화 중인 영화</p>
+        <ul id="talking-list" class="talking"></ul>
+        <button id="clear-button" type="button" class="secondary">이 영화의 대화 지우기</button>
+      </section>
+    </aside>
+
+    <main class="main">
+      <header>
+        <h1>🎬 Movie Lab</h1>
+        <p class="caption">영화 메타데이터와 위키백과·위키데이터 문서에서 근거를 찾아 답변하는 영화 큐레이터</p>
+      </header>
+
+      <section id="recommend-view" class="hidden">
+        <button id="back-button" type="button" class="secondary">← 대화 화면으로 돌아가기</button>
+        <h3 id="recommend-title"></h3>
+        <p class="caption">영화 메타데이터 색인에서 후보를 찾고 요청에 맞는 것만 골랐습니다. 고르면 그 영화의 대화가 시작됩니다.</p>
+        <div id="recommend-results"></div>
+      </section>
+
+      <section id="chat-view">
+        <div class="notice info" id="empty-guide">
+          왼쪽에서 질문할 영화를 선택하거나, <b>🔎 이런 영화 찾아줘</b>로 영화를 찾아보세요.<br>영화마다 대화가 따로 저장됩니다.
+        </div>
+        <h3 id="movie-title" class="hidden"></h3>
+        <div id="messages" class="messages" aria-live="polite"></div>
+        <div id="progress" class="progress hidden"><span class="spinner"></span><span id="progress-text"></span></div>
+        <form id="chat-form" class="chat-form hidden">
+          <input id="chat-input" placeholder="이 영화에 대해 궁금한 점을 물어보세요" maxlength="500" autocomplete="off">
+          <button type="submit" id="send-button">보내기</button>
+        </form>
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

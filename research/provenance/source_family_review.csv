@@ -1,0 +1,6 @@
+﻿source_family,candidate_count_in_100_sample,review_status,review_basis,decision
+NTP Chemical Repository (1992),8,개별 문서 선별 검토,"A-454는 NOAA CAMEO CH21145 원문 및 CAS 대조; A-4518의 물 용해도 항목은 CAMEO CH8856, CAS 109-06-8, NTP attribution 및 해당 이용조건 검토",위 두 레코드의 지정 발췌만 승인; 나머지 후보는 미검토
+U.S. Coast Guard CHRIS (1999),5,개별 문서 선별 검토,"A-5538 anthracene, NOAA CAMEO CAS 120-12-7 및 USCG attribution 대조; CAMEO 이용조건 확인",일반 물리 묘사 한 문장만 승인; 다른 항목은 미검토
+ATSDR toxicological profiles,4,미검토,후보 인용문과 원문 페이지·저작권/재사용 고지 미대조,색인 보류
+EPA EHS Chemical Profiles (1998),3,미검토,후보 인용문과 원문 페이지·재사용 고지 미대조,색인 보류
+Wikipedia 및 기타 혼합 출처,6,미검토 또는 출처 불일치,일부 PubChem citation은 화합물명/문장과 맞지 않아 추가 원문 대조 필요,색인 보류
