@@ -1,5 +1,6 @@
 """AqSolDB aqueous-solubility analysis and evidence review interface."""
 from __future__ import annotations
+from smiles_prediction import solubility_band
 
 import os
 import sys
@@ -67,16 +68,6 @@ QUESTION_EXAMPLES = {
         ("문헌 수치의 의미", "아스피린 문헌의 수용해도는 정확한 값인가요, 범위나 한계값인가요?"),
     ],
 }
-
-
-def solubility_band(logS: float) -> tuple[str, str]:
-    if logS >= 0:
-        return "높은 용해도", "물에 잘 녹는 편"
-    if logS >= -2:
-        return "용해성", "물에 녹는 편"
-    if logS >= -4:
-        return "약한 용해성", "물에 잘 녹지 않는 편"
-    return "불용성 구간", "물에 거의 녹지 않는 편"
 
 
 def set_compound_query(query: str) -> None:
