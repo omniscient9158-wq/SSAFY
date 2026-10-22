@@ -1,0 +1,61 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 149220038,
+  "RecordTitle": "Sodium 4-sulfonatoaniline",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 6,
+              "Name": "See Also",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "See also: Sodium sulfanilate (preferred).",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "#section=Other-Relationships"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 18,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/23664644"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 18,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?t=s&cid=23664644",
+                        "Type": "Icon"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 6,
+      "SourceName": "PubChem",
+      "SourceID": "PubChem",
+      "Description": "Data deposited in or computed by PubChem",
+      "URL": "https://pubchem.ncbi.nlm.nih.gov"
+    }
+  ]
+}

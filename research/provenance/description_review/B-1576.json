@@ -1,0 +1,70 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 61250,
+  "RecordTitle": "Amyl Nitrate",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 1,
+              "Description": "Physical Description",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Amyl nitrate appears as a clear colorless liquid with an ether-like odor. Flash point 118 °F. About the same density as water and insoluble in water. Vapors heavier than air. Produces toxic oxides of nitrogen during combustion. Used as an additive for diesel fuels.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 12,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Amyl%20nitrate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-61250"
+                      },
+                      {
+                        "Start": 120,
+                        "Length": 5,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/water",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-962"
+                      },
+                      {
+                        "Start": 143,
+                        "Length": 5,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/water",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-962"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 1,
+      "SourceName": "CAMEO Chemicals",
+      "SourceID": "2477",
+      "Name": "AMYL NITRATE",
+      "Description": "CAMEO Chemicals is a chemical database designed for people who are involved in hazardous material incident response and planning. CAMEO Chemicals contains a library with thousands of datasheets containing response-related information and recommendations for hazardous materials that are commonly transported, used, or stored in the United States. CAMEO Chemicals was developed by the National Oceanic and Atmospheric Administration's Office of Response and Restoration in partnership with the Environmental Protection Agency's Office of Emergency Management.",
+      "URL": "https://cameochemicals.noaa.gov/chemical/2477",
+      "LicenseNote": "CAMEO Chemicals and all other CAMEO products are available at no charge to those organizations and individuals (recipients) responsible for the safe handling of chemicals. However, some of the chemical data itself is subject to the copyright restrictions of the companies or organizations that provided the data.",
+      "LicenseURL": "https://cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm?d_f=false",
+      "ANID": 756749
+    }
+  ]
+}

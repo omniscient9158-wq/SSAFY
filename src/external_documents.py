@@ -1,4 +1,4 @@
-"""Load only reviewed external excerpts for the three-compound demo."""
+"""Load only reviewed external excerpts for compounds with approved evidence."""
 from __future__ import annotations
 
 import csv
@@ -8,9 +8,9 @@ from typing import Any
 import compound_data
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
-APPROVED_SOURCES = PROJECT_DIR / "research" / "provenance" / "approved_external_sources.csv"
+APPROVED_SOURCES = PROJECT_DIR / "data" / "approved_external_sources.csv"
 OUTPUT_JSONL = compound_data.PROJECT_DIR / "data" / "curated_external_documents.jsonl"
-DEMO_COMPOUND_IDS = ("A-454", "A-5538", "A-4518")
+DEMO_COMPOUND_IDS = ("A-454", "A-5538", "A-4518", "B-524", "C-533", "E-1274")
 
 
 def load_reviewed_documents() -> list[dict[str, Any]]:

@@ -1,0 +1,149 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 16115,
+  "RecordTitle": "Chloroxuron",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 3,
+              "Description": "Physical Description",
+              "Reference": [
+                "U.S. Environmental Protection Agency. 1998. Extremely Hazardous Substances (EHS) Chemical Profiles and Emergency First Aid Guides. Washington, D.C.: U.S. Government Printing Office."
+              ],
+              "ExtendedReference": [
+                {
+                  "Citation": "U.S. Environmental Protection Agency. 1998. Extremely Hazardous Substances (EHS) Chemical Profiles and Emergency First Aid Guides. Washington, D.C.: U.S. Government Printing Office.",
+                  "Matched": {
+                    "PCLID": 906297336,
+                    "Citation": "U.S. Environmental Protection Agency. 1998. Extremely Hazardous Substances (EHS) Chemical Profiles and Emergency First Aid Guides. Washington, D.C.: U.S. Government Printing Office."
+                  }
+                }
+              ],
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Chloroxuron appears as odorless colorless powder or white crystals. Used as a selective pre- and early post-emergence herbicide in soybeans, strawberries, various vegetable crops and ornamentals. Root- and foliage-absorbed herbicide selective in leek, celery, onion, carrot and strawberry. (EPA, 1998)",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Chloroxuron",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-16115"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 6,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Chloroxuron is a member of the class of phenylureas that is N,N-dimethylurea in which a hydrogen of the amino group is replaced by a 4-(4-chlorophenoxy)phenyl group. It is a phenylurea herbicide used for the control of annual grasses, mosses and broad-leaved weeds. Common crop plants for which the herbicicide is useful are soy beans, onions, strawberries, and celery. It has a role as a herbicide. It is a member of phenylureas, an aromatic ether and a member of monochlorobenzenes.",
+                    "Markup": [
+                      {
+                        "Start": 60,
+                        "Length": 1,
+                        "Type": "Italics"
+                      },
+                      {
+                        "Start": 62,
+                        "Length": 1,
+                        "Type": "Italics"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Chloroxuron",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-16115"
+                      },
+                      {
+                        "Start": 60,
+                        "Length": 16,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/N%2CN-dimethylurea",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-11737"
+                      },
+                      {
+                        "Start": 88,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/element/Hydrogen",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "Element-Hydrogen"
+                      },
+                      {
+                        "Start": 174,
+                        "Length": 10,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/phenylurea",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-6145"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 116,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "structure"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 3,
+      "SourceName": "CAMEO Chemicals",
+      "SourceID": "4919",
+      "Name": "CHLOROXURON",
+      "Description": "CAMEO Chemicals is a chemical database designed for people who are involved in hazardous material incident response and planning. CAMEO Chemicals contains a library with thousands of datasheets containing response-related information and recommendations for hazardous materials that are commonly transported, used, or stored in the United States. CAMEO Chemicals was developed by the National Oceanic and Atmospheric Administration's Office of Response and Restoration in partnership with the Environmental Protection Agency's Office of Emergency Management.",
+      "URL": "https://cameochemicals.noaa.gov/chemical/4919",
+      "LicenseNote": "CAMEO Chemicals and all other CAMEO products are available at no charge to those organizations and individuals (recipients) responsible for the safe handling of chemicals. However, some of the chemical data itself is subject to the copyright restrictions of the companies or organizations that provided the data.",
+      "LicenseURL": "https://cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm?d_f=false",
+      "ANID": 757467
+    },
+    {
+      "ReferenceNumber": 6,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:16115",
+      "Name": "Chloroxuron",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:82200",
+      "ANID": 13716412
+    },
+    {
+      "ReferenceNumber": 116,
+      "SourceName": "Medical Subject Headings (MeSH)",
+      "SourceID": "M0060137",
+      "Name": "chloroxuron",
+      "Description": "MeSH (Medical Subject Headings) is the U.S. National Library of Medicine's controlled vocabulary thesaurus used for indexing articles for PubMed.",
+      "URL": "https://id.nlm.nih.gov/mesh/M0060137.html",
+      "LicenseNote": "Works produced by the U.S. government are not subject to copyright protection in the United States. Any such works found on National Library of Medicine (NLM) Web sites may be freely used or reproduced without permission in the U.S.",
+      "LicenseURL": "https://www.nlm.nih.gov/copyright.html"
+    }
+  ]
+}

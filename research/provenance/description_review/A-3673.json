@@ -1,0 +1,248 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 6992086,
+  "RecordTitle": "(2S)-5-amino-2-ammonio-5-oxopentanoate",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 3,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "L-glutamine zwitterion is an amino acid zwitterion arising from transfer of a proton from the carboxy to the amino group of L-glutamine; major species at pH 7.3. It has a role as a metabolite. It is an amino-acid zwitterion and a polar amino acid zwitterion. It is a tautomer of a L-glutamine.",
+                    "Markup": [
+                      {
+                        "Start": 124,
+                        "Length": 1,
+                        "Type": "Small"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/L-glutamine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-5961"
+                      },
+                      {
+                        "Start": 124,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/L-glutamine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-5961"
+                      },
+                      {
+                        "Start": 281,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/L-glutamine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-5961"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 15,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "A non-essential amino acid present abundantly throughout the body and is involved in many metabolic processes. It is synthesized from glutamic acid and ammonia. It is the principal carrier of nitrogen in the body and is an important energy source for many cells. An oral formulation of L-glutamine was approved by the FDA in July 2017 for use in sickle cell disease. This oral formulation is marketed under the tradename Endari by Emmaus Medical.",
+                    "Markup": [
+                      {
+                        "Start": 134,
+                        "Length": 13,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/glutamic%20acid",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-33032"
+                      },
+                      {
+                        "Start": 152,
+                        "Length": 7,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/ammonia",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-222"
+                      },
+                      {
+                        "Start": 192,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/element/Nitrogen",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "Element-Nitrogen"
+                      },
+                      {
+                        "Start": 286,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/L-glutamine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-5961"
+                      },
+                      {
+                        "Start": 421,
+                        "Length": 6,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Endari",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-5961"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 39,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "L-glutamine has been reported in Pinus densiflora, Trichoderma asperellum, and other organisms with data available.",
+                    "Markup": [
+                      {
+                        "Start": 33,
+                        "Length": 16,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/77912#section=Natural-Products"
+                      },
+                      {
+                        "Start": 51,
+                        "Length": 22,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/101201#section=Natural-Products"
+                      },
+                      {
+                        "Start": 79,
+                        "Length": 15,
+                        "URL": "#section=Taxonomy"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/L-glutamine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-5961"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 63,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "L-Glutamine is a metabolite found in or produced by Saccharomyces cerevisiae.",
+                    "Markup": [
+                      {
+                        "Start": 52,
+                        "Length": 24,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/4932"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/L-Glutamine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-5961"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 64,
+              "Name": "See Also",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "See also: L-Glutamine (preferred).",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "#section=Other-Relationships"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/5961"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?t=s&cid=5961",
+                        "Type": "Icon"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 3,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:6992086",
+      "Name": "L-glutamine zwitterion",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:58359",
+      "ANID": 2454054
+    },
+    {
+      "ReferenceNumber": 15,
+      "SourceName": "DrugBank",
+      "SourceID": "DB00130",
+      "Name": "L-Glutamine",
+      "Description": "The DrugBank database is a unique bioinformatics and cheminformatics resource that combines detailed drug (i.e. chemical, pharmacological and pharmaceutical) data with comprehensive drug target (i.e. sequence, structure, and pathway) information.",
+      "URL": "https://go.drugbank.com/drugs/DB00130",
+      "LicenseNote": "Creative Common's Attribution-NonCommercial 4.0 International License (http://creativecommons.org/licenses/by-nc/4.0/legalcode)",
+      "LicenseURL": "https://www.drugbank.ca/legal/terms_of_use",
+      "ANID": 3599687
+    },
+    {
+      "ReferenceNumber": 39,
+      "SourceName": "LOTUS - the natural products occurrence database",
+      "SourceID": "Q181619",
+      "Name": "L-glutamine",
+      "Description": "LOTUS is one of the largest openly available, collaboratively maintained resources for natural product occurrences. It is free to use without restriction, supports global reuse across languages and communities, and is built on Wikidata, a shared and openly editable knowledge base.",
+      "URL": "https://www.wikidata.org/wiki/Q181619",
+      "LicenseNote": "The LOTUS data is available under CC0 licence.",
+      "LicenseURL": "https://lotus.nprod.net/",
+      "ANID": 19824779
+    },
+    {
+      "ReferenceNumber": 63,
+      "SourceName": "Yeast Metabolome Database (YMDB)",
+      "SourceID": "YMDB00002",
+      "Name": "L-Glutamine",
+      "Description": "The Yeast Metabolome Database (YMDB) is a manually curated database of small molecule metabolites found in or produced by Saccharomyces cerevisiae (also known as Baker's yeast and Brewer's yeast).",
+      "URL": "https://www.ymdb.ca/compounds/YMDB00002",
+      "LicenseNote": "YMDB is offered to the public as a freely available resource.",
+      "LicenseURL": "http://www.ymdb.ca/downloads",
+      "ANID": 19796640
+    },
+    {
+      "ReferenceNumber": 64,
+      "SourceName": "PubChem",
+      "SourceID": "PubChem",
+      "Description": "Data deposited in or computed by PubChem",
+      "URL": "https://pubchem.ncbi.nlm.nih.gov"
+    }
+  ]
+}

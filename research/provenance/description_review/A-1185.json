@@ -1,0 +1,61 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 58488538,
+  "RecordTitle": "3-Azaniumyl-4-hydroxybenzenesulfonate",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 8,
+              "Name": "See Also",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "See also: 3-Amino-4-hydroxybenzenesulfonic acid (preferred).",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "#section=Other-Relationships"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 37,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/7385"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 37,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?t=s&cid=7385",
+                        "Type": "Icon"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 8,
+      "SourceName": "PubChem",
+      "SourceID": "PubChem",
+      "Description": "Data deposited in or computed by PubChem",
+      "URL": "https://pubchem.ncbi.nlm.nih.gov"
+    }
+  ]
+}

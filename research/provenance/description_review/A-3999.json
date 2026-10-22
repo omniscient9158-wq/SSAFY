@@ -1,0 +1,243 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 4684,
+  "RecordTitle": "4-Chlorophenol",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 5,
+              "Description": "Physical Description",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "P-chlorophenol appears as white crystals with a strong phenol odor. Slightly soluble to soluble in water, depending on the isomer, and denser than water. Noncombustible. Used as an intermediate in organic synthesis of dyes and drugs.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 14,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/P-chlorophenol",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-4684"
+                      },
+                      {
+                        "Start": 55,
+                        "Length": 6,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/phenol",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-996"
+                      },
+                      {
+                        "Start": 99,
+                        "Length": 5,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/water",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-962"
+                      },
+                      {
+                        "Start": 147,
+                        "Length": 5,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/water",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-962"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 8,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "4-chlorophenol is a monochlorophenol substituted at the pare position by a chlorine atom.",
+                    "Markup": [
+                      {
+                        "Start": 56,
+                        "Length": 4,
+                        "Type": "Italics"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 14,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/4-chlorophenol",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-4684"
+                      },
+                      {
+                        "Start": 75,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/element/Chlorine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "Element-Chlorine"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 14,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "P-chlorophenol is a white crystals with a strong phenol odor. Slightly soluble to soluble in water, depending on the isomer, and denser than water. Noncombustible.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 14,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/P-chlorophenol",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-4684"
+                      },
+                      {
+                        "Start": 49,
+                        "Length": 6,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/phenol",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-996"
+                      },
+                      {
+                        "Start": 93,
+                        "Length": 5,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/water",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-962"
+                      },
+                      {
+                        "Start": 141,
+                        "Length": 5,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/water",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-962"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 124,
+              "ExtendedReference": [
+                {
+                  "Citation": "L159: ATSDR - Agency for Toxic Substances and Disease Registry (1999). Toxicological profile for chlorophenols. U.S. Public Health Service in collaboration with U.S. Environmental Protection Agency (EPA). http://www.atsdr.cdc.gov/toxprofiles/tp107.html",
+                  "Matched": {
+                    "PCLID": 900176748,
+                    "Citation": "L159: ATSDR - Agency for Toxic Substances and Disease Registry (1999). Toxicological profile for chlorophenols. U.S. Public Health Service in collaboration with U.S. Environmental Protection Agency (EPA). http://www.atsdr.cdc.gov/toxprofiles/tp107.html"
+                  }
+                }
+              ],
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "4-Chlorophenol or para-chlorophenol is a monochlorophenol isomer that has a chlorine atom in the para position. It is used as a disinfectant agent (L159).",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 14,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/4-Chlorophenol",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-4684"
+                      },
+                      {
+                        "Start": 18,
+                        "Length": 17,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/para-chlorophenol",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-4684"
+                      },
+                      {
+                        "Start": 76,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/element/Chlorine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "Element-Chlorine"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 129,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "used as a root canal irrigant"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 5,
+      "SourceName": "CAMEO Chemicals",
+      "SourceID": "2906",
+      "Name": "P-CHLOROPHENOL",
+      "Description": "CAMEO Chemicals is a chemical database designed for people who are involved in hazardous material incident response and planning. CAMEO Chemicals contains a library with thousands of datasheets containing response-related information and recommendations for hazardous materials that are commonly transported, used, or stored in the United States. CAMEO Chemicals was developed by the National Oceanic and Atmospheric Administration's Office of Response and Restoration in partnership with the Environmental Protection Agency's Office of Emergency Management.",
+      "URL": "https://cameochemicals.noaa.gov/chemical/2906",
+      "LicenseNote": "CAMEO Chemicals and all other CAMEO products are available at no charge to those organizations and individuals (recipients) responsible for the safe handling of chemicals. However, some of the chemical data itself is subject to the copyright restrictions of the companies or organizations that provided the data.",
+      "LicenseURL": "https://cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm?d_f=false",
+      "ANID": 760132
+    },
+    {
+      "ReferenceNumber": 8,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:4684",
+      "Name": "4-chlorophenol",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28078",
+      "ANID": 2486194
+    },
+    {
+      "ReferenceNumber": 14,
+      "SourceName": "DrugBank",
+      "SourceID": "DB13154",
+      "Name": "Parachlorophenol",
+      "Description": "The DrugBank database is a unique bioinformatics and cheminformatics resource that combines detailed drug (i.e. chemical, pharmacological and pharmaceutical) data with comprehensive drug target (i.e. sequence, structure, and pathway) information.",
+      "URL": "https://go.drugbank.com/drugs/DB13154",
+      "LicenseNote": "Creative Common's Attribution-NonCommercial 4.0 International License (http://creativecommons.org/licenses/by-nc/4.0/legalcode)",
+      "LicenseURL": "https://www.drugbank.ca/legal/terms_of_use",
+      "ANID": 3630568
+    },
+    {
+      "ReferenceNumber": 124,
+      "SourceName": "Toxin and Toxin Target Database (T3DB)",
+      "SourceID": "Compound::T3D0868",
+      "Name": "4-Chlorophenol",
+      "Description": "The Toxin and Toxin Target Database (T3DB), or, soon to be referred as, the Toxic Exposome Database, is a unique bioinformatics resource that combines detailed toxin data with comprehensive toxin target information.",
+      "URL": "http://www.t3db.ca/toxins/T3D0868",
+      "LicenseNote": "T3DB is offered to the public as a freely available resource. Use and re-distribution of the data, in whole or in part, for commercial purposes requires explicit permission of the authors and explicit acknowledgment of the source material (T3DB) and the original publication.",
+      "LicenseURL": "https://t3db.ca/downloads",
+      "ANID": 20441120
+    },
+    {
+      "ReferenceNumber": 129,
+      "SourceName": "Medical Subject Headings (MeSH)",
+      "SourceID": "M0093086",
+      "Name": "4-chlorophenol",
+      "Description": "MeSH (Medical Subject Headings) is the U.S. National Library of Medicine's controlled vocabulary thesaurus used for indexing articles for PubMed.",
+      "URL": "https://id.nlm.nih.gov/mesh/M0093086.html",
+      "LicenseNote": "Works produced by the U.S. government are not subject to copyright protection in the United States. Any such works found on National Library of Medicine (NLM) Web sites may be freely used or reproduced without permission in the U.S.",
+      "LicenseURL": "https://www.nlm.nih.gov/copyright.html"
+    }
+  ]
+}

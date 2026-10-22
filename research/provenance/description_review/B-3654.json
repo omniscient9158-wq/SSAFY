@@ -1,0 +1,62 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 11414,
+  "RecordTitle": "1,2-Dibromobenzene",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 7,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "1,2-dibromobenzene is a dibromobenzene.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 18,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/1%2C2-dibromobenzene",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-11414"
+                      },
+                      {
+                        "Start": 24,
+                        "Length": 14,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/dibromobenzene",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-11414"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 7,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:11414",
+      "Name": "1,2-dibromobenzene",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:37152",
+      "ANID": 2497521
+    }
+  ]
+}

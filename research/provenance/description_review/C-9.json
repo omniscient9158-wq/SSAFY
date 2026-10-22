@@ -1,0 +1,227 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 5257127,
+  "RecordTitle": "alpha-Glycine",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 3,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Glycine zwitterion is an amino acid zwitterion arising from transfer of a proton from the carboxy to the amino group of glycine. It is a tautomer of a glycine.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 7,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Glycine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-750"
+                      },
+                      {
+                        "Start": 120,
+                        "Length": 7,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/glycine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-750"
+                      },
+                      {
+                        "Start": 151,
+                        "Length": 7,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/glycine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-750"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 33,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "A non-essential amino acid. It is found primarily in gelatin and silk fibroin and used therapeutically as a nutrient. It is also a fast inhibitory neurotransmitter."
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 59,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "glycine has been reported in Pinus densiflora, Cyperus aromaticus, and other organisms with data available.",
+                    "Markup": [
+                      {
+                        "Start": 29,
+                        "Length": 16,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/77912#section=Natural-Products"
+                      },
+                      {
+                        "Start": 47,
+                        "Length": 18,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/1234190#section=Natural-Products"
+                      },
+                      {
+                        "Start": 71,
+                        "Length": 15,
+                        "URL": "#section=Taxonomy"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 7,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/glycine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-750"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 147,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Glycine is a metabolite found in or produced by Saccharomyces cerevisiae.",
+                    "Markup": [
+                      {
+                        "Start": 48,
+                        "Length": 24,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/4932"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 7,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Glycine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-750"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 148,
+              "Name": "See Also",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "See also: Glycine (preferred); Glycine Hydrochloride (active moiety of); Amlisimod (monomer of) ... View More ...",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "#section=Other-Relationships"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 7,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/750"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 7,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?t=s&cid=750",
+                        "Type": "Icon"
+                      },
+                      {
+                        "Start": 31,
+                        "Length": 21,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/22316"
+                      },
+                      {
+                        "Start": 31,
+                        "Length": 21,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?t=s&cid=22316",
+                        "Type": "Icon"
+                      },
+                      {
+                        "Start": 73,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Amlisimod"
+                      },
+                      {
+                        "Start": 100,
+                        "Length": 9,
+                        "URL": "#section=Other-Relationships"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 3,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:5257127",
+      "Name": "Glycine zwitterion",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:57305",
+      "ANID": 2495193
+    },
+    {
+      "ReferenceNumber": 33,
+      "SourceName": "DrugBank",
+      "SourceID": "DB00145",
+      "Name": "Glycine",
+      "Description": "The DrugBank database is a unique bioinformatics and cheminformatics resource that combines detailed drug (i.e. chemical, pharmacological and pharmaceutical) data with comprehensive drug target (i.e. sequence, structure, and pathway) information.",
+      "URL": "https://go.drugbank.com/drugs/DB00145",
+      "LicenseNote": "Creative Common's Attribution-NonCommercial 4.0 International License (http://creativecommons.org/licenses/by-nc/4.0/legalcode)",
+      "LicenseURL": "https://www.drugbank.ca/legal/terms_of_use",
+      "ANID": 3599976
+    },
+    {
+      "ReferenceNumber": 59,
+      "SourceName": "LOTUS - the natural products occurrence database",
+      "SourceID": "Q620730",
+      "Name": "glycine",
+      "Description": "LOTUS is one of the largest openly available, collaboratively maintained resources for natural product occurrences. It is free to use without restriction, supports global reuse across languages and communities, and is built on Wikidata, a shared and openly editable knowledge base.",
+      "URL": "https://www.wikidata.org/wiki/Q620730",
+      "LicenseNote": "The LOTUS data is available under CC0 licence.",
+      "LicenseURL": "https://lotus.nprod.net/",
+      "ANID": 19824791
+    },
+    {
+      "ReferenceNumber": 147,
+      "SourceName": "Yeast Metabolome Database (YMDB)",
+      "SourceID": "YMDB00016",
+      "Name": "Glycine",
+      "Description": "The Yeast Metabolome Database (YMDB) is a manually curated database of small molecule metabolites found in or produced by Saccharomyces cerevisiae (also known as Baker's yeast and Brewer's yeast).",
+      "URL": "https://www.ymdb.ca/compounds/YMDB00016",
+      "LicenseNote": "YMDB is offered to the public as a freely available resource.",
+      "LicenseURL": "http://www.ymdb.ca/downloads",
+      "ANID": 19796654
+    },
+    {
+      "ReferenceNumber": 148,
+      "SourceName": "PubChem",
+      "SourceID": "PubChem",
+      "Description": "Data deposited in or computed by PubChem",
+      "URL": "https://pubchem.ncbi.nlm.nih.gov"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 """F2001-F2002: prepare and optionally index AqSolDB metadata.
 
-Default: prepare/check a deterministic 100-record sample from train.csv without API calls.
+Default: prepare/check the 100-record document-discovery scope without API calls.
 To incur embedding API usage, explicitly run:
     python src/index_metadata.py --index --limit 100
 
@@ -9,6 +9,7 @@ Index re-runs skip existing IDs.
 from __future__ import annotations
 
 import argparse
+import csv
 from collections import defaultdict
 
 from langchain_core.documents import Document
@@ -19,9 +20,25 @@ import vector_store
 
 
 def select_training_rows(limit: int) -> list[dict[str, str]]:
-    """Choose a deterministic, source-balanced subset without using test.csv."""
+    """Prefer the documented discovery scope; never include test.csv rows."""
     if limit < 1:
         raise ValueError("--limit must be a positive integer")
+    manifest_path = config.BASE_DIR / "data/document_discovery_manifest.csv"
+    if manifest_path.is_file():
+        train = {r["ID"]: r for r in compound_data.load_compounds() if r["_split"] == "train"}
+        with manifest_path.open(encoding="utf-8-sig", newline="") as stream:
+            manifest = list(csv.DictReader(stream))
+        if len({item["AqSolDB_ID"] for item in manifest}) != len(manifest):
+            raise ValueError("Document discovery manifest contains duplicate IDs")
+        if limit > len(manifest):
+            raise ValueError(f"Document discovery scope contains only {len(manifest)} records")
+        selected = []
+        for item in manifest[:limit]:
+            row = train.get(item["AqSolDB_ID"])
+            if row is None or row["InChIKey"] != item["InChIKey"]:
+                raise ValueError("Document discovery manifest identity/split mismatch")
+            selected.append({**row, "_document_url": item["document_url"], "_document_review_status": item["review_status"]})
+        return selected
     groups: dict[str, list[dict[str, str]]] = defaultdict(list)
     for row in compound_data.load_compounds():
         if row["_split"] == "train":
@@ -58,8 +75,14 @@ def build_documents(limit: int = 100) -> list[Document]:
     """Create one searchable document per source-balanced train record."""
     return [
         Document(
-            page_content=compound_data.to_text(row),
-            metadata=compound_data.to_metadata(row),
+            page_content=compound_data.to_text(row) + (
+                f"\n연결된 설명 문서: {row['_document_url']}\n문헌 검토 상태: {row['_document_review_status']}"
+                if row.get("_document_url") else ""
+            ),
+            metadata={**compound_data.to_metadata(row), **({
+                "external_document_url": row["_document_url"],
+                "document_review_status": row["_document_review_status"],
+            } if row.get("_document_url") else {})},
         )
         for row in select_training_rows(limit)
     ]
@@ -96,7 +119,7 @@ def main() -> None:
     parser.add_argument("--limit", type=int, default=100, help="Source-balanced train records to prepare (default: 100).")
     args = parser.parse_args()
     documents = build_documents(limit=args.limit)
-    print(f"[준비 완료] train 출처 균형 샘플 {len(documents):,}건 / 요청 {args.limit:,}건")
+    print(f"[준비 완료] 문서 연결 train 메타데이터 {len(documents):,}건 / 요청 {args.limit:,}건")
     if args.index:
         index_documents(documents)
     else:

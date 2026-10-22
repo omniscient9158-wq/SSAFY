@@ -1,0 +1,265 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 2723949,
+  "RecordTitle": "Thioacetamide",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 4,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Thioacetamide can cause cancer according to an independent committee of scientific and health experts.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 13,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Thioacetamide",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-2723949"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 6,
+              "Description": "Physical Description",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Thioacetamide appears as white crystals with a mercaptan odor.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 13,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Thioacetamide",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-2723949"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 9,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Thioacetamide is a thiocarboxamide consiting of acetamide having the oxygen replaced by sulfur. It has a role as a hepatotoxic agent. It is functionally related to an acetamide.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 13,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Thioacetamide",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-2723949"
+                      },
+                      {
+                        "Start": 19,
+                        "Length": 15,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/thiocarboxamide",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-3005587"
+                      },
+                      {
+                        "Start": 48,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/acetamide",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-178"
+                      },
+                      {
+                        "Start": 69,
+                        "Length": 6,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/element/Oxygen",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "Element-Oxygen"
+                      },
+                      {
+                        "Start": 88,
+                        "Length": 6,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/element/Sulfur",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "Element-Sulfur"
+                      },
+                      {
+                        "Start": 167,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/acetamide",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-178"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 38,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Thioacetamide is a synthetic, colorless crystalline solid that is soluble in water and ethanol. Thioacetamide is currently only used as a replacement for hydrogen sulfide in qualitative analysis. When heated to decomposition, it emits toxic fumes of nitrogen oxides and sulfur oxides. The primary routes of potential human exposure to thioacetamide are inhalation and dermal contact. It is reasonably anticipated to be a human carcinogen. (NCI05)",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 13,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Thioacetamide",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-2723949"
+                      },
+                      {
+                        "Start": 77,
+                        "Length": 5,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/water",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-962"
+                      },
+                      {
+                        "Start": 87,
+                        "Length": 7,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/ethanol",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-702"
+                      },
+                      {
+                        "Start": 96,
+                        "Length": 13,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Thioacetamide",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-2723949"
+                      },
+                      {
+                        "Start": 154,
+                        "Length": 16,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/hydrogen%20sulfide",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-402"
+                      },
+                      {
+                        "Start": 335,
+                        "Length": 13,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/thioacetamide",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-2723949"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 69,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "A crystalline compound used as a laboratory reagent in place of HYDROGEN SULFIDE. It is a potent hepatocarcinogen."
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 70,
+              "Name": "See Also",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "See also: Thio Combination 9306 (FDA NDC: 63083-9306) (component of).",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "#section=Other-Relationships"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 43,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Thio%20Combination%209306%20%28FDA%20NDC%3A%2063083%2D9306%29"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 4,
+      "SourceName": "California Office of Environmental Health Hazard Assessment (OEHHA)",
+      "SourceID": "25624:2723949",
+      "Name": "Thioacetamide",
+      "Description": "The CA Office of Environmental Health Hazard Assessment (OEHHA) is the lead state agency for the assessment of health risks posed by environmental contaminants. OEHHA implements the Safe Drinking Water and Toxic Enforcement Act of 1986, commonly known as Proposition 65, and compiles the state's list of substances that cause cancer or reproductive harm.",
+      "URL": "https://oehha.ca.gov/proposition-65/chemicals/thioacetamide",
+      "ANID": 39339296
+    },
+    {
+      "ReferenceNumber": 6,
+      "SourceName": "CAMEO Chemicals",
+      "SourceID": "16062",
+      "Name": "THIOACETAMIDE",
+      "Description": "CAMEO Chemicals is a chemical database designed for people who are involved in hazardous material incident response and planning. CAMEO Chemicals contains a library with thousands of datasheets containing response-related information and recommendations for hazardous materials that are commonly transported, used, or stored in the United States. CAMEO Chemicals was developed by the National Oceanic and Atmospheric Administration's Office of Response and Restoration in partnership with the Environmental Protection Agency's Office of Emergency Management.",
+      "URL": "https://cameochemicals.noaa.gov/chemical/16062",
+      "LicenseNote": "CAMEO Chemicals and all other CAMEO products are available at no charge to those organizations and individuals (recipients) responsible for the safe handling of chemicals. However, some of the chemical data itself is subject to the copyright restrictions of the companies or organizations that provided the data.",
+      "LicenseURL": "https://cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm?d_f=false",
+      "ANID": 761096
+    },
+    {
+      "ReferenceNumber": 9,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:2723949",
+      "Name": "Thioacetamide",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:32497",
+      "ANID": 2465770
+    },
+    {
+      "ReferenceNumber": 38,
+      "SourceName": "NCI Thesaurus (NCIt)",
+      "SourceID": "C44454::Compound",
+      "Description": "NCI Thesaurus (NCIt), from the U.S. National Cancer Institute, provides reference terminology for many NCI and other systems. It covers vocabulary for clinical care, translational and basic research, and public information and administrative activities.",
+      "URL": "https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C44454",
+      "LicenseNote": "Unless otherwise indicated, all text within NCI products is free of copyright and may be reused without our permission. Credit the National Cancer Institute as the source.",
+      "LicenseURL": "https://www.cancer.gov/policies/copyright-reuse",
+      "ANID": 14395866
+    },
+    {
+      "ReferenceNumber": 69,
+      "SourceName": "Medical Subject Headings (MeSH)",
+      "SourceID": "M0021344",
+      "Name": "Thioacetamide",
+      "Description": "MeSH (Medical Subject Headings) is the U.S. National Library of Medicine's controlled vocabulary thesaurus used for indexing articles for PubMed.",
+      "URL": "https://id.nlm.nih.gov/mesh/M0021344.html",
+      "LicenseNote": "Works produced by the U.S. government are not subject to copyright protection in the United States. Any such works found on National Library of Medicine (NLM) Web sites may be freely used or reproduced without permission in the U.S.",
+      "LicenseURL": "https://www.nlm.nih.gov/copyright.html"
+    },
+    {
+      "ReferenceNumber": 70,
+      "SourceName": "PubChem",
+      "SourceID": "PubChem",
+      "Description": "Data deposited in or computed by PubChem",
+      "URL": "https://pubchem.ncbi.nlm.nih.gov"
+    }
+  ]
+}

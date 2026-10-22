@@ -1,0 +1,91 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 2734981,
+  "RecordTitle": "Propionic acid calcium salt hydrate",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 1,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Calcium propionate is a dicarboxylic acid.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 18,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Calcium%20propionate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-19999"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 11,
+              "Name": "See Also",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "See also: Calcium propionate (preferred).",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "#section=Other-Relationships"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 18,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/19999"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 18,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?t=s&cid=19999",
+                        "Type": "Icon"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 1,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:2734981",
+      "Name": "Calcium propionate",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:81716",
+      "ANID": 2479493
+    },
+    {
+      "ReferenceNumber": 11,
+      "SourceName": "PubChem",
+      "SourceID": "PubChem",
+      "Description": "Data deposited in or computed by PubChem",
+      "URL": "https://pubchem.ncbi.nlm.nih.gov"
+    }
+  ]
+}

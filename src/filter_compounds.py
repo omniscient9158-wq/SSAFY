@@ -19,7 +19,7 @@ FIELD_ALIASES = {
     "NumAromaticRings": ("방향족 고리", "방향족 링"),
     "RingCount": ("고리 수", "링 수"),
 }
-NUMERIC = r"[+-]?(?:\d+(?:\.\d*)?|\.\d+)"
+NUMERIC = r"[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?"
 OPERATOR_PATTERN = r"(?:이상|이하|초과|미만|보다\s*(?:큰|높은|작은|낮은)|>=|<=|≥|≤|>|<)"
 
 
@@ -40,6 +40,8 @@ def parse_numeric_filters(query: str) -> list[dict[str, Any]]:
     """Parse clauses such as '분자량 300 이하, LogP 2 미만'."""
     if not query.strip():
         raise ValueError("조건을 입력하세요.")
+    if re.search(r"또는|\bor\b", query, flags=re.I):
+        raise ValueError("'또는' 조건은 지원하지 않습니다. 모든 조건을 함께 만족하도록 쉼표로 구분해 주세요.")
     clauses = [
         part.strip()
         for part in re.split(r"[,，;；\n]|그리고|이고|이며|이면서|및|and|&", query, flags=re.I)
@@ -56,7 +58,9 @@ def parse_numeric_filters(query: str) -> list[dict[str, Any]]:
         matches = [(normalized.find(alias), alias, field)
                    for alias, field in alias_to_field.items() if normalized.find(alias) >= 0]
         if not matches:
-            continue
+            raise ValueError(f"지원하지 않는 조건입니다: {clause}")
+        if len({field for _, _, field in matches}) > 1:
+            raise ValueError("서로 다른 속성의 조건은 쉼표로 구분해 주세요. 예: 분자량 300 이하, LogP 2 미만")
         position, alias, field = min(matches, key=lambda item: (item[0], -len(item[1])))
         tail = clause[position + len(alias):]
 
@@ -83,6 +87,8 @@ def parse_numeric_filters(query: str) -> list[dict[str, Any]]:
     allowed_fields = set(compound_data.DESCRIPTOR_FIELDS) | {"Y"}
     if any(rule["field"] not in allowed_fields for rule in constraints):
         raise ValueError("허용되지 않은 필드가 포함되어 있습니다.")
+    if any(not math.isfinite(rule[key]) for rule in constraints for key in ("value", "low", "high") if key in rule):
+        raise ValueError("조건에는 유한한 수를 입력해 주세요.")
     return constraints
 
 

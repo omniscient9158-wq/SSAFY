@@ -1,0 +1,164 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 6072,
+  "RecordTitle": "Phlorizin",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 5,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Phlorizin is an aryl beta-D-glucoside that is phloretin attached to a beta-D-glucopyranosyl residue at position 2' via a glycosidic linkage. It has a role as an antioxidant and a plant metabolite. It is an aryl beta-D-glucoside, a monosaccharide derivative and a member of dihydrochalcones. It is functionally related to a phloretin.",
+                    "Markup": [
+                      {
+                        "Start": 26,
+                        "Length": 1,
+                        "Type": "Small"
+                      },
+                      {
+                        "Start": 75,
+                        "Length": 1,
+                        "Type": "Small"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Phlorizin",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-6072"
+                      },
+                      {
+                        "Start": 46,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/phloretin",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-4788"
+                      },
+                      {
+                        "Start": 323,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/phloretin",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-4788"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 33,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "phlorizin has been reported in Lithocarpus pachyphyllus, Malus doumeri, and other organisms with data available.",
+                    "Markup": [
+                      {
+                        "Start": 31,
+                        "Length": 24,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/167412#section=Natural-Products"
+                      },
+                      {
+                        "Start": 57,
+                        "Length": 13,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/106551#section=Natural-Products"
+                      },
+                      {
+                        "Start": 76,
+                        "Length": 15,
+                        "URL": "#section=Taxonomy"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/phlorizin",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-6072"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 107,
+              "Name": "See Also",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "See also: Glucoreg (FDA NDC: 43742-1566) (component of); Glucoreg (FDA NDC: 43742-2064) (component of); Sugar Cravings (FDA NDC: 62185-0057) (component of).",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "#section=Other-Relationships"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 30,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Glucoreg%20%28FDA%20NDC%3A%2043742%2D1566%29"
+                      },
+                      {
+                        "Start": 57,
+                        "Length": 30,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Glucoreg%20%28FDA%20NDC%3A%2043742%2D2064%29"
+                      },
+                      {
+                        "Start": 104,
+                        "Length": 36,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Sugar%20Cravings%20%28FDA%20NDC%3A%2062185%2D0057%29"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 5,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:6072",
+      "Name": "Phlorizin",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:8113",
+      "ANID": 2490822
+    },
+    {
+      "ReferenceNumber": 33,
+      "SourceName": "LOTUS - the natural products occurrence database",
+      "SourceID": "Q413105",
+      "Name": "phlorizin",
+      "Description": "LOTUS is one of the largest openly available, collaboratively maintained resources for natural product occurrences. It is free to use without restriction, supports global reuse across languages and communities, and is built on Wikidata, a shared and openly editable knowledge base.",
+      "URL": "https://www.wikidata.org/wiki/Q413105",
+      "LicenseNote": "The LOTUS data is available under CC0 licence.",
+      "LicenseURL": "https://lotus.nprod.net/",
+      "ANID": 19825704
+    },
+    {
+      "ReferenceNumber": 107,
+      "SourceName": "PubChem",
+      "SourceID": "PubChem",
+      "Description": "Data deposited in or computed by PubChem",
+      "URL": "https://pubchem.ncbi.nlm.nih.gov"
+    }
+  ]
+}

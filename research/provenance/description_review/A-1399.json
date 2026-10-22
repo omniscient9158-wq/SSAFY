@@ -1,0 +1,116 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 18689,
+  "RecordTitle": "Trimethylolpropane Trimethacrylate",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 5,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Trimethylolpropane trimethacrylate is a carbonyl compound.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 34,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Trimethylolpropane%20trimethacrylate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-18689"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 10,
+              "Reference": [
+                "International Journal of Toxicology 24(Suppl 5):53-100, 2005"
+              ],
+              "ExtendedReference": [
+                {
+                  "Citation": "International Journal of Toxicology 24(Suppl 5):53-100, 2005",
+                  "Matched": {
+                    "PCLID": 906421491,
+                    "Citation": "International Journal of Toxicology 24(Suppl 5):53-100, 2005"
+                  }
+                }
+              ],
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Based on available data, the CIR Expert Panel concluded that ... Trimethylolpropane Trimethacrylate is safe as used in nail enhancement products when skin contact is avoided. Products containing these ingredients should be accompanied with directions to avoid skin contact, because of the sensitizing potential of Methacrylates.",
+                    "Markup": [
+                      {
+                        "Start": 65,
+                        "Length": 34,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Trimethylolpropane%20Trimethacrylate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-18689"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 52,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "acrylate derivative found in ultraviolet curing inks; structure in 1st source"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 5,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:18689",
+      "Name": "Trimethylolpropane trimethacrylate",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:35029",
+      "ANID": 2518762
+    },
+    {
+      "ReferenceNumber": 10,
+      "SourceName": "Cosmetic Ingredient Review (CIR)",
+      "SourceID": "65830f7c-557d-ec11-8d21-0022482f7740",
+      "Name": "Trimethylolpropane Trimethacrylate",
+      "Description": "The Cosmetic Ingredient Review (CIR) studies individual chemical compounds as they are used in cosmetic products. CIR relies heavily on the International Nomenclature of Cosmetic Ingredients (INCI) when identifying the ingredients to be assessed. The Expert Panel for Cosmetic Ingredient Safety (Panel) assess the safety of ingredients for use in cosmetics. The function of an ingredient in cosmetics is noted. The Panel reviews the data relevant to the safety of an ingredient and concludes whether an ingredient is safe in cosmetics in the present practices of use and concentration described in a safety assessment.",
+      "URL": "https://cir-reports.cir-safety.org/cir-ingredient-status-report/?id=65830f7c-557d-ec11-8d21-0022482f7740",
+      "LicenseURL": "https://cir-safety.org/terms-use",
+      "ANID": 39002421
+    },
+    {
+      "ReferenceNumber": 52,
+      "SourceName": "Medical Subject Headings (MeSH)",
+      "SourceID": "M0091967",
+      "Name": "trimethylolpropane trimethacrylate",
+      "Description": "MeSH (Medical Subject Headings) is the U.S. National Library of Medicine's controlled vocabulary thesaurus used for indexing articles for PubMed.",
+      "URL": "https://id.nlm.nih.gov/mesh/M0091967.html",
+      "LicenseNote": "Works produced by the U.S. government are not subject to copyright protection in the United States. Any such works found on National Library of Medicine (NLM) Web sites may be freely used or reproduced without permission in the U.S.",
+      "LicenseURL": "https://www.nlm.nih.gov/copyright.html"
+    }
+  ]
+}

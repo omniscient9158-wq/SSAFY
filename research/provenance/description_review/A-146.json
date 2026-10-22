@@ -1,0 +1,112 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 247573,
+  "RecordTitle": "Npc180398",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 5,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "isobornyl acetate has been reported in Micromeria juliana and Plectranthus glabratus with data available.",
+                    "Markup": [
+                      {
+                        "Start": 39,
+                        "Length": 18,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/306395#section=Natural-Products"
+                      },
+                      {
+                        "Start": 62,
+                        "Length": 22,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/204187#section=Natural-Products"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 17,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/isobomyl%20acetate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "multiple-CIDs"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 8,
+              "Name": "See Also",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "See also: Isobornyl acetate (annotation moved to); Exo-1,7,7-trimethylbicyclo[2.2.1]hept-2-yl acetate (annotation moved to).",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "#section=Other-Relationships"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 17,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/637531"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 17,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?t=s&cid=637531",
+                        "Type": "Icon"
+                      },
+                      {
+                        "Start": 51,
+                        "Length": 50,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/6950273"
+                      },
+                      {
+                        "Start": 51,
+                        "Length": 50,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?t=s&cid=6950273",
+                        "Type": "Icon"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 5,
+      "SourceName": "LOTUS - the natural products occurrence database",
+      "SourceID": "Q110188626",
+      "Name": "isobornyl acetate",
+      "Description": "LOTUS is one of the largest openly available, collaboratively maintained resources for natural product occurrences. It is free to use without restriction, supports global reuse across languages and communities, and is built on Wikidata, a shared and openly editable knowledge base.",
+      "URL": "https://www.wikidata.org/wiki/Q110188626",
+      "LicenseNote": "The LOTUS data is available under CC0 licence.",
+      "LicenseURL": "https://lotus.nprod.net/",
+      "ANID": 19830462
+    },
+    {
+      "ReferenceNumber": 8,
+      "SourceName": "PubChem",
+      "SourceID": "PubChem",
+      "Description": "Data deposited in or computed by PubChem",
+      "URL": "https://pubchem.ncbi.nlm.nih.gov"
+    }
+  ]
+}

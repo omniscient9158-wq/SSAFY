@@ -1,0 +1,118 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 54677971,
+  "RecordTitle": "Tenoxicam",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 6,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Tenoxicam is a thienothiazine-derived monocarboxylic acid amide obtained by formal condensation of the carboxy group of 4-hydroxy-2-methylthieno[2,3-e][1,2]thiazine-3-carboxylic acid 1,1-dioxide with the amino group of 2-aminopyridine. Used for the treatment of pain and inflammation in osteoarthritis and rheumatoid arthritis. It is also indicated for short term treatment of acute musculoskeletal disorders including strains, sprains and other soft-tissue injuries. It has a role as a non-steroidal anti-inflammatory drug, a non-narcotic analgesic, an antipyretic and an EC 1.14.99.1 (prostaglandin-endoperoxide synthase) inhibitor. It is a member of pyridines, a monocarboxylic acid amide, a thienothiazine and a heteroaryl hydroxy compound.",
+                    "Markup": [
+                      {
+                        "Start": 149,
+                        "Length": 1,
+                        "Type": "Italics"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Tenoxicam",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-54677971"
+                      },
+                      {
+                        "Start": 15,
+                        "Length": 14,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/thienothiazine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-21911049"
+                      },
+                      {
+                        "Start": 120,
+                        "Length": 74,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/4-hydroxy-2-methylthieno%5B2%2C3-e%5D%5B1%2C2%5Dthiazine-3-carboxylic%20acid%201%2C1-dioxide",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-57346001"
+                      },
+                      {
+                        "Start": 219,
+                        "Length": 15,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/2-aminopyridine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-10439"
+                      },
+                      {
+                        "Start": 695,
+                        "Length": 14,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/thienothiazine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-21911049"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 16,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Tenoxicam, an antiinflammatory agent with analgesic and antipyretic properties, is used to treat osteoarthritis and control acute pain.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Tenoxicam",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-54677971"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 6,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:54677971",
+      "Name": "Tenoxicam",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:32192",
+      "ANID": 2476266
+    },
+    {
+      "ReferenceNumber": 16,
+      "SourceName": "DrugBank",
+      "SourceID": "DB00469",
+      "Name": "Tenoxicam",
+      "Description": "The DrugBank database is a unique bioinformatics and cheminformatics resource that combines detailed drug (i.e. chemical, pharmacological and pharmaceutical) data with comprehensive drug target (i.e. sequence, structure, and pathway) information.",
+      "URL": "https://go.drugbank.com/drugs/DB00469",
+      "LicenseNote": "Creative Common's Attribution-NonCommercial 4.0 International License (http://creativecommons.org/licenses/by-nc/4.0/legalcode)",
+      "LicenseURL": "https://www.drugbank.ca/legal/terms_of_use",
+      "ANID": 3603099
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 222209,
+  "RecordTitle": "Mls000737884",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 1,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Diethyl 2,6-dimethyl-4-oxo-4h-pyran-3,5-dicarboxylate is a pyranone.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 53,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Diethyl%202%2C6-dimethyl-4-oxo-4h-pyran-3%2C5-dicarboxylate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-222209"
+                      },
+                      {
+                        "Start": 59,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/pyranone",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-68154"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 1,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:222209",
+      "Name": "Diethyl 2,6-dimethyl-4-oxo-4h-pyran-3,5-dicarboxylate",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:230763",
+      "ANID": 39416475
+    }
+  ]
+}

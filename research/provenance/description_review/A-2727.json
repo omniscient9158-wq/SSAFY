@@ -1,0 +1,137 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 94454,
+  "RecordTitle": "Hexyl Laurate",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 4,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Hexyl dodecanoate is a fatty acid ester.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 17,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Hexyl%20dodecanoate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-161778085"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 8,
+              "Reference": [
+                "International Journal of Toxicology 34(Suppl.2):5-69, 2015"
+              ],
+              "ExtendedReference": [
+                {
+                  "Citation": "International Journal of Toxicology 34(Suppl.2):5-69, 2015",
+                  "Matched": {
+                    "PCLID": 906421564,
+                    "Citation": "International Journal of Toxicology 34(Suppl.2):5-69, 2015"
+                  }
+                }
+              ],
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "The CIR Expert Panel concluded that the alkyl esters, listed subsequently, are safe in the present practices of use and concentration described in this safety assessment when formulated to be non-irritating."
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 35,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "a medium-chain ester"
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 36,
+              "Name": "See Also",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "See also: Hydrolyzed Collagen (component of).",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "#section=Other-Relationships"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 19,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Hydrolyzed%20Collagen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 4,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:94454",
+      "Name": "Hexyl dodecanoate",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:88837",
+      "ANID": 2479870
+    },
+    {
+      "ReferenceNumber": 8,
+      "SourceName": "Cosmetic Ingredient Review (CIR)",
+      "SourceID": "8e66fa21-802f-45c0-b24f-99c9a00f6772",
+      "Name": "Hexyl Laurate",
+      "Description": "The Cosmetic Ingredient Review (CIR) studies individual chemical compounds as they are used in cosmetic products. CIR relies heavily on the International Nomenclature of Cosmetic Ingredients (INCI) when identifying the ingredients to be assessed. The Expert Panel for Cosmetic Ingredient Safety (Panel) assess the safety of ingredients for use in cosmetics. The function of an ingredient in cosmetics is noted. The Panel reviews the data relevant to the safety of an ingredient and concludes whether an ingredient is safe in cosmetics in the present practices of use and concentration described in a safety assessment.",
+      "URL": "https://cir-reports.cir-safety.org/cir-ingredient-status-report/?id=8e66fa21-802f-45c0-b24f-99c9a00f6772",
+      "LicenseURL": "https://cir-safety.org/terms-use",
+      "ANID": 38998684
+    },
+    {
+      "ReferenceNumber": 35,
+      "SourceName": "Medical Subject Headings (MeSH)",
+      "SourceID": "M0503540",
+      "Name": "hexyl laurate",
+      "Description": "MeSH (Medical Subject Headings) is the U.S. National Library of Medicine's controlled vocabulary thesaurus used for indexing articles for PubMed.",
+      "URL": "https://id.nlm.nih.gov/mesh/M0503540.html",
+      "LicenseNote": "Works produced by the U.S. government are not subject to copyright protection in the United States. Any such works found on National Library of Medicine (NLM) Web sites may be freely used or reproduced without permission in the U.S.",
+      "LicenseURL": "https://www.nlm.nih.gov/copyright.html"
+    },
+    {
+      "ReferenceNumber": 36,
+      "SourceName": "PubChem",
+      "SourceID": "PubChem",
+      "Description": "Data deposited in or computed by PubChem",
+      "URL": "https://pubchem.ncbi.nlm.nih.gov"
+    }
+  ]
+}

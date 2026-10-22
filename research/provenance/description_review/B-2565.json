@@ -1,0 +1,194 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 1241420,
+  "RecordTitle": "N-Acetyl-D-leucine",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 1,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "N-acetyl-D-leucine is the N-acetyl derivative of D-leucine. It is a N-acetyl-D-amino acid and a D-leucine derivative. It is a conjugate acid of a N-acetyl-D-leucinate. It is an enantiomer of a N-acetyl-L-leucine.",
+                    "Markup": [
+                      {
+                        "Start": 26,
+                        "Length": 1,
+                        "Type": "Italics"
+                      },
+                      {
+                        "Start": 49,
+                        "Length": 1,
+                        "Type": "Small"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 18,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/N-acetyl-D-leucine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-1241420"
+                      },
+                      {
+                        "Start": 49,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/D-leucine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-439524"
+                      },
+                      {
+                        "Start": 96,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/D-leucine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-439524"
+                      },
+                      {
+                        "Start": 146,
+                        "Length": 20,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/N-acetyl-D-leucinate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-7058610"
+                      },
+                      {
+                        "Start": 193,
+                        "Length": 18,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/N-acetyl-L-leucine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-70912"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 4,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "DS-1211 is a potent and selective novel small molecule tissue-nonspecific alkaline phosphatase (TNAP) inhibitor.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 7,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/DS-1211",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-1241420"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 18,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "N-Acetyl-D-leucine is a metabolite found in or produced by Saccharomyces cerevisiae.",
+                    "Markup": [
+                      {
+                        "Start": 59,
+                        "Length": 24,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/4932"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 18,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/N-Acetyl-D-leucine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-1241420"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 19,
+              "Name": "See Also",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "See also: N-Acetyl-L-leucine (annotation moved to).",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "#section=Other-Relationships"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 18,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/70912"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 18,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?t=s&cid=70912",
+                        "Type": "Icon"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 1,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:1241420",
+      "Name": "N-acetyl-D-leucine",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:146296",
+      "ANID": 2520789
+    },
+    {
+      "ReferenceNumber": 4,
+      "SourceName": "DrugBank",
+      "SourceID": "DB17837",
+      "Name": "DS-1211",
+      "Description": "The DrugBank database is a unique bioinformatics and cheminformatics resource that combines detailed drug (i.e. chemical, pharmacological and pharmaceutical) data with comprehensive drug target (i.e. sequence, structure, and pathway) information.",
+      "URL": "https://go.drugbank.com/drugs/DB17837",
+      "LicenseNote": "Creative Common's Attribution-NonCommercial 4.0 International License (http://creativecommons.org/licenses/by-nc/4.0/legalcode)",
+      "LicenseURL": "https://www.drugbank.ca/legal/terms_of_use",
+      "ANID": 37111023
+    },
+    {
+      "ReferenceNumber": 18,
+      "SourceName": "Yeast Metabolome Database (YMDB)",
+      "SourceID": "YMDB00829",
+      "Name": "N-Acetyl-D-leucine",
+      "Description": "The Yeast Metabolome Database (YMDB) is a manually curated database of small molecule metabolites found in or produced by Saccharomyces cerevisiae (also known as Baker's yeast and Brewer's yeast).",
+      "URL": "https://www.ymdb.ca/compounds/YMDB00829",
+      "LicenseNote": "YMDB is offered to the public as a freely available resource.",
+      "LicenseURL": "http://www.ymdb.ca/downloads",
+      "ANID": 19797357
+    },
+    {
+      "ReferenceNumber": 19,
+      "SourceName": "PubChem",
+      "SourceID": "PubChem",
+      "Description": "Data deposited in or computed by PubChem",
+      "URL": "https://pubchem.ncbi.nlm.nih.gov"
+    }
+  ]
+}

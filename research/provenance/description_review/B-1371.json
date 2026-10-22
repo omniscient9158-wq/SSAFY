@@ -1,0 +1,121 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 125,
+  "RecordTitle": "4-Hydroxybenzyl Alcohol",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 5,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "P-hydroxybenzyl alcohol is a member of the class of benzyl alcohols that is benzyl alcohol substituted by a hydroxy group at position 4. It has been isolated from Arcangelisia gusanlung. It has a role as a plant metabolite. It is a member of benzyl alcohols and a member of phenols.",
+                    "Markup": [
+                      {
+                        "Start": 163,
+                        "Length": 22,
+                        "Type": "Italics"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 23,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/P-hydroxybenzyl%20alcohol",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-125"
+                      },
+                      {
+                        "Start": 76,
+                        "Length": 14,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/benzyl%20alcohol",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-244"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 13,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "4-Hydroxybenzyl alcohol is a metabolite found in or produced by Escherichia coli (strain K12, MG1655).",
+                    "Markup": [
+                      {
+                        "Start": 64,
+                        "Length": 37,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/511145"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 23,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/4-Hydroxybenzyl%20alcohol",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-125"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 75,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "the aglycone of gastrodin"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 5,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:125",
+      "Name": "P-hydroxybenzyl alcohol",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:67410",
+      "ANID": 2484689
+    },
+    {
+      "ReferenceNumber": 13,
+      "SourceName": "E. coli Metabolome Database (ECMDB)",
+      "SourceID": "ECMDB21457",
+      "Description": "The ECMDB is an expertly curated database containing extensive metabolomic data and metabolic pathway diagrams about Escherichia coli (strain K12, MG1655).",
+      "URL": "https://ecmdb.ca/compounds/M2MDB001852",
+      "LicenseNote": "ECMDB is offered to the public as a freely available resource.",
+      "LicenseURL": "https://ecmdb.ca/citations",
+      "ANID": 15353199
+    },
+    {
+      "ReferenceNumber": 75,
+      "SourceName": "Medical Subject Headings (MeSH)",
+      "SourceID": "M0071029",
+      "Name": "4-hydroxybenzyl alcohol",
+      "Description": "MeSH (Medical Subject Headings) is the U.S. National Library of Medicine's controlled vocabulary thesaurus used for indexing articles for PubMed.",
+      "URL": "https://id.nlm.nih.gov/mesh/M0071029.html",
+      "LicenseNote": "Works produced by the U.S. government are not subject to copyright protection in the United States. Any such works found on National Library of Medicine (NLM) Web sites may be freely used or reproduced without permission in the U.S.",
+      "LicenseURL": "https://www.nlm.nih.gov/copyright.html"
+    }
+  ]
+}

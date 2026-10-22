@@ -10,6 +10,7 @@ import json
 import os
 import re
 import time
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -68,7 +69,7 @@ def _get(url: str, *, wikimedia: bool = False, **kwargs: Any) -> requests.Respon
     finally:
         _LAST_API_REQUEST_AT = time.monotonic()
 
-SEARCH_TERMS_PROMPT = """너는 화학정보 검색어 설계자다. 선택 화합물과 질문을 바탕으로 위키백과 문서 검색어를 최대 4개 제안하라.
+SEARCH_TERMS_PROMPT = """너는 화학정보 검색어 설계자다. 선택 화합물과 질문을 바탕으로 외부 문서 검색어를 최대 4개 제안하라.
 화합물의 정식 이름과 별칭을 우선하고, 식별자·SMILES 자체를 검색어로 만들지 마라.
 출력은 JSON 문자열 배열만 허용한다. 설명이나 마크다운은 쓰지 마라."""
 
@@ -270,12 +271,19 @@ def select_candidates(compound: dict[str, Any], question: str, candidates: list[
 
     # A direct page about the selected compound is included if search found one,
     # regardless of the model's relevance judgment.
-    names = [str(compound.get("Name", "")).casefold(), *[x.casefold() for x in _aliases(compound)]]
+    def normalized_name(value: str) -> str:
+        return " ".join(unicodedata.normalize("NFKC", value).casefold().replace("_", " ").split())
+
+    names = {normalized_name(str(compound.get("Name", ""))), *[normalized_name(x) for x in _aliases(compound)]}
     for candidate in candidates:
-        title = candidate["title"].casefold()
-        if any(name and (name in title or title in name) for name in names):
+        # PubChem titles use "compound · heading · source". A title merely
+        # mentioning aspirin (e.g. a combination drug) is not the same compound.
+        title = normalized_name(candidate["title"].split(" · ", 1)[0])
+        if title and title in names:
             if candidate["candidate_id"] not in {item["id"] for item in result["include"]}:
                 result["include"].append({"id": candidate["candidate_id"], "reason": "선택 화합물 직접 문서 우선 포함 규칙"})
+    included_ids = {item["id"] for item in result["include"]}
+    result["exclude"] = [item for item in result["exclude"] if item["id"] not in included_ids]
     return result
 
 
@@ -320,7 +328,7 @@ def _normalize_question(question: str) -> str:
     return " ".join(question.casefold().split())
 
 
-def find_cached_search(compound_id: str, question: str, cache_path: Path = SEARCH_CACHE_PATH) -> dict[str, Any] | None:
+def find_cached_search(compound_id: str, question: str, cache_path: Path = SEARCH_CACHE_PATH, *, provider: str = "both") -> dict[str, Any] | None:
     """Return only a fully completed search record for this compound/question."""
     if not cache_path.exists():
         return None
@@ -335,6 +343,7 @@ def find_cached_search(compound_id: str, question: str, cache_path: Path = SEARC
                 record.get("status") == "complete"
                 and record.get("compound_id") == compound_id
                 and record.get("normalized_question") == normalized
+                and record.get("provider", "both") == provider
             ):
                 return record
     return None
@@ -344,11 +353,13 @@ def append_search_cache(
     compound: dict[str, Any], question: str, terms: list[str],
     candidates: list[dict[str, Any]], selection: dict[str, Any],
     cache_path: Path = SEARCH_CACHE_PATH,
+    *, provider: str = "both",
 ) -> None:
     """Cache successful discovery metadata; candidate text stays in its provenance JSONL."""
     cache_path.parent.mkdir(parents=True, exist_ok=True)
     record = {
         "status": "complete",
+        "provider": provider,
         "compound_id": compound["ID"],
         "normalized_question": _normalize_question(question),
         "question": question,
@@ -367,13 +378,14 @@ def main() -> None:
     parser.add_argument("compound_id", help="AqSolDB ID, for example E-1274")
     parser.add_argument("--question", default="화합물의 수용해도와 물성에 관한 설명", help="Domain question used to shape search terms")
     parser.add_argument("--refresh", action="store_true", help="Ignore the successful query cache and collect candidates again")
+    parser.add_argument("--provider", choices=("both", "pubchem", "wikipedia"), default="both", help="Candidate sources; pubchem does not require WIKIMEDIA_CONTACT")
     args = parser.parse_args()
     compounds = {row["ID"]: row for row in compound_data.load_compounds()}
     compound = compounds.get(args.compound_id)
     if compound is None:
         parser.error(f"Unknown AqSolDB ID: {args.compound_id}")
     if not args.refresh:
-        cached = find_cached_search(compound["ID"], args.question)
+        cached = find_cached_search(compound["ID"], args.question, provider=args.provider)
         if cached:
             print(
                 f"[캐시 사용] 검색어 {len(cached['search_terms'])}개 / "
@@ -382,15 +394,19 @@ def main() -> None:
             )
             print(f"[후보 상세] 미승인 후보 파일: {OUTPUT_PATH}")
             return
+    # Validate the required contact before spending credits on search terms.
+    if args.provider in ("both", "wikipedia"):
+        _request_headers(wikimedia=True)
     terms = extract_search_terms(compound, args.question)
-    candidates = collect_candidates(terms)
-    candidates.extend(collect_pubchem_solubility(compound))
+    candidates = collect_candidates(terms) if args.provider in ("both", "wikipedia") else []
+    if args.provider in ("both", "pubchem"):
+        candidates.extend(collect_pubchem_solubility(compound))
     selection = select_candidates(compound, args.question, candidates)
     added = append_candidates(compound, args.question, terms, candidates, selection)
-    append_search_cache(compound, args.question, terms, candidates, selection)
+    append_search_cache(compound, args.question, terms, candidates, selection, provider=args.provider)
     print(f"[후보 수집 완료] 검색어 {len(terms)}개 / 후보 {len(candidates)}건 / LLM 선별 {len(selection['include'])}건 / 신규 저장 {added}건")
     print(f"[사람 검토 필수] 미승인 후보 파일: {OUTPUT_PATH}")
-    print("[API 사용] 위키미디어·PubChem 요청 및 GMS 검색어 추출·후보 선별 호출이 발생했습니다. 색인 임베딩은 실행하지 않았습니다.")
+    print(f"[API 사용] 출처 {args.provider} 요청 및 GMS 검색어 추출·후보 선별 호출이 발생했습니다. 색인 임베딩은 실행하지 않았습니다.")
 
 
 if __name__ == "__main__":

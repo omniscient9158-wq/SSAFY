@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import csv
+import json
 from functools import lru_cache
 from pathlib import Path
 from typing import Any
@@ -11,6 +12,8 @@ DATA_DIR = PROJECT_DIR / "data"
 TRAIN_PATH = DATA_DIR / "train.csv"
 TEST_PATH = DATA_DIR / "test.csv"
 SOURCE_MAP_PATH = DATA_DIR / "AqSolDB_원자료_출처매핑.csv"
+WIKIDATA_LINKS_PATH = DATA_DIR / "wikidata_compound_links.jsonl"
+_WIKIDATA_STAMP: int | None = None
 DATASET_DOI = "https://doi.org/10.7910/DVN/OVHAW8"
 DATASET_LICENSE = "CC0 1.0 (Harvard Dataverse AqSolDB v1)"
 
@@ -77,12 +80,58 @@ def solubility_description(log_s: float) -> str:
 
 
 def searchable_aliases(row: dict[str, str]) -> tuple[str, ...]:
-    """Return a small, manually verified alias list for user-facing examples."""
+    """Combine curated names with exact, unambiguous Wikidata identity links."""
     aliases = {
         "E-1274": ("aspirin", "아스피린", "acetylsalicylic acid"),
         "C-533": ("카페인",),
+        "B-524": ("타우린", "2-aminoethanesulfonic acid", "2-aminoethylsulfonic acid", "L-taurine", "107-35-7"),
+        # NIST SRD 69, CAS 98-92-0: exact InChIKey matches A-659.
+        # https://webbook.nist.gov/cgi/cbook.cgi?ID=C98920
+        "A-659": ("나이아신아마이드", "니아신아마이드", "니코틴아마이드", "niacinamide", "nicotinamide", "3-pyridinecarboxamide", "98-92-0"),
     }
-    return aliases.get(row.get("ID", ""), ())
+    linked = wikidata_link(row)
+    candidates = (*aliases.get(row.get("ID", ""), ()), linked.get("label_en", ""), linked.get("label_ko", ""),
+                  *linked.get("aliases_en", []), *linked.get("aliases_ko", []))
+    return tuple(dict.fromkeys(value for value in candidates if value))
+
+
+@lru_cache(maxsize=1)
+def _load_wikidata_links() -> dict[str, dict]:
+    if not WIKIDATA_LINKS_PATH.is_file():
+        return {}
+    train = {row["ID"]: row for row in load_compounds() if row["_split"] == "train"}
+    links = {}
+    with WIKIDATA_LINKS_PATH.open(encoding="utf-8") as stream:
+        for line in stream:
+            item = json.loads(line)
+            row = train.get(item["compound_id"])
+            if row is None or item["inchikey"] != row["InChIKey"]:
+                raise ValueError("Wikidata link does not match the local Train identity.")
+            if item["match_status"] == "matched_unique" and len(item["entities"]) == 1 and item["license"] == "CC0-1.0":
+                links[row["ID"]] = item["entities"][0]
+    return links
+
+
+def wikidata_link(row: dict[str, str]) -> dict:
+    """Ambiguous, absent, Test and unchecked records never supply names/links."""
+    return _load_wikidata_links().get(row.get("ID", ""), {})
+
+
+def refresh_name_links() -> None:
+    """Check the file once per load/rerun, rather than once per compound alias."""
+    global _WIKIDATA_STAMP
+    stamp = WIKIDATA_LINKS_PATH.stat().st_mtime_ns if WIKIDATA_LINKS_PATH.is_file() else 0
+    if stamp != _WIKIDATA_STAMP:
+        _load_wikidata_links.cache_clear()
+        _WIKIDATA_STAMP = stamp
+
+
+def display_name(row: dict[str, str]) -> str:
+    """Prefer a verified Korean alias while retaining the original dataset name."""
+    return next(
+        (alias for alias in searchable_aliases(row) if any("가" <= char <= "힣" for char in alias)),
+        row["Name"].replace("_", " "),
+    )
 
 
 def to_text(row: dict[str, str]) -> str:

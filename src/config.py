@@ -16,7 +16,7 @@ SOURCE_MAP_PATH = BASE_DIR / "data" / "AqSolDB_원자료_출처매핑.csv"
 INDEX_DIR = Path(os.getenv("INDEX_DIR", str(BASE_DIR / "indexes"))).expanduser()
 if not INDEX_DIR.is_absolute():
     INDEX_DIR = (BASE_DIR / INDEX_DIR).resolve()
-META_COLLECTION = "aqsoldb_compounds"
+META_COLLECTION = "aqsoldb_compounds_linked"
 DOC_COLLECTION = "aqsoldb_documents"
 CHAT_MODEL = os.getenv("CHAT_MODEL", "gpt-5.4-nano")
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "text-embedding-3-small")

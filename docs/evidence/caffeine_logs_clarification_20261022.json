@@ -1,0 +1,49 @@
+{
+  "question": "카페인의 문헌상 수용해도 값, 단위, 온도와 원출처는?",
+  "retrieval_mode": "local",
+  "prompt_revision": "explicit LogS definition and missing temperature/pH",
+  "compound_metadata": {
+    "citation_id": "근거 1",
+    "source_type": "AqSolDB compound metadata",
+    "compound_id": "C-533",
+    "name": "caffeine",
+    "inchikey": "RYYVLZVUVIJVGH-UHFFFAOYSA-N",
+    "smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+    "experimental_logS": "-0.91",
+    "logS_definition": "log10 of aqueous solubility in mol/L; LogS is not a temperature",
+    "measurement_temperature": "not provided in this local AqSolDB record",
+    "measurement_pH": "not provided in this local AqSolDB record",
+    "split": "train",
+    "source_group_code": "C",
+    "upstream_source_dataset": "Raevsky et al. dataset",
+    "paper_reference_number": "[16]",
+    "dataset_doi": "https://doi.org/10.7910/DVN/OVHAW8",
+    "dataset_license": "CC0 1.0 (Harvard Dataverse AqSolDB v1)"
+  },
+  "external_evidence": [
+    {
+      "citation_id": "근거 2",
+      "source_type": "reviewed_external_evidence",
+      "compound_id": "C-533",
+      "compound_name": "caffeine",
+      "document_title": "Physical Properties / Water Solubility",
+      "excerpt": "Physical Properties / Water Solubility: Water Solubility: 10 to 50 mg/mL at 73°F (NTP, 1992).",
+      "matched_query_terms": [
+        "solubility",
+        "water"
+      ],
+      "source_provider": "NOAA CAMEO Chemicals",
+      "original_attribution": "National Toxicology Program Chemical Repository Database (NTP, 1992)",
+      "source_url": "https://cameochemicals.noaa.gov/chemical/19945",
+      "source_terms_status": "Single short educational property excerpt with NOAA/CAMEO and NTP attribution. CAMEO's named third-party restrictions are not used in this excerpt; NTP states uncopyrighted NTP information is public domain. Approval is limited to this NTP-attributed field and its source record.",
+      "terms_basis_url": "https://m.cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm; https://ntp.niehs.nih.gov/support/policies; https://www.noaa.gov/office-education/outreach-communication/faq",
+      "reviewed_on": "2026-10-22",
+      "scope_note": "Only the stated water-solubility range and NTP attribution are included. Preserve the source unit and temperature; do not convert it to AqSolDB LogS. Exclude caffeine CAMEO hazard, health, safety, storage, handling, response, and unrelated third-party content."
+    }
+  ],
+  "answer": "카페인(caffeine, 화합물 ID: C-533)의 문헌상 수용해도 관련 정보는 아래와 같습니다.\n\n## 1) AqSolDB 문헌(데이터셋) 수용해도 값(LogS)\n- 수용해도 값(= experimental_logS): **-0.91** [근거 1]  \n- 단위/정의: **mol/L로 나타낸 수용해도의 상용로그(log10)** (LogS는 온도가 아님) [근거 1]  \n- 온도: **not provided in this local AqSolDB record** [근거 1]  \n- 원출처(데이터셋/레퍼런스): **Raevsky et al. dataset**, paper_reference_number **[16]** [근거 1]  \n\n## 2) 외부 문헌(리뷰된 근거) 수용해도 범위(물 용해도)\n- 물 수용해도(용해도 범위): **10 to 50 mg/mL** [근거 2]  \n- 단위: **mg/mL** [근거 2]  \n- 온도: **73°F** [근거 2]  \n- 원출처(제공자/귀속): **NOAA CAMEO Chemicals**가 제공하며, 원 출처 귀속은 **National Toxicology Program Chemical Repository Database (NTP, 1992)** [근거 2]",
+  "cited_evidence_ids": [
+    "근거 1",
+    "근거 2"
+  ]
+}

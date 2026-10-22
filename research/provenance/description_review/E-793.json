@@ -1,0 +1,292 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 5147,
+  "RecordTitle": "Salicylamide",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 3,
+              "Description": "Physical Description",
+              "Reference": [
+                "National Toxicology Program, Institute of Environmental Health Sciences, National Institutes of Health (NTP). 1992. National Toxicology Program Chemical Repository Database. Research Triangle Park, North Carolina."
+              ],
+              "ExtendedReference": [
+                {
+                  "Citation": "National Toxicology Program, Institute of Environmental Health Sciences, National Institutes of Health (NTP). 1992. National Toxicology Program Chemical Repository Database. Research Triangle Park, North Carolina.",
+                  "Matched": {
+                    "PCLID": 900163266,
+                    "Citation": "National Toxicology Program, Institute of Environmental Health Sciences, National Institutes of Health (NTP). 1992. National Toxicology Program Chemical Repository Database. Research Triangle Park, North Carolina."
+                  }
+                }
+              ],
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "2-hydroxybenzamide appears as odorless white or slightly pink crystals. Bitter taste, leaves a sensation of warmth on the tongue. pH (saturated aqueous solution at 82 °F) about 5. Sublimation begins at the melting point. (NTP, 1992)",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 18,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/2-hydroxybenzamide",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-21540216"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 7,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Salicylamide is the simplest member of the class of salicylamides derived from salicylic acid. It has a role as a non-narcotic analgesic and an antirheumatic drug. It is a member of phenols and a member of salicylamides.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 12,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Salicylamide",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-5147"
+                      },
+                      {
+                        "Start": 79,
+                        "Length": 14,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/salicylic%20acid",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-338"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 23,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Salicylamide is the common name for the substance o-hydroxybenzamide, or amide of salicyl. Salicylamide is a non-prescription drug with analgesic and antipyretic properties. It has similar medicinal uses to aspirin. Salicylamide is used in combination with both aspirin and caffeine in the over-the-counter pain remedies",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 12,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Salicylamide",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-5147"
+                      },
+                      {
+                        "Start": 50,
+                        "Length": 18,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/o-hydroxybenzamide",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-5147"
+                      },
+                      {
+                        "Start": 91,
+                        "Length": 12,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Salicylamide",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-5147"
+                      },
+                      {
+                        "Start": 207,
+                        "Length": 7,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/aspirin",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-2244"
+                      },
+                      {
+                        "Start": 216,
+                        "Length": 12,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Salicylamide",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-5147"
+                      },
+                      {
+                        "Start": 262,
+                        "Length": 7,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/aspirin",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-2244"
+                      },
+                      {
+                        "Start": 274,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/caffeine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-2519"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 50,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "salicylamide has been reported in Streptomyces cinnamonensis, Streptomyces spectabilis, and Streptomyces rimosus with data available.",
+                    "Markup": [
+                      {
+                        "Start": 34,
+                        "Length": 26,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/1900#section=Natural-Products"
+                      },
+                      {
+                        "Start": 62,
+                        "Length": 24,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/68270#section=Natural-Products"
+                      },
+                      {
+                        "Start": 92,
+                        "Length": 20,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/1927#section=Natural-Products"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 12,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/salicylamide",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-5147"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 134,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "RN given refers to parent cpd"
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 135,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "structure in first source"
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 136,
+              "Name": "See Also",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "See also: Acetaminophen; aspirin; caffeine; salicylamide (component of).",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "#section=Other-Relationships"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 46,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Acetaminophen%3B%20aspirin%3B%20caffeine%3B%20salicylamide"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 3,
+      "SourceName": "CAMEO Chemicals",
+      "SourceID": "20494",
+      "Name": "2-HYDROXYBENZAMIDE",
+      "Description": "CAMEO Chemicals is a chemical database designed for people who are involved in hazardous material incident response and planning. CAMEO Chemicals contains a library with thousands of datasheets containing response-related information and recommendations for hazardous materials that are commonly transported, used, or stored in the United States. CAMEO Chemicals was developed by the National Oceanic and Atmospheric Administration's Office of Response and Restoration in partnership with the Environmental Protection Agency's Office of Emergency Management.",
+      "URL": "https://cameochemicals.noaa.gov/chemical/20494",
+      "LicenseNote": "CAMEO Chemicals and all other CAMEO products are available at no charge to those organizations and individuals (recipients) responsible for the safe handling of chemicals. However, some of the chemical data itself is subject to the copyright restrictions of the companies or organizations that provided the data.",
+      "LicenseURL": "https://cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm?d_f=false",
+      "ANID": 758902
+    },
+    {
+      "ReferenceNumber": 7,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:5147",
+      "Name": "Salicylamide",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:32114",
+      "ANID": 2475112
+    },
+    {
+      "ReferenceNumber": 23,
+      "SourceName": "DrugBank",
+      "SourceID": "DB08797",
+      "Name": "Salicylamide",
+      "Description": "The DrugBank database is a unique bioinformatics and cheminformatics resource that combines detailed drug (i.e. chemical, pharmacological and pharmaceutical) data with comprehensive drug target (i.e. sequence, structure, and pathway) information.",
+      "URL": "https://go.drugbank.com/drugs/DB08797",
+      "LicenseNote": "Creative Common's Attribution-NonCommercial 4.0 International License (http://creativecommons.org/licenses/by-nc/4.0/legalcode)",
+      "LicenseURL": "https://www.drugbank.ca/legal/terms_of_use",
+      "ANID": 3624327
+    },
+    {
+      "ReferenceNumber": 50,
+      "SourceName": "LOTUS - the natural products occurrence database",
+      "SourceID": "Q2496906",
+      "Name": "salicylamide",
+      "Description": "LOTUS is one of the largest openly available, collaboratively maintained resources for natural product occurrences. It is free to use without restriction, supports global reuse across languages and communities, and is built on Wikidata, a shared and openly editable knowledge base.",
+      "URL": "https://www.wikidata.org/wiki/Q2496906",
+      "LicenseNote": "The LOTUS data is available under CC0 licence.",
+      "LicenseURL": "https://lotus.nprod.net/",
+      "ANID": 19912607
+    },
+    {
+      "ReferenceNumber": 134,
+      "SourceName": "Medical Subject Headings (MeSH)",
+      "SourceID": "M0097881",
+      "Name": "salicylamide",
+      "Description": "MeSH (Medical Subject Headings) is the U.S. National Library of Medicine's controlled vocabulary thesaurus used for indexing articles for PubMed.",
+      "URL": "https://id.nlm.nih.gov/mesh/M0097881.html",
+      "LicenseNote": "Works produced by the U.S. government are not subject to copyright protection in the United States. Any such works found on National Library of Medicine (NLM) Web sites may be freely used or reproduced without permission in the U.S.",
+      "LicenseURL": "https://www.nlm.nih.gov/copyright.html"
+    },
+    {
+      "ReferenceNumber": 135,
+      "SourceName": "Medical Subject Headings (MeSH)",
+      "SourceID": "M0515308",
+      "Name": "2-hydroxybenzamide",
+      "Description": "MeSH (Medical Subject Headings) is the U.S. National Library of Medicine's controlled vocabulary thesaurus used for indexing articles for PubMed.",
+      "URL": "https://id.nlm.nih.gov/mesh/M0515308.html",
+      "LicenseNote": "Works produced by the U.S. government are not subject to copyright protection in the United States. Any such works found on National Library of Medicine (NLM) Web sites may be freely used or reproduced without permission in the U.S.",
+      "LicenseURL": "https://www.nlm.nih.gov/copyright.html"
+    },
+    {
+      "ReferenceNumber": 136,
+      "SourceName": "PubChem",
+      "SourceID": "PubChem",
+      "Description": "Data deposited in or computed by PubChem",
+      "URL": "https://pubchem.ncbi.nlm.nih.gov"
+    }
+  ]
+}

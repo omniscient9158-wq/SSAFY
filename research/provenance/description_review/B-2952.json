@@ -1,0 +1,119 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 40482,
+  "RecordTitle": "2,2',3,3',4,5,5',6'-Octachlorobiphenyl",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 17,
+              "ExtendedReference": [
+                {
+                  "Citation": "L4: ATSDR - Agency for Toxic Substances and Disease Registry (2000). Toxicological profile for polychlorinated biphenyls. U.S. Public Health Service in collaboration with U.S. Environmental Protection Agency (EPA). http://www.atsdr.cdc.gov/toxprofiles/tp17.html",
+                  "Matched": {
+                    "PCLID": 900176555,
+                    "Citation": "L4: ATSDR - Agency for Toxic Substances and Disease Registry (2000). Toxicological profile for polychlorinated biphenyls. U.S. Public Health Service in collaboration with U.S. Environmental Protection Agency (EPA). http://www.atsdr.cdc.gov/toxprofiles/tp17.html"
+                  }
+                }
+              ],
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "2,2',3,3',4,5,5',6'-Octachlorobiphenyl is one of 209 polychlorinated biphenyls (PCBs). PCBs are a group of synthetic organic compounds with 1-10 chlorine atoms attached to biphenyl. They were manufactured as commercial mixtures but banned in the 1970's because they were found to bioaccumulate and cause harmful health effects. However, PCBs do not break down readily and are still found in the environment. (L4)",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 38,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/2%2C2%27%2C3%2C3%27%2C4%2C5%2C5%27%2C6%27-Octachlorobiphenyl",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-40482"
+                      },
+                      {
+                        "Start": 145,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/element/Chlorine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "Element-Chlorine"
+                      },
+                      {
+                        "Start": 172,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/biphenyl",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-7095"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 19,
+              "Name": "See Also",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "See also: Polychlorinated Biphenyls (component of); 2,2',3,3',4,5,5',6-Octachlorobiphenyl (annotation moved to).",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "#section=Other-Relationships"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 25,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Polychlorinated%20Biphenyls"
+                      },
+                      {
+                        "Start": 52,
+                        "Length": 37,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/50103"
+                      },
+                      {
+                        "Start": 52,
+                        "Length": 37,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?t=s&cid=50103",
+                        "Type": "Icon"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 17,
+      "SourceName": "Toxin and Toxin Target Database (T3DB)",
+      "SourceID": "Compound::T3D0588",
+      "Name": "2,2',3,3',4,5,5',6'-Octachlorobiphenyl",
+      "Description": "The Toxin and Toxin Target Database (T3DB), or, soon to be referred as, the Toxic Exposome Database, is a unique bioinformatics resource that combines detailed toxin data with comprehensive toxin target information.",
+      "URL": "http://www.t3db.ca/toxins/T3D0588",
+      "LicenseNote": "T3DB is offered to the public as a freely available resource. Use and re-distribution of the data, in whole or in part, for commercial purposes requires explicit permission of the authors and explicit acknowledgment of the source material (T3DB) and the original publication.",
+      "LicenseURL": "https://t3db.ca/downloads",
+      "ANID": 20440912
+    },
+    {
+      "ReferenceNumber": 19,
+      "SourceName": "PubChem",
+      "SourceID": "PubChem",
+      "Description": "Data deposited in or computed by PubChem",
+      "URL": "https://pubchem.ncbi.nlm.nih.gov"
+    }
+  ]
+}

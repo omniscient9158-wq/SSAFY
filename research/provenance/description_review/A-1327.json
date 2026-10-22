@@ -1,0 +1,76 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 73864,
+  "RecordTitle": "bisphenol AF",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 5,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Bisphenol AF is an organofluorine compound that is bisphenol A with its methyl hydrogens replaced by fluorines. It has a role as a metabolite. It is a bisphenol and an organofluorine compound. It is functionally related to a bisphenol A.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 12,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Bisphenol%20AF",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-73864"
+                      },
+                      {
+                        "Start": 51,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/bisphenol%20A",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-6623"
+                      },
+                      {
+                        "Start": 151,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/bisphenol",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-6623"
+                      },
+                      {
+                        "Start": 225,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/bisphenol%20A",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-6623"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 5,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:73864",
+      "Name": "Bisphenol AF",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:72754",
+      "ANID": 2487602
+    }
+  ]
+}

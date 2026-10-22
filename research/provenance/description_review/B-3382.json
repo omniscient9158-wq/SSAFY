@@ -1,0 +1,172 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 153909,
+  "RecordTitle": "Tribenuron-methyl",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 1,
+              "Description": "Physical Description",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Tribenuron-methyl appears as colorless crystals. Non corrosive. Used as an herbicide.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 17,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Tribenuron-methyl",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-153909"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 3,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Tribenuron methyl is the methyl ester of tribenuron. It has a role as a herbicide. It is a methyl ester, a benzoate ester, a methoxy-1,3,5-triazine and a N-sulfonylurea. It is functionally related to a tribenuron.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 17,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Tribenuron%20methyl",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-153909"
+                      },
+                      {
+                        "Start": 41,
+                        "Length": 10,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/tribenuron",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-91772"
+                      },
+                      {
+                        "Start": 202,
+                        "Length": 10,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/tribenuron",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-91772"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 53,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Tribenuron-methyl is the methyl ester of the sulfonylurea herbicide tribenuron and also the form in which tribenuron is used in pesticides. It is used in the cultivation of cereals to combat broadleaf weeds. Similar to other sulfonylureas, the site of action of Tribenuron-methyl is acetolactate synthase (ALS), an enzyme involved in branched-chain amino acid biosynthesis. Sulfonylurea herbicides were discovered by DuPont in 1975 and marketed for the first time in 1982.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 17,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Tribenuron-methyl",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-153909"
+                      },
+                      {
+                        "Start": 45,
+                        "Length": 12,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/sulfonylurea",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-140987867"
+                      },
+                      {
+                        "Start": 68,
+                        "Length": 10,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/tribenuron",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-91772"
+                      },
+                      {
+                        "Start": 106,
+                        "Length": 10,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/tribenuron",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-91772"
+                      },
+                      {
+                        "Start": 262,
+                        "Length": 17,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Tribenuron-methyl",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-153909"
+                      },
+                      {
+                        "Start": 283,
+                        "Length": 12,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/acetolactate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-79041"
+                      },
+                      {
+                        "Start": 374,
+                        "Length": 12,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Sulfonylurea",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-140987867"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 1,
+      "SourceName": "CAMEO Chemicals",
+      "SourceID": "18238",
+      "Name": "TRIBENURON-METHYL",
+      "Description": "CAMEO Chemicals is a chemical database designed for people who are involved in hazardous material incident response and planning. CAMEO Chemicals contains a library with thousands of datasheets containing response-related information and recommendations for hazardous materials that are commonly transported, used, or stored in the United States. CAMEO Chemicals was developed by the National Oceanic and Atmospheric Administration's Office of Response and Restoration in partnership with the Environmental Protection Agency's Office of Emergency Management.",
+      "URL": "https://cameochemicals.noaa.gov/chemical/18238",
+      "LicenseNote": "CAMEO Chemicals and all other CAMEO products are available at no charge to those organizations and individuals (recipients) responsible for the safe handling of chemicals. However, some of the chemical data itself is subject to the copyright restrictions of the companies or organizations that provided the data.",
+      "LicenseURL": "https://cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm?d_f=false",
+      "ANID": 761194
+    },
+    {
+      "ReferenceNumber": 3,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:153909",
+      "Name": "Tribenuron methyl",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:9678",
+      "ANID": 2457476
+    },
+    {
+      "ReferenceNumber": 53,
+      "SourceName": "Toxin and Toxin Target Database (T3DB)",
+      "SourceID": "Compound::T3D3937",
+      "Name": "Tribenuron-methyl",
+      "Description": "The Toxin and Toxin Target Database (T3DB), or, soon to be referred as, the Toxic Exposome Database, is a unique bioinformatics resource that combines detailed toxin data with comprehensive toxin target information.",
+      "URL": "http://www.t3db.ca/toxins/T3D3937",
+      "LicenseNote": "T3DB is offered to the public as a freely available resource. Use and re-distribution of the data, in whole or in part, for commercial purposes requires explicit permission of the authors and explicit acknowledgment of the source material (T3DB) and the original publication.",
+      "LicenseURL": "https://t3db.ca/downloads",
+      "ANID": 20443370
+    }
+  ]
+}

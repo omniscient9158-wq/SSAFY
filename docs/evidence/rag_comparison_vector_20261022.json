@@ -1,0 +1,350 @@
+{
+  "created_at": "2026-10-22T02:29:04.488271+00:00",
+  "model": "gpt-5.4-nano",
+  "retrieval_mode": "vector",
+  "top_k": 3,
+  "generation_requested": true,
+  "review_status": "수동 원문 대조 전; 인용 ID 일치는 사실 정확성을 보장하지 않음",
+  "cases": [
+    {
+      "number": 1,
+      "compound_id": "B-524",
+      "query": "타우린 수용해도 기록의 값, 단위, 온도와 출처는?",
+      "retrieval_seconds": 8.477,
+      "evidence": {
+        "compound_metadata": {
+          "citation_id": "근거 1",
+          "source_type": "AqSolDB compound metadata",
+          "compound_id": "B-524",
+          "name": "taurine",
+          "inchikey": "XOAAWQZATWQOTB-UHFFFAOYSA-N",
+          "smiles": "NCCS(=O)(=O)O",
+          "experimental_logS": "-0.1906",
+          "split": "train",
+          "source_group_code": "B",
+          "upstream_source_dataset": "EPI Suite data website dataset B",
+          "paper_reference_number": "[15]",
+          "dataset_doi": "https://doi.org/10.7910/DVN/OVHAW8",
+          "dataset_license": "CC0 1.0 (Harvard Dataverse AqSolDB v1)"
+        },
+        "external_evidence": [
+          {
+            "source_type": "reviewed_external_evidence",
+            "compound_id": "B-524",
+            "excerpt": "화합물: taurine (B-524)\n문서 항목: Solvent behavior / polarity\n검토된 발췌: 물 문서는 물이 극성 용매이며 염과 친수성 유기 분자를 녹일 수 있다고 설명한다. 이 자료는 타우린 자체에 대한 자료가 아니라, 타우린 문서의 양쪽성 이온 설명과 함께 읽을 일반 화학 배경이다. 이 발췌는 문서 내용을 한국어로 요약·번역했다.\n문서 제공자: Wikipedia, Water article\n원출처: Wikipedia contributors, “Water,” revision oldid 1379351727 (2026-10-09); Korean summary/translation adapted for this project",
+            "document_title": "Solvent behavior / polarity",
+            "source_provider": "Wikipedia, Water article",
+            "original_attribution": "Wikipedia contributors, “Water,” revision oldid 1379351727 (2026-10-09); Korean summary/translation adapted for this project",
+            "source_url": "https://en.wikipedia.org/w/index.php?title=Water&oldid=1379351727",
+            "source_terms_status": "CC BY-SA 4.0; attribute article/revision, provide license link, identify the Korean summary/translation as an adaptation, and keep adapted text under CC BY-SA 4.0. Secondary, community-maintained source.",
+            "terms_basis_url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en",
+            "reviewed_on": "2026-10-22",
+            "scope_note": "General chemistry background only, not a compound-specific solubility measurement. Use only to explain the solvent-side principle and clearly label the connection to taurine as an interpretation based on the retrieved sources.",
+            "citation_id": "근거 2"
+          },
+          {
+            "source_type": "reviewed_external_evidence",
+            "compound_id": "B-524",
+            "excerpt": "화합물: taurine (B-524)\n문서 항목: Physical Properties / Water Solubility\n검토된 발췌: Water Solubility: 50 to 100 mg/mL at 74.3°F (NTP, 1992).\n문서 제공자: NOAA CAMEO Chemicals\n원출처: National Toxicology Program Chemical Repository Database (NTP, 1992)",
+            "document_title": "Physical Properties / Water Solubility",
+            "source_provider": "NOAA CAMEO Chemicals",
+            "original_attribution": "National Toxicology Program Chemical Repository Database (NTP, 1992)",
+            "source_url": "https://cameochemicals.noaa.gov/report?key=CH21060",
+            "source_terms_status": "Short educational excerpt only; same limited CAMEO/NTP source review basis as the three previously approved NTP-attributed excerpts. No other report sections are indexed.",
+            "terms_basis_url": "https://cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm; https://ntp.niehs.nih.gov/support/policies; https://www.noaa.gov/office-education/outreach-communication/faq",
+            "reviewed_on": "2026-10-22",
+            "scope_note": "Only the water-solubility range and its cited NTP attribution are indexed. Preserve original unit and temperature; do not convert to AqSolDB LogS without confirming method and basis. Exclude all safety, health, handling, spill-response and hazard content.",
+            "citation_id": "근거 3"
+          },
+          {
+            "source_type": "reviewed_external_evidence",
+            "compound_id": "B-524",
+            "excerpt": "화합물: taurine (B-524)\n문서 항목: Chemical and biochemical features\n검토된 발췌: 타우린 문서는 타우린이 양쪽성 이온(zwitterion) 형태(H3N+–CH2–CH2–SO3−)로 존재한다고 설명하고, 술폰산기의 낮은 pKa 때문에 장관에서 술폰산기가 술폰산염 형태로 이온화된다고 서술한다. 이 발췌는 문서 내용을 한국어로 요약·번역했다.\n문서 제공자: Wikipedia, Taurine article\n원출처: Wikipedia contributors, “Taurine,” revision oldid 1376465253 (2026-09-24); Korean summary/translation adapted for this project",
+            "document_title": "Chemical and biochemical features",
+            "source_provider": "Wikipedia, Taurine article",
+            "original_attribution": "Wikipedia contributors, “Taurine,” revision oldid 1376465253 (2026-09-24); Korean summary/translation adapted for this project",
+            "source_url": "https://en.wikipedia.org/w/index.php?title=Taurine&oldid=1376465253",
+            "source_terms_status": "CC BY-SA 4.0; attribute article/revision, provide license link, identify the Korean summary/translation as an adaptation, and keep adapted text under CC BY-SA 4.0. Secondary, community-maintained source.",
+            "terms_basis_url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en",
+            "reviewed_on": "2026-10-22",
+            "scope_note": "Supports the zwitterionic structure and sulfonate ionization statements only. It does not itself quantify how much each structural feature contributes to solubility. Keep separate from measured solubility values and identify Wikipedia as secondary context.",
+            "citation_id": "근거 4"
+          }
+        ]
+      },
+      "baseline_answer": "확인할 수 없습니다. 현재 제공된 정보(“선택 화합물 ID: B-524”)만으로는 **타우린 수용해도(용해도) 기록의 값/단위/온도/출처**를 특정할 수 없습니다.  \n\nB-524에 해당하는 **데이터셋의 원문 표(또는 링크/스크린샷/텍스트)**를 보내주시면, 그 안에서 **수용해도 값, 단위, 온도, 출처**를 그대로 찾아 정리해드리겠습니다.",
+      "baseline_seconds": 3.183,
+      "rag": {
+        "answer": "타우린(선택 화합물 ID: B-524)의 **수용해도 기록(외부 물성: 물 용해도 범위)**은 다음과 같습니다.\n\n- **값:** 50 to 100 mg/mL [근거 3]  \n- **단위:** mg/mL [근거 3]  \n- **온도:** 74.3°F [근거 3]  \n- **출처:** NOAA CAMEO Chemicals (인용 근거로는 “National Toxicology Program Chemical Repository Database (NTP, 1992)”) [근거 3]  \n\n참고로, AqSolDB의 **experimental_logS** 값은 “수용해도(용해도)”의 **로그 값**으로 제공되며, 단위/온도는 AqSolDB 메타데이터에 함께 제시되어 있지 않습니다(다만 요청하신 “값, 단위, 온도와 출처” 중 단위·온도는 외부 문서에만 명시되어 있습니다). AqSolDB 메타데이터: **experimental_logS = -0.1906** [근거 1].",
+        "cited_evidence_ids": [
+          "근거 1",
+          "근거 3"
+        ]
+      },
+      "rag_seconds": 3.024,
+      "unknown_citation_ids": [],
+      "status": "generated_pending_manual_review"
+    },
+    {
+      "number": 2,
+      "compound_id": "B-524",
+      "query": "승인된 타우린 발췌는 분자 구조를 어떤 형태라고 설명하나?",
+      "retrieval_seconds": 5.871,
+      "evidence": {
+        "compound_metadata": {
+          "citation_id": "근거 1",
+          "source_type": "AqSolDB compound metadata",
+          "compound_id": "B-524",
+          "name": "taurine",
+          "inchikey": "XOAAWQZATWQOTB-UHFFFAOYSA-N",
+          "smiles": "NCCS(=O)(=O)O",
+          "experimental_logS": "-0.1906",
+          "split": "train",
+          "source_group_code": "B",
+          "upstream_source_dataset": "EPI Suite data website dataset B",
+          "paper_reference_number": "[15]",
+          "dataset_doi": "https://doi.org/10.7910/DVN/OVHAW8",
+          "dataset_license": "CC0 1.0 (Harvard Dataverse AqSolDB v1)"
+        },
+        "external_evidence": [
+          {
+            "source_type": "reviewed_external_evidence",
+            "compound_id": "B-524",
+            "excerpt": "화합물: taurine (B-524)\n문서 항목: Chemical and biochemical features\n검토된 발췌: 타우린 문서는 타우린이 양쪽성 이온(zwitterion) 형태(H3N+–CH2–CH2–SO3−)로 존재한다고 설명하고, 술폰산기의 낮은 pKa 때문에 장관에서 술폰산기가 술폰산염 형태로 이온화된다고 서술한다. 이 발췌는 문서 내용을 한국어로 요약·번역했다.\n문서 제공자: Wikipedia, Taurine article\n원출처: Wikipedia contributors, “Taurine,” revision oldid 1376465253 (2026-09-24); Korean summary/translation adapted for this project",
+            "document_title": "Chemical and biochemical features",
+            "source_provider": "Wikipedia, Taurine article",
+            "original_attribution": "Wikipedia contributors, “Taurine,” revision oldid 1376465253 (2026-09-24); Korean summary/translation adapted for this project",
+            "source_url": "https://en.wikipedia.org/w/index.php?title=Taurine&oldid=1376465253",
+            "source_terms_status": "CC BY-SA 4.0; attribute article/revision, provide license link, identify the Korean summary/translation as an adaptation, and keep adapted text under CC BY-SA 4.0. Secondary, community-maintained source.",
+            "terms_basis_url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en",
+            "reviewed_on": "2026-10-22",
+            "scope_note": "Supports the zwitterionic structure and sulfonate ionization statements only. It does not itself quantify how much each structural feature contributes to solubility. Keep separate from measured solubility values and identify Wikipedia as secondary context.",
+            "citation_id": "근거 2"
+          },
+          {
+            "source_type": "reviewed_external_evidence",
+            "compound_id": "B-524",
+            "excerpt": "화합물: taurine (B-524)\n문서 항목: Solvent behavior / polarity\n검토된 발췌: 물 문서는 물이 극성 용매이며 염과 친수성 유기 분자를 녹일 수 있다고 설명한다. 이 자료는 타우린 자체에 대한 자료가 아니라, 타우린 문서의 양쪽성 이온 설명과 함께 읽을 일반 화학 배경이다. 이 발췌는 문서 내용을 한국어로 요약·번역했다.\n문서 제공자: Wikipedia, Water article\n원출처: Wikipedia contributors, “Water,” revision oldid 1379351727 (2026-10-09); Korean summary/translation adapted for this project",
+            "document_title": "Solvent behavior / polarity",
+            "source_provider": "Wikipedia, Water article",
+            "original_attribution": "Wikipedia contributors, “Water,” revision oldid 1379351727 (2026-10-09); Korean summary/translation adapted for this project",
+            "source_url": "https://en.wikipedia.org/w/index.php?title=Water&oldid=1379351727",
+            "source_terms_status": "CC BY-SA 4.0; attribute article/revision, provide license link, identify the Korean summary/translation as an adaptation, and keep adapted text under CC BY-SA 4.0. Secondary, community-maintained source.",
+            "terms_basis_url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en",
+            "reviewed_on": "2026-10-22",
+            "scope_note": "General chemistry background only, not a compound-specific solubility measurement. Use only to explain the solvent-side principle and clearly label the connection to taurine as an interpretation based on the retrieved sources.",
+            "citation_id": "근거 3"
+          },
+          {
+            "source_type": "reviewed_external_evidence",
+            "compound_id": "B-524",
+            "excerpt": "화합물: taurine (B-524)\n문서 항목: Physical Properties / Water Solubility\n검토된 발췌: Water Solubility: 50 to 100 mg/mL at 74.3°F (NTP, 1992).\n문서 제공자: NOAA CAMEO Chemicals\n원출처: National Toxicology Program Chemical Repository Database (NTP, 1992)",
+            "document_title": "Physical Properties / Water Solubility",
+            "source_provider": "NOAA CAMEO Chemicals",
+            "original_attribution": "National Toxicology Program Chemical Repository Database (NTP, 1992)",
+            "source_url": "https://cameochemicals.noaa.gov/report?key=CH21060",
+            "source_terms_status": "Short educational excerpt only; same limited CAMEO/NTP source review basis as the three previously approved NTP-attributed excerpts. No other report sections are indexed.",
+            "terms_basis_url": "https://cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm; https://ntp.niehs.nih.gov/support/policies; https://www.noaa.gov/office-education/outreach-communication/faq",
+            "reviewed_on": "2026-10-22",
+            "scope_note": "Only the water-solubility range and its cited NTP attribution are indexed. Preserve original unit and temperature; do not convert to AqSolDB LogS without confirming method and basis. Exclude all safety, health, handling, spill-response and hazard content.",
+            "citation_id": "근거 4"
+          }
+        ]
+      },
+      "baseline_answer": "질문에서 말한 “승인된 타우린 발췌”의 원문(해당 발췌 텍스트)이 무엇인지 확인할 수 없어서, 그 발췌가 **타우린의 분자 구조를 어떤 형태로 설명하는지**는 현재 정보만으로는 확정할 수 없습니다.\n\n다만 일반적으로(출처를 특정하지 않은 일반 지식으로) 타우린은 **분자식이 H₂N–CH₂–CH₂–SO₃H** 형태(즉, 황산기(SO₃H)를 가진 아미노에탄 골격)로 설명됩니다.  \n하지만 이 답변이 “승인된 발췌”의 표현과 정확히 일치하는지는 확인할 수 없습니다.\n\n원문 발췌(문장 한두 개라도)를 붙여 주시면, 거기서 말하는 “분자 구조의 형태”를 그대로 찾아서 답할 수 있습니다.",
+      "baseline_seconds": 2.421,
+      "rag": {
+        "answer": "승인된 타우린(화합물 ID: B-524)의 분자 구조는 **양쪽성 이온(zwitterion) 형태**로 존재하며, **H3N+–CH2–CH2–SO3−** 형태라고 설명됩니다. [근거 2]",
+        "cited_evidence_ids": [
+          "근거 2"
+        ]
+      },
+      "rag_seconds": 10.933,
+      "unknown_citation_ids": [],
+      "status": "generated_pending_manual_review"
+    },
+    {
+      "number": 3,
+      "compound_id": "A-5538",
+      "query": "안트라센의 외관과 물에서의 거동은 원문에 어떻게 기록되어 있나?",
+      "retrieval_seconds": 1.367,
+      "evidence": {
+        "compound_metadata": {
+          "citation_id": "근거 1",
+          "source_type": "AqSolDB compound metadata",
+          "compound_id": "A-5538",
+          "name": "anthracene",
+          "inchikey": "MWPLVEDNUUSJAV-UHFFFAOYSA-N",
+          "smiles": "c1ccc2cc3ccccc3cc2c1",
+          "experimental_logS": "-6.4448105798",
+          "split": "train",
+          "source_group_code": "A",
+          "upstream_source_dataset": "eChemPortal / OECD experimental water-solubility data",
+          "paper_reference_number": "[14]",
+          "dataset_doi": "https://doi.org/10.7910/DVN/OVHAW8",
+          "dataset_license": "CC0 1.0 (Harvard Dataverse AqSolDB v1)"
+        },
+        "external_evidence": [
+          {
+            "source_type": "reviewed_external_evidence",
+            "compound_id": "A-5538",
+            "excerpt": "화합물: anthracene (A-5538)\n문서 항목: General Description\n검토된 발췌: White to yellow solid with a weak aromatic odor. Sinks in water.\n문서 제공자: NOAA CAMEO Chemicals\n원출처: U.S. Coast Guard (USCG, 1999)",
+            "document_title": "General Description",
+            "source_provider": "NOAA CAMEO Chemicals",
+            "original_attribution": "U.S. Coast Guard (USCG, 1999)",
+            "source_url": "https://cameochemicals.noaa.gov/chemical/8283",
+            "source_terms_status": "Short educational excerpt eligible for project index with NOAA/CAMEO and USCG attribution; excluded third-party categories in CAMEO terms (DuPont, CAS, NFPA, AEGL, ERPG) are not used; review limited to this excerpt",
+            "terms_basis_url": "https://cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm; https://www.noaa.gov/office-education/outreach-communication/faq",
+            "reviewed_on": "2026-10-21",
+            "scope_note": "Index only the cited general physical description. Exclude hazards, response, handling, third-party restricted data, and all other sections. Not a quantitative solubility measurement.",
+            "citation_id": "근거 2"
+          }
+        ]
+      },
+      "baseline_answer": "확인할 수 없습니다.  \n질문에 나온 “원문”의 텍스트(예: A-5538에 대한 원문 기록, 출처 문서/항목) 자체가 제공되지 않아서, **안트라센의 외관**과 **물에서의 거동(예: 용해도, 침전/분산 여부, 상(phase) 변화 등)**이 원문에 어떻게 기록되어 있는지 특정해 인용할 수 없습니다.\n\n원문에서 해당 부분(외관/물에서의 거동 관련 문장 또는 표)을 붙여주시면, 그 문구를 기준으로 **원문이 무엇이라고 적고 있는지** 정확히 정리해 드릴게요.",
+      "baseline_seconds": 2.321,
+      "rag": {
+        "answer": "안트라센(선택 화합물 ID: **A-5538**, SMILES: **c1ccc2cc3ccccc3cc2c1**)의 **외관**과 **물에서의 거동**은 원문에 다음처럼 기록되어 있습니다.\n\n- **외관:** “**White to yellow solid with a weak aromatic odor**.” [근거 2]  \n- **물에서의 거동:** “**Sinks in water.**” [근거 2]\n\n참고로, AqSolDB의 메타데이터에는 **experimental_logS: '-6.4448105798'**가 제공되지만, 질문의 “외관과 물에서의 거동”에 대한 직접 기록(예: sinks 여부, 색/냄새)은 **근거 2**에만 나와 있습니다. [근거 1][근거 2]",
+        "cited_evidence_ids": [
+          "근거 1",
+          "근거 2"
+        ]
+      },
+      "rag_seconds": 10.525,
+      "unknown_citation_ids": [],
+      "status": "generated_pending_manual_review"
+    },
+    {
+      "number": 4,
+      "compound_id": "C-533",
+      "query": "카페인의 문헌상 수용해도 값, 단위, 온도와 원출처는?",
+      "retrieval_seconds": 0.837,
+      "evidence": {
+        "compound_metadata": {
+          "citation_id": "근거 1",
+          "source_type": "AqSolDB compound metadata",
+          "compound_id": "C-533",
+          "name": "caffeine",
+          "inchikey": "RYYVLZVUVIJVGH-UHFFFAOYSA-N",
+          "smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+          "experimental_logS": "-0.91",
+          "split": "train",
+          "source_group_code": "C",
+          "upstream_source_dataset": "Raevsky et al. dataset",
+          "paper_reference_number": "[16]",
+          "dataset_doi": "https://doi.org/10.7910/DVN/OVHAW8",
+          "dataset_license": "CC0 1.0 (Harvard Dataverse AqSolDB v1)"
+        },
+        "external_evidence": [
+          {
+            "source_type": "reviewed_external_evidence",
+            "compound_id": "C-533",
+            "excerpt": "화합물: caffeine (C-533)\n문서 항목: Physical Properties / Water Solubility\n검토된 발췌: Water Solubility: 10 to 50 mg/mL at 73°F (NTP, 1992).\n문서 제공자: NOAA CAMEO Chemicals\n원출처: National Toxicology Program Chemical Repository Database (NTP, 1992)",
+            "document_title": "Physical Properties / Water Solubility",
+            "source_provider": "NOAA CAMEO Chemicals",
+            "original_attribution": "National Toxicology Program Chemical Repository Database (NTP, 1992)",
+            "source_url": "https://cameochemicals.noaa.gov/chemical/19945",
+            "source_terms_status": "Single short educational property excerpt with NOAA/CAMEO and NTP attribution. CAMEO's named third-party restrictions are not used in this excerpt; NTP states uncopyrighted NTP information is public domain. Approval is limited to this NTP-attributed field and its source record.",
+            "terms_basis_url": "https://m.cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm; https://ntp.niehs.nih.gov/support/policies; https://www.noaa.gov/office-education/outreach-communication/faq",
+            "reviewed_on": "2026-10-22",
+            "scope_note": "Only the stated water-solubility range and NTP attribution are included. Preserve the source unit and temperature; do not convert it to AqSolDB LogS. Exclude caffeine CAMEO hazard, health, safety, storage, handling, response, and unrelated third-party content.",
+            "citation_id": "근거 2"
+          }
+        ]
+      },
+      "baseline_answer": "확인할 수 없습니다.  \n요청하신 **“카페인의 문헌상 수용해도 값(수치), 단위, 온도, 그리고 원출처(문헌/출처)”**는 제가 현재 사용 가능한 범위에서 **C-533이 카페인인지 여부와 해당 문헌 데이터를 특정해서 검증**할 수 있는 정보가 없습니다.  \n\n원하시면, 다음 중 하나를 보내 주세요. 그러면 그 정보에 맞춰 **수용해도 값/단위/온도/출처**를 정리해 드릴 수 있습니다.  \n1) **문헌 링크(또는 DOI/서지정보)** 또는 스캔/텍스트  \n2) **C-533의 물질명(카페인 맞는지)** 및 해당 데이터가 들어있는 표/메모 캡처",
+      "baseline_seconds": 2.537,
+      "rag": {
+        "answer": "카페인(caffeine, 선택 화합물 ID: **C-533**)의 문헌상 **수용해도 값/단위/온도/원출처**는 아래와 같습니다.\n\n- **수용해도(물)**: **10 to 50 mg/mL** at **73°F** (NTP, 1992). [근거 2]  \n  - **원출처**: **National Toxicology Program Chemical Repository Database (NTP, 1992)** [근거 2]  \n  - (문서 제공자: NOAA CAMEO Chemicals) [근거 2]\n\n참고: AqSolDB의 **experimental_logS** 값은 **-0.91**로 제공되지만, 질문에서 요구한 “문헌상 수용해도 값, 단위, 온도, 원출처” 형식과는 달라(온도/단위가 LogS 자체로 제공됨) 위 “수용해도(물) 범위”와는 구분됩니다. [근거 1]",
+        "cited_evidence_ids": [
+          "근거 1",
+          "근거 2"
+        ]
+      },
+      "rag_seconds": 10.04,
+      "unknown_citation_ids": [],
+      "status": "generated_pending_manual_review"
+    },
+    {
+      "number": 5,
+      "compound_id": "B-524",
+      "query": "승인된 자료로 타우린의 pH별 정량적 용해도 변화량을 알 수 있나?",
+      "retrieval_seconds": 0.75,
+      "evidence": {
+        "compound_metadata": {
+          "citation_id": "근거 1",
+          "source_type": "AqSolDB compound metadata",
+          "compound_id": "B-524",
+          "name": "taurine",
+          "inchikey": "XOAAWQZATWQOTB-UHFFFAOYSA-N",
+          "smiles": "NCCS(=O)(=O)O",
+          "experimental_logS": "-0.1906",
+          "split": "train",
+          "source_group_code": "B",
+          "upstream_source_dataset": "EPI Suite data website dataset B",
+          "paper_reference_number": "[15]",
+          "dataset_doi": "https://doi.org/10.7910/DVN/OVHAW8",
+          "dataset_license": "CC0 1.0 (Harvard Dataverse AqSolDB v1)"
+        },
+        "external_evidence": [
+          {
+            "source_type": "reviewed_external_evidence",
+            "compound_id": "B-524",
+            "excerpt": "화합물: taurine (B-524)\n문서 항목: Solvent behavior / polarity\n검토된 발췌: 물 문서는 물이 극성 용매이며 염과 친수성 유기 분자를 녹일 수 있다고 설명한다. 이 자료는 타우린 자체에 대한 자료가 아니라, 타우린 문서의 양쪽성 이온 설명과 함께 읽을 일반 화학 배경이다. 이 발췌는 문서 내용을 한국어로 요약·번역했다.\n문서 제공자: Wikipedia, Water article\n원출처: Wikipedia contributors, “Water,” revision oldid 1379351727 (2026-10-09); Korean summary/translation adapted for this project",
+            "document_title": "Solvent behavior / polarity",
+            "source_provider": "Wikipedia, Water article",
+            "original_attribution": "Wikipedia contributors, “Water,” revision oldid 1379351727 (2026-10-09); Korean summary/translation adapted for this project",
+            "source_url": "https://en.wikipedia.org/w/index.php?title=Water&oldid=1379351727",
+            "source_terms_status": "CC BY-SA 4.0; attribute article/revision, provide license link, identify the Korean summary/translation as an adaptation, and keep adapted text under CC BY-SA 4.0. Secondary, community-maintained source.",
+            "terms_basis_url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en",
+            "reviewed_on": "2026-10-22",
+            "scope_note": "General chemistry background only, not a compound-specific solubility measurement. Use only to explain the solvent-side principle and clearly label the connection to taurine as an interpretation based on the retrieved sources.",
+            "citation_id": "근거 2"
+          },
+          {
+            "source_type": "reviewed_external_evidence",
+            "compound_id": "B-524",
+            "excerpt": "화합물: taurine (B-524)\n문서 항목: Physical Properties / Water Solubility\n검토된 발췌: Water Solubility: 50 to 100 mg/mL at 74.3°F (NTP, 1992).\n문서 제공자: NOAA CAMEO Chemicals\n원출처: National Toxicology Program Chemical Repository Database (NTP, 1992)",
+            "document_title": "Physical Properties / Water Solubility",
+            "source_provider": "NOAA CAMEO Chemicals",
+            "original_attribution": "National Toxicology Program Chemical Repository Database (NTP, 1992)",
+            "source_url": "https://cameochemicals.noaa.gov/report?key=CH21060",
+            "source_terms_status": "Short educational excerpt only; same limited CAMEO/NTP source review basis as the three previously approved NTP-attributed excerpts. No other report sections are indexed.",
+            "terms_basis_url": "https://cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm; https://ntp.niehs.nih.gov/support/policies; https://www.noaa.gov/office-education/outreach-communication/faq",
+            "reviewed_on": "2026-10-22",
+            "scope_note": "Only the water-solubility range and its cited NTP attribution are indexed. Preserve original unit and temperature; do not convert to AqSolDB LogS without confirming method and basis. Exclude all safety, health, handling, spill-response and hazard content.",
+            "citation_id": "근거 3"
+          },
+          {
+            "source_type": "reviewed_external_evidence",
+            "compound_id": "B-524",
+            "excerpt": "화합물: taurine (B-524)\n문서 항목: Chemical and biochemical features\n검토된 발췌: 타우린 문서는 타우린이 양쪽성 이온(zwitterion) 형태(H3N+–CH2–CH2–SO3−)로 존재한다고 설명하고, 술폰산기의 낮은 pKa 때문에 장관에서 술폰산기가 술폰산염 형태로 이온화된다고 서술한다. 이 발췌는 문서 내용을 한국어로 요약·번역했다.\n문서 제공자: Wikipedia, Taurine article\n원출처: Wikipedia contributors, “Taurine,” revision oldid 1376465253 (2026-09-24); Korean summary/translation adapted for this project",
+            "document_title": "Chemical and biochemical features",
+            "source_provider": "Wikipedia, Taurine article",
+            "original_attribution": "Wikipedia contributors, “Taurine,” revision oldid 1376465253 (2026-09-24); Korean summary/translation adapted for this project",
+            "source_url": "https://en.wikipedia.org/w/index.php?title=Taurine&oldid=1376465253",
+            "source_terms_status": "CC BY-SA 4.0; attribute article/revision, provide license link, identify the Korean summary/translation as an adaptation, and keep adapted text under CC BY-SA 4.0. Secondary, community-maintained source.",
+            "terms_basis_url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en",
+            "reviewed_on": "2026-10-22",
+            "scope_note": "Supports the zwitterionic structure and sulfonate ionization statements only. It does not itself quantify how much each structural feature contributes to solubility. Keep separate from measured solubility values and identify Wikipedia as secondary context.",
+            "citation_id": "근거 4"
+          }
+        ]
+      },
+      "baseline_answer": "확인할 수 없습니다.\n\n이 채팅에서 **“승인된 자료(어떤 출처/문헌을 의미하는지)”**가 제공되어 있지 않고, 또한 사용자가 지정한 **화합물 ID B-524가 “타우린”을 정확히 지칭하는지**도 확인되지 않아, **타우린의 pH별 정량적 용해도 변화량**(예: 각 pH에서의 용해도 값 또는 용해도 변화량)을 “승인된 자료”만으로 계산·제시할 근거를 확보할 수 없습니다.\n\n원하시면,\n1) 사용할 **승인된 자료의 출처(문헌명/DOI/표/그림 번호)** 또는  \n2) 그 자료에 있는 **pH별 용해도 데이터 표/수치**  \n를 보내주세요. 그러면 그 수치 범위 내에서 pH별 **정량적 변화량**(예: 특정 pH 구간의 Δ용해도)으로 정리해 드릴 수 있습니다.",
+      "baseline_seconds": 1.958,
+      "rag": {
+        "answer": "아니요. 제공된 승인 근거들만으로는 **타우린의 pH별 정량적 용해도 변화량**(예: pH를 바꿨을 때 용해도 수치가 얼마나 증가/감소하는지의 “변화량”)을 알 수 없습니다.\n\n- AqSolDB의 화합물 메타데이터에는 타우린(B-524)의 **experimental_logS: -0.1906**만 제시되어 있고, **pH별 용해도(정량) 데이터**는 근거에 포함되어 있지 않습니다. [근거 1]\n- 외부 근거로 제시된 것은 pH 조건이 명시된 “pH별 정량 용해도”가 아니라,\n  - **물에서의 용해도 범위**: “50 to 100 mg/mL at 74.3°F (NTP, 1992)”처럼 단일 조건(온도)과 범위만 제시된 자료입니다. pH별 비교는 불가능합니다. [근거 3]\n  - 타우린의 **양쪽성 이온(zwitterion) 형태 및 술폰산기의 이온화(낮은 pKa로 장관에서 술폰산염 형태로 이온화)** 같은 구조/특성 설명은 있으나, 이것만으로 pH별 용해도를 “정량적으로” 계산하거나 변화량을 제시할 수 없습니다. [근거 4]\n  - “Water Solvent behavior / polarity” 발췌는 타우린의 pH-용해도 정량 측정이 아니라 일반적인 배경이며, pH별 정량 변화량에 직접 사용할 수 없습니다. [근거 2]\n\n따라서, **pH별 정량적 용해도 변화량**을 승인된 자료로 확인할 수 없다고 판단됩니다. (확인 불가)",
+        "cited_evidence_ids": [
+          "근거 1",
+          "근거 2",
+          "근거 3",
+          "근거 4"
+        ]
+      },
+      "rag_seconds": 3.56,
+      "unknown_citation_ids": [],
+      "status": "generated_pending_manual_review"
+    }
+  ]
+}

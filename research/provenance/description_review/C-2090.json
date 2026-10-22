@@ -1,0 +1,55 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 17776,
+  "RecordTitle": "Dinoseb acetate",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 2,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Dinoseb acetate is a member of phenols and a benzoate ester.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 15,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Dinoseb%20acetate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-17776"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 2,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:17776",
+      "Name": "Dinoseb acetate",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:82240",
+      "ANID": 2478152
+    }
+  ]
+}

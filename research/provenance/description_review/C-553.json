@@ -1,0 +1,200 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 5184,
+  "RecordTitle": "9-Methyl-3-oxa-9-azatricyclo(3.3.1.02,4)nonan-7-yl tropate",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 1,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "LSM-1330 is a 3-hydroxy carboxylic acid."
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 18,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "buscopan has been reported in Scopolia parviflora, Duboisia leichhardtii, and other organisms with data available.",
+                    "Markup": [
+                      {
+                        "Start": 30,
+                        "Length": 19,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/258455#section=Natural-Products"
+                      },
+                      {
+                        "Start": 51,
+                        "Length": 21,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/195736#section=Natural-Products"
+                      },
+                      {
+                        "Start": 78,
+                        "Length": 15,
+                        "URL": "#section=Taxonomy"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/buscopan",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-6852391"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 35,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Scopolamine, also known as hyoscine, is a tropane alkaloid drug obtained from plants of the family Solanaceae (nightshades), such as henbane or jimson weed (Datura species). It is part of the secondary metabolites of plants. Scopolamine is used criminally as a date rape drug and as an aid to robbery, the most common act being the clandestine drugging of a victim's drink. It is preferred because it induces retrograde amnesia, or an inability to recall events prior to its administration. Victims of this crime are often admitted to a hospital in police custody, under the assumption that the patient is experiencing a psychotic episode. A telltale sign is a fever accompanied by a lack of sweat. An alkaloid from Solanaceae, especially Datura metel L. and Scopola carniolica. Scopolamine and its quaternary derivatives act as antimuscarinics like atropine, but may have more central nervous system effects. Among the many uses are as an anesthetic premedication, in urinary incontinence, in motion sickness, as an antispasmodic, and as a mydriatic and cycloplegic.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Scopolamine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-5184"
+                      },
+                      {
+                        "Start": 27,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/hyoscine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-3000322"
+                      },
+                      {
+                        "Start": 225,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Scopolamine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-5184"
+                      },
+                      {
+                        "Start": 779,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Scopolamine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-5184"
+                      },
+                      {
+                        "Start": 850,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/atropine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-174174"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 37,
+              "Name": "See Also",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "See also: Scopolamine (annotation moved to); Boro-Scopol (annotation moved to); Scopolamine Hydrobromide (annotation moved to) ... View More ...",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "#section=Other-Relationships"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Scopolamine"
+                      },
+                      {
+                        "Start": 45,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/3000322"
+                      },
+                      {
+                        "Start": 45,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?t=s&cid=3000322",
+                        "Type": "Icon"
+                      },
+                      {
+                        "Start": 80,
+                        "Length": 24,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Scopolamine%20Hydrobromide"
+                      },
+                      {
+                        "Start": 131,
+                        "Length": 9,
+                        "URL": "#section=Other-Relationships"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 1,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:5184",
+      "Name": "LSM-1330",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:91541",
+      "ANID": 2483669
+    },
+    {
+      "ReferenceNumber": 18,
+      "SourceName": "LOTUS - the natural products occurrence database",
+      "SourceID": "Q105260197",
+      "Name": "buscopan",
+      "Description": "LOTUS is one of the largest openly available, collaboratively maintained resources for natural product occurrences. It is free to use without restriction, supports global reuse across languages and communities, and is built on Wikidata, a shared and openly editable knowledge base.",
+      "URL": "https://www.wikidata.org/wiki/Q105260197",
+      "LicenseNote": "The LOTUS data is available under CC0 licence.",
+      "LicenseURL": "https://lotus.nprod.net/",
+      "ANID": 19874712
+    },
+    {
+      "ReferenceNumber": 35,
+      "SourceName": "Toxin and Toxin Target Database (T3DB)",
+      "SourceID": "Compound::T3D2877",
+      "Name": "Scopolamine",
+      "Description": "The Toxin and Toxin Target Database (T3DB), or, soon to be referred as, the Toxic Exposome Database, is a unique bioinformatics resource that combines detailed toxin data with comprehensive toxin target information.",
+      "URL": "http://www.t3db.ca/toxins/T3D2877",
+      "LicenseNote": "T3DB is offered to the public as a freely available resource. Use and re-distribution of the data, in whole or in part, for commercial purposes requires explicit permission of the authors and explicit acknowledgment of the source material (T3DB) and the original publication.",
+      "LicenseURL": "https://t3db.ca/downloads",
+      "ANID": 20442721
+    },
+    {
+      "ReferenceNumber": 37,
+      "SourceName": "PubChem",
+      "SourceID": "PubChem",
+      "Description": "Data deposited in or computed by PubChem",
+      "URL": "https://pubchem.ncbi.nlm.nih.gov"
+    }
+  ]
+}

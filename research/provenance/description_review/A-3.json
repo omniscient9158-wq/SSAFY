@@ -1,0 +1,86 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 70708,
+  "RecordTitle": "Octadecyltrimethylammonium bromide",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 4,
+              "Reference": [
+                "International Journal of Toxicology 31(Suppl. 3):296-341, 2012"
+              ],
+              "ExtendedReference": [
+                {
+                  "Citation": "International Journal of Toxicology 31(Suppl. 3):296-341, 2012",
+                  "Matched": {
+                    "PCLID": 906421389,
+                    "Citation": "International Journal of Toxicology 31(Suppl. 3):296-341, 2012"
+                  }
+                }
+              ],
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "The CIR Expert Panel concluded the following ingredients are safe in the present practices of use and concentration described in the safety assessment when formulated to be non-irritating...Steartrimonium Bromide...",
+                    "Markup": [
+                      {
+                        "Start": 205,
+                        "Length": 7,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Bromide",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-18541942"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 19,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "structure in first source"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 4,
+      "SourceName": "Cosmetic Ingredient Review (CIR)",
+      "SourceID": "c2d7beaa-18ed-46be-b881-75596c5d1da9",
+      "Name": "Steartrimonium Bromide",
+      "Description": "The Cosmetic Ingredient Review (CIR) studies individual chemical compounds as they are used in cosmetic products. CIR relies heavily on the International Nomenclature of Cosmetic Ingredients (INCI) when identifying the ingredients to be assessed. The Expert Panel for Cosmetic Ingredient Safety (Panel) assess the safety of ingredients for use in cosmetics. The function of an ingredient in cosmetics is noted. The Panel reviews the data relevant to the safety of an ingredient and concludes whether an ingredient is safe in cosmetics in the present practices of use and concentration described in a safety assessment.",
+      "URL": "https://cir-reports.cir-safety.org/cir-ingredient-status-report/?id=c2d7beaa-18ed-46be-b881-75596c5d1da9",
+      "LicenseURL": "https://cir-safety.org/terms-use",
+      "ANID": 39002112
+    },
+    {
+      "ReferenceNumber": 19,
+      "SourceName": "Medical Subject Headings (MeSH)",
+      "SourceID": "M0508017",
+      "Name": "octadecyltrimethylammonium bromide",
+      "Description": "MeSH (Medical Subject Headings) is the U.S. National Library of Medicine's controlled vocabulary thesaurus used for indexing articles for PubMed.",
+      "URL": "https://id.nlm.nih.gov/mesh/M0508017.html",
+      "LicenseNote": "Works produced by the U.S. government are not subject to copyright protection in the United States. Any such works found on National Library of Medicine (NLM) Web sites may be freely used or reproduced without permission in the U.S.",
+      "LicenseURL": "https://www.nlm.nih.gov/copyright.html"
+    }
+  ]
+}

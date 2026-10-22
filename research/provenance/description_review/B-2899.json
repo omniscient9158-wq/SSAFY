@@ -1,0 +1,143 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 39327,
+  "RecordTitle": "Oxyfluorfen",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 4,
+              "Description": "Physical Description",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Oxyfluorfen is an orange crystalline solid. Non corrosive. Used as an herbicide.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Oxyfluorfen",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-39327"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 6,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Oxyfluorfen is an aromatic ether. It has a role as a herbicide and an EC 1.3.3.4 (protoporphyrinogen oxidase) inhibitor.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Oxyfluorfen",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-39327"
+                      },
+                      {
+                        "Start": 82,
+                        "Length": 18,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/protoporphyrinogen",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-121893"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 63,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Oxyfluorfen is a selective pre and postemergent herbicide used to control certain annual broadleaf and grassy weeds in vegetables, fruit, cotton, es] ornamentals and on non-crop areas. It is a contact herbicide and light is required for it to affect target plants.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Oxyfluorfen",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-39327"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 68,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "structure"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 4,
+      "SourceName": "CAMEO Chemicals",
+      "SourceID": "18185",
+      "Name": "OXYFLUORFEN",
+      "Description": "CAMEO Chemicals is a chemical database designed for people who are involved in hazardous material incident response and planning. CAMEO Chemicals contains a library with thousands of datasheets containing response-related information and recommendations for hazardous materials that are commonly transported, used, or stored in the United States. CAMEO Chemicals was developed by the National Oceanic and Atmospheric Administration's Office of Response and Restoration in partnership with the Environmental Protection Agency's Office of Emergency Management.",
+      "URL": "https://cameochemicals.noaa.gov/chemical/18185",
+      "LicenseNote": "CAMEO Chemicals and all other CAMEO products are available at no charge to those organizations and individuals (recipients) responsible for the safe handling of chemicals. However, some of the chemical data itself is subject to the copyright restrictions of the companies or organizations that provided the data.",
+      "LicenseURL": "https://cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm?d_f=false",
+      "ANID": 760104
+    },
+    {
+      "ReferenceNumber": 6,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:39327",
+      "Name": "Oxyfluorfen",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:82029",
+      "ANID": 2515254
+    },
+    {
+      "ReferenceNumber": 63,
+      "SourceName": "Toxin and Toxin Target Database (T3DB)",
+      "SourceID": "Compound::T3D3896",
+      "Name": "Oxyfluorfen",
+      "Description": "The Toxin and Toxin Target Database (T3DB), or, soon to be referred as, the Toxic Exposome Database, is a unique bioinformatics resource that combines detailed toxin data with comprehensive toxin target information.",
+      "URL": "http://www.t3db.ca/toxins/T3D3896",
+      "LicenseNote": "T3DB is offered to the public as a freely available resource. Use and re-distribution of the data, in whole or in part, for commercial purposes requires explicit permission of the authors and explicit acknowledgment of the source material (T3DB) and the original publication.",
+      "LicenseURL": "https://t3db.ca/downloads",
+      "ANID": 20443329
+    },
+    {
+      "ReferenceNumber": 68,
+      "SourceName": "Medical Subject Headings (MeSH)",
+      "SourceID": "M0065753",
+      "Name": "oxyfluorofen",
+      "Description": "MeSH (Medical Subject Headings) is the U.S. National Library of Medicine's controlled vocabulary thesaurus used for indexing articles for PubMed.",
+      "URL": "https://id.nlm.nih.gov/mesh/M0065753.html",
+      "LicenseNote": "Works produced by the U.S. government are not subject to copyright protection in the United States. Any such works found on National Library of Medicine (NLM) Web sites may be freely used or reproduced without permission in the U.S.",
+      "LicenseURL": "https://www.nlm.nih.gov/copyright.html"
+    }
+  ]
+}

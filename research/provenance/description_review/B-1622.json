@@ -1,0 +1,153 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 14337,
+  "RecordTitle": "Cycloate",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 1,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Cycloate can cause developmental toxicity according to The Environmental Protection Agency (EPA).",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Cycloate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-14337"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 3,
+              "Description": "Physical Description",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Cycloate is a colorless liquid with an aromatic odor. Used as a selective systemic herbicide.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Cycloate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-14337"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 5,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Cycloate is a primary aliphatic amine.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Cycloate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-14337"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 43,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Cycloate is selective thiocarbamate herbicide which will provide effective preemergence control of nutsedge (Cyperus spp.) and annual grasses. Broadleaf weeds such as black nightshade (Solanum nigrum), hairy nightshade (Solanum villosum), henbit (Lamium spp.), lambsquarters (Chenopodium album), purslane (Portulaca oleracea), redroot pigweed (Amaranthus retroflexus), shepherdspurse (Capsella bursapastoris), and small stinging nettle (burning nettle) can also be controlled with this herbicide. Thiocarbamates are mainly used in agriculture as insecticides, herbicides, and fungicides.  Additional uses are as biocides for industrial or other commercial applications, and in household products.  Some are used for vector control in public health. Thiocarbamates are mostly liquids or solids with low melting points.\n",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Cycloate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-14337"
+                      },
+                      {
+                        "Start": 22,
+                        "Length": 13,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/thiocarbamate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-21226412"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 1,
+      "SourceName": "California Office of Environmental Health Hazard Assessment (OEHHA)",
+      "SourceID": "25624:14337",
+      "Name": "Cycloate",
+      "Description": "The CA Office of Environmental Health Hazard Assessment (OEHHA) is the lead state agency for the assessment of health risks posed by environmental contaminants. OEHHA implements the Safe Drinking Water and Toxic Enforcement Act of 1986, commonly known as Proposition 65, and compiles the state's list of substances that cause cancer or reproductive harm.",
+      "URL": "https://oehha.ca.gov/proposition-65/chemicals/cycloate",
+      "ANID": 39338644
+    },
+    {
+      "ReferenceNumber": 3,
+      "SourceName": "CAMEO Chemicals",
+      "SourceID": "18083",
+      "Name": "CYCLOATE",
+      "Description": "CAMEO Chemicals is a chemical database designed for people who are involved in hazardous material incident response and planning. CAMEO Chemicals contains a library with thousands of datasheets containing response-related information and recommendations for hazardous materials that are commonly transported, used, or stored in the United States. CAMEO Chemicals was developed by the National Oceanic and Atmospheric Administration's Office of Response and Restoration in partnership with the Environmental Protection Agency's Office of Emergency Management.",
+      "URL": "https://cameochemicals.noaa.gov/chemical/18083",
+      "LicenseNote": "CAMEO Chemicals and all other CAMEO products are available at no charge to those organizations and individuals (recipients) responsible for the safe handling of chemicals. However, some of the chemical data itself is subject to the copyright restrictions of the companies or organizations that provided the data.",
+      "LicenseURL": "https://cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm?d_f=false",
+      "ANID": 757631
+    },
+    {
+      "ReferenceNumber": 5,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:14337",
+      "Name": "Cycloate",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:81955",
+      "ANID": 2448510
+    },
+    {
+      "ReferenceNumber": 43,
+      "SourceName": "Toxin and Toxin Target Database (T3DB)",
+      "SourceID": "Compound::T3D0951",
+      "Name": "Cycloate",
+      "Description": "The Toxin and Toxin Target Database (T3DB), or, soon to be referred as, the Toxic Exposome Database, is a unique bioinformatics resource that combines detailed toxin data with comprehensive toxin target information.",
+      "URL": "http://www.t3db.ca/toxins/T3D0951",
+      "LicenseNote": "T3DB is offered to the public as a freely available resource. Use and re-distribution of the data, in whole or in part, for commercial purposes requires explicit permission of the authors and explicit acknowledgment of the source material (T3DB) and the original publication.",
+      "LicenseURL": "https://t3db.ca/downloads",
+      "ANID": 20441185
+    }
+  ]
+}

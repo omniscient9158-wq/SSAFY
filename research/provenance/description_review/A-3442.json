@@ -1,0 +1,55 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 136699112,
+  "RecordTitle": "disodium;3-[2-hydroxyethyl-[6-[4-[(E)-2-[4-[[6-[2-hydroxyethyl-(3-imino-3-oxidopropyl)amino]-4-phenylimino-1H-1,3,5-triazin-2-ylidene]amino]-2-sulfophenyl]ethenyl]-3-sulfophenyl]imino-4-phenylimino-1H-1,3,5-triazin-2-yl]amino]propanimidate",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 3,
+              "Name": "See Also",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "See other relationships...",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "#section=Other-Relationships"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 26,
+                        "URL": "#section=Other-Relationships"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 3,
+      "SourceName": "PubChem",
+      "SourceID": "PubChem",
+      "Description": "Data deposited in or computed by PubChem",
+      "URL": "https://pubchem.ncbi.nlm.nih.gov"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 31219,
+  "RecordTitle": "Benzyl propionate",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 5,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Benzyl propionate is a carboxylic ester. It is functionally related to a benzyl alcohol.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 17,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Benzyl%20propionate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-31219"
+                      },
+                      {
+                        "Start": 73,
+                        "Length": 14,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/benzyl%20alcohol",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-244"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 38,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "benzyl propionate has been reported in Hesperis matronalis, Matricaria chamomilla, and other organisms with data available.",
+                    "Markup": [
+                      {
+                        "Start": 39,
+                        "Length": 19,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/264418#section=Natural-Products"
+                      },
+                      {
+                        "Start": 60,
+                        "Length": 21,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/98504#section=Natural-Products"
+                      },
+                      {
+                        "Start": 87,
+                        "Length": 15,
+                        "URL": "#section=Taxonomy"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 17,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/benzyl%20propionate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-31219"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 5,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:31219",
+      "Name": "Benzyl propionate",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:180401",
+      "ANID": 14417036
+    },
+    {
+      "ReferenceNumber": 38,
+      "SourceName": "LOTUS - the natural products occurrence database",
+      "SourceID": "Q10869281",
+      "Name": "benzyl propionate",
+      "Description": "LOTUS is one of the largest openly available, collaboratively maintained resources for natural product occurrences. It is free to use without restriction, supports global reuse across languages and communities, and is built on Wikidata, a shared and openly editable knowledge base.",
+      "URL": "https://www.wikidata.org/wiki/Q10869281",
+      "LicenseNote": "The LOTUS data is available under CC0 licence.",
+      "LicenseURL": "https://lotus.nprod.net/",
+      "ANID": 19840263
+    }
+  ]
+}

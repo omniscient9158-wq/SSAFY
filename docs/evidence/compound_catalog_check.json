@@ -1,0 +1,19 @@
+{
+  "train_catalog": 7488,
+  "reviewed": 6,
+  "review_pending": 94,
+  "record_only": 7388,
+  "niacinamide_id": "A-659",
+  "alias_identity_source": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C98920",
+  "checks": [
+    "Korean/English/CAS/InChIKey lookup",
+    "CSV 7488 rows roundtrip",
+    "catalog selection opens analysis",
+    "exact English alias beats derivative",
+    "Wikidata Korean ethanol/glycerol/acetone lookup",
+    "reviewed-only filter 6",
+    "last page 38 rows"
+  ],
+  "wiki_candidate_compounds": 2116,
+  "api_calls": 0
+}

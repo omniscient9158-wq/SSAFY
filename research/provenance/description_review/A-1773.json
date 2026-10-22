@@ -1,0 +1,46 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 95392,
+  "RecordTitle": "Ethyl 2,4-dimethyl-1,3-dioxolane-2-acetate",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 4,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Cis- and trans-Ethyl 2,4-dimethyl-1,3-dioxolane-2-acetate is a fatty acid ester."
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 4,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:95392",
+      "Name": "Cis- and trans-Ethyl 2,4-dimethyl-1,3-dioxolane-2-acetate",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:173896",
+      "ANID": 13717306
+    }
+  ]
+}

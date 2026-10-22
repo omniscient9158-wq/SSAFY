@@ -1,0 +1,133 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 42586,
+  "RecordTitle": "Metalaxyl",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 6,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Methyl N-(2,6-dimethylphenyl)-N-(methoxyacetyl)alaninate is an alanine derivative that is methyl alaninate in which one of the hydrogens attached to the nitrogen is substituted by a methoxyacetyl group, while the other is substituted by a 2,6-dimethylphenyl group. It is an alanine derivative, a methyl ester, an ether, a carboxamide and an aromatic amide.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 56,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Methyl%20N-%282%2C6-dimethylphenyl%29-N-%28methoxyacetyl%29alaninate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-42586"
+                      },
+                      {
+                        "Start": 63,
+                        "Length": 7,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/alanine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-5950"
+                      },
+                      {
+                        "Start": 90,
+                        "Length": 16,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/methyl%20alaninate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-111314"
+                      },
+                      {
+                        "Start": 153,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/element/Nitrogen",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "Element-Nitrogen"
+                      },
+                      {
+                        "Start": 274,
+                        "Length": 7,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/alanine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-5950"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 120,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "(±)-Metalaxyl is a systemic agricultural fungicide belonging to the family of Depsipeptides. These are natural or synthetic compounds having sequences of amino and hydroxy carboxylic acid residues (usually I-amino and I-hydroxy acids), commonly but not necessarily regularly alternating.",
+                    "Markup": [
+                      {
+                        "Start": 4,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Metalaxyl",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-42586"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 125,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "RN given refers to (DL-Ala)-isomer"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 6,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:42586",
+      "Name": "Methyl N-(2,6-dimethylphenyl)-N-(methoxyacetyl)alaninate",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:82790",
+      "ANID": 2453370
+    },
+    {
+      "ReferenceNumber": 120,
+      "SourceName": "Toxin and Toxin Target Database (T3DB)",
+      "SourceID": "Compound::T3D1088",
+      "Name": "(±)-Metalaxyl",
+      "Description": "The Toxin and Toxin Target Database (T3DB), or, soon to be referred as, the Toxic Exposome Database, is a unique bioinformatics resource that combines detailed toxin data with comprehensive toxin target information.",
+      "URL": "http://www.t3db.ca/toxins/T3D1088",
+      "LicenseNote": "T3DB is offered to the public as a freely available resource. Use and re-distribution of the data, in whole or in part, for commercial purposes requires explicit permission of the authors and explicit acknowledgment of the source material (T3DB) and the original publication.",
+      "LicenseURL": "https://t3db.ca/downloads",
+      "ANID": 20441299
+    },
+    {
+      "ReferenceNumber": 125,
+      "SourceName": "Medical Subject Headings (MeSH)",
+      "SourceID": "M0090944",
+      "Name": "metalaxyl",
+      "Description": "MeSH (Medical Subject Headings) is the U.S. National Library of Medicine's controlled vocabulary thesaurus used for indexing articles for PubMed.",
+      "URL": "https://id.nlm.nih.gov/mesh/M0090944.html",
+      "LicenseNote": "Works produced by the U.S. government are not subject to copyright protection in the United States. Any such works found on National Library of Medicine (NLM) Web sites may be freely used or reproduced without permission in the U.S.",
+      "LicenseURL": "https://www.nlm.nih.gov/copyright.html"
+    }
+  ]
+}

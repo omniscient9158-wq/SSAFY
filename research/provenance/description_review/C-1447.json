@@ -1,0 +1,56 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 92384,
+  "RecordTitle": "Hexachlorodiphenyloxide",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 1,
+              "Description": "Physical Description",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "209 chlorinated diphenyl oxides existed when all possible isomers are counted. The chemical formulas of these substances range from C12H9OCl to C12OCl10. The compounds are generally waxy solids or liquids, but appearance, odor and other properties vary. The compound hexachlorodiphenyl oxide C12H4OCl6 is taken to represent this group by OHSA (http://www.osha.gov/dts/chemicalsampling/data/CH_226400.html)  Used in the manufacture of flame-inhibiting polymers, as corrosion inhibitors, dry-cleaning detergents, thermal lubricants, additives for soaps and lotions, and in the manufacture of hydraulic fluids, pesticides, wood preservatives, and electric insulators.",
+                    "Markup": [
+                      {
+                        "Start": 267,
+                        "Length": 24,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/hexachlorodiphenyl%20oxide",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-92384"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 1,
+      "SourceName": "CAMEO Chemicals",
+      "SourceID": "25009",
+      "Name": "CHLORINATED DIPHENYL OXIDE",
+      "Description": "CAMEO Chemicals is a chemical database designed for people who are involved in hazardous material incident response and planning. CAMEO Chemicals contains a library with thousands of datasheets containing response-related information and recommendations for hazardous materials that are commonly transported, used, or stored in the United States. CAMEO Chemicals was developed by the National Oceanic and Atmospheric Administration's Office of Response and Restoration in partnership with the Environmental Protection Agency's Office of Emergency Management.",
+      "URL": "https://cameochemicals.noaa.gov/chemical/25009",
+      "LicenseNote": "CAMEO Chemicals and all other CAMEO products are available at no charge to those organizations and individuals (recipients) responsible for the safe handling of chemicals. However, some of the chemical data itself is subject to the copyright restrictions of the companies or organizations that provided the data.",
+      "LicenseURL": "https://cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm?d_f=false",
+      "ANID": 757324
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 75628,
+  "RecordTitle": "Tris(isopropylphenyl) phosphate",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 1,
+              "Description": "Physical Description",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Tris(4-isopropylphenyl)phosphate is a yellow waxy solid.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 32,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Tris%284-isopropylphenyl%29phosphate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-75628"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 35,
+              "Name": "See Also",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "See also: Phenol, (1-methylethyl)-, phosphate (3:1) (annotation moved to).",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "#section=Other-Relationships"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 41,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Phenol%2C%20%281%2Dmethylethyl%29%2D%2C%20phosphate%20%283%3A1%29"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 1,
+      "SourceName": "CAMEO Chemicals",
+      "SourceID": "20552",
+      "Name": "TRIS(4-ISOPROPYLPHENYL)PHOSPHATE",
+      "Description": "CAMEO Chemicals is a chemical database designed for people who are involved in hazardous material incident response and planning. CAMEO Chemicals contains a library with thousands of datasheets containing response-related information and recommendations for hazardous materials that are commonly transported, used, or stored in the United States. CAMEO Chemicals was developed by the National Oceanic and Atmospheric Administration's Office of Response and Restoration in partnership with the Environmental Protection Agency's Office of Emergency Management.",
+      "URL": "https://cameochemicals.noaa.gov/chemical/20552",
+      "LicenseNote": "CAMEO Chemicals and all other CAMEO products are available at no charge to those organizations and individuals (recipients) responsible for the safe handling of chemicals. However, some of the chemical data itself is subject to the copyright restrictions of the companies or organizations that provided the data.",
+      "LicenseURL": "https://cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm?d_f=false",
+      "ANID": 761378
+    },
+    {
+      "ReferenceNumber": 35,
+      "SourceName": "PubChem",
+      "SourceID": "PubChem",
+      "Description": "Data deposited in or computed by PubChem",
+      "URL": "https://pubchem.ncbi.nlm.nih.gov"
+    }
+  ]
+}

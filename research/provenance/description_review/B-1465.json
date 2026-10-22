@@ -1,0 +1,288 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 12699,
+  "RecordTitle": "N-Methyl-N-nitrosourea",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 1,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "N-Nitroso-N-methylurea can cause cancer according to an independent committee of scientific and health experts.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 22,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/N-Nitroso-N-methylurea",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-12699"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 3,
+              "Description": "Physical Description",
+              "Reference": [
+                "National Toxicology Program, Institute of Environmental Health Sciences, National Institutes of Health (NTP). 1992. National Toxicology Program Chemical Repository Database. Research Triangle Park, North Carolina."
+              ],
+              "ExtendedReference": [
+                {
+                  "Citation": "National Toxicology Program, Institute of Environmental Health Sciences, National Institutes of Health (NTP). 1992. National Toxicology Program Chemical Repository Database. Research Triangle Park, North Carolina.",
+                  "Matched": {
+                    "PCLID": 900163266,
+                    "Citation": "National Toxicology Program, Institute of Environmental Health Sciences, National Institutes of Health (NTP). 1992. National Toxicology Program Chemical Repository Database. Research Triangle Park, North Carolina."
+                  }
+                }
+              ],
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "N-nitroso-n-methylurea appears as pale yellow crystals or light yellow moist powder. (NTP, 1992)",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 22,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/N-nitroso-n-methylurea",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-12699"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 5,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "N-methyl-N-nitrosourea is a member of the class of N-nitrosoureas that is urea in which one of the nitrogens is substituted by methyl and nitroso groups. It has a role as an alkylating agent, a mutagen, a carcinogenic agent and a teratogenic agent.",
+                    "Markup": [
+                      {
+                        "Start": 51,
+                        "Length": 1,
+                        "Type": "Italics"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 22,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/N-methyl-N-nitrosourea",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-12699"
+                      },
+                      {
+                        "Start": 74,
+                        "Length": 4,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/urea",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-1176"
+                      },
+                      {
+                        "Start": 127,
+                        "Length": 6,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/methyl",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-3034819"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 15,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "N-Nitroso-n-methylurea has been studied in mutagenicity and genetics studies and for use as a cancer chemotherapy agent. No commercial use of N-nitroso-n-methylurea is known. Acute (short-term) exposure toN-nitroso-n-methylurea in humans causes dermatitis. No information is available on the chronic (long-term), reproductive, developmental, or carcinogenic effects of N-nitroso-n-methylurea in humans or animals. Tumors have been reported in the offspring of animals treated with N-nitroso-n- methylurea during their pregnancy. Animal studies have reported tumors of the brain, spinal cord, nerves, stomach, pancreas, and kidneys from oral exposure to N-nitroso-n-methylurea. EPA has classified N- nitroso-n-methylurea as a Group B2, probable human carcinogen.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 22,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/N-Nitroso-n-methylurea",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-12699"
+                      },
+                      {
+                        "Start": 142,
+                        "Length": 22,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/N-nitroso-n-methylurea",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-12699"
+                      },
+                      {
+                        "Start": 369,
+                        "Length": 22,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/N-nitroso-n-methylurea",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-12699"
+                      },
+                      {
+                        "Start": 481,
+                        "Length": 23,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/N-nitroso-n-methylurea",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-12699"
+                      },
+                      {
+                        "Start": 653,
+                        "Length": 22,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/N-nitroso-n-methylurea",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-12699"
+                      },
+                      {
+                        "Start": 696,
+                        "Length": 23,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/N-nitroso-n-methylurea",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-12699"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 29,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Methylnitrosourea is a pale yellow, crystalline nitrosourea that is sensitive to light and moisture and emits toxic fumes of nitrogen oxides when heated to decomposition. Methylnitrosourea is an alkylating agent that is primarily used for research purposes to induce tumors and has also been studied as a chemotherapy agent for cancer treatment. Exposure to methylnitrosourea causes dermatitis. Methylnitrosourea is reasonably anticipated to be a human carcinogen. (NCI05)",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 17,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Methylnitrosourea",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-12699"
+                      },
+                      {
+                        "Start": 48,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/nitrosourea",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-105035"
+                      },
+                      {
+                        "Start": 171,
+                        "Length": 17,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Methylnitrosourea",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-12699"
+                      },
+                      {
+                        "Start": 358,
+                        "Length": 17,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/methylnitrosourea",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-12699"
+                      },
+                      {
+                        "Start": 395,
+                        "Length": 17,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Methylnitrosourea",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-12699"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 44,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "A nitrosourea compound with alkylating, carcinogenic, and mutagenic properties."
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 1,
+      "SourceName": "California Office of Environmental Health Hazard Assessment (OEHHA)",
+      "SourceID": "25624:12699",
+      "Name": "N-Nitroso-N-methylurea",
+      "Description": "The CA Office of Environmental Health Hazard Assessment (OEHHA) is the lead state agency for the assessment of health risks posed by environmental contaminants. OEHHA implements the Safe Drinking Water and Toxic Enforcement Act of 1986, commonly known as Proposition 65, and compiles the state's list of substances that cause cancer or reproductive harm.",
+      "URL": "https://oehha.ca.gov/proposition-65/chemicals/n-nitroso-n-methylurea",
+      "ANID": 39339094
+    },
+    {
+      "ReferenceNumber": 3,
+      "SourceName": "CAMEO Chemicals",
+      "SourceID": "16117",
+      "Name": "N-NITROSO-N-METHYLUREA",
+      "Description": "CAMEO Chemicals is a chemical database designed for people who are involved in hazardous material incident response and planning. CAMEO Chemicals contains a library with thousands of datasheets containing response-related information and recommendations for hazardous materials that are commonly transported, used, or stored in the United States. CAMEO Chemicals was developed by the National Oceanic and Atmospheric Administration's Office of Response and Restoration in partnership with the Environmental Protection Agency's Office of Emergency Management.",
+      "URL": "https://cameochemicals.noaa.gov/chemical/16117",
+      "LicenseNote": "CAMEO Chemicals and all other CAMEO products are available at no charge to those organizations and individuals (recipients) responsible for the safe handling of chemicals. However, some of the chemical data itself is subject to the copyright restrictions of the companies or organizations that provided the data.",
+      "LicenseURL": "https://cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm?d_f=false",
+      "ANID": 759706
+    },
+    {
+      "ReferenceNumber": 5,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:12699",
+      "Name": "N-methyl-N-nitrosourea",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:50102",
+      "ANID": 2463463
+    },
+    {
+      "ReferenceNumber": 15,
+      "SourceName": "EPA Hazardous Air Pollutants",
+      "SourceID": "epaair_133",
+      "Name": "N-Nitroso- n-methylurea",
+      "Description": "EPA Health Effects Notebook for Hazardous Air Pollutants",
+      "URL": "https://www.epa.gov/sites/default/files/2016-09/documents/n-nitroso-n-methylurea.pdf",
+      "LicenseURL": "https://www.epa.gov/web-policies-and-procedures/epa-disclaimers",
+      "ANID": 8862922
+    },
+    {
+      "ReferenceNumber": 29,
+      "SourceName": "NCI Thesaurus (NCIt)",
+      "SourceID": "C645::Compound",
+      "Description": "NCI Thesaurus (NCIt), from the U.S. National Cancer Institute, provides reference terminology for many NCI and other systems. It covers vocabulary for clinical care, translational and basic research, and public information and administrative activities.",
+      "URL": "https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C645",
+      "LicenseNote": "Unless otherwise indicated, all text within NCI products is free of copyright and may be reused without our permission. Credit the National Cancer Institute as the source.",
+      "LicenseURL": "https://www.cancer.gov/policies/copyright-reuse",
+      "ANID": 14396884
+    },
+    {
+      "ReferenceNumber": 44,
+      "SourceName": "Medical Subject Headings (MeSH)",
+      "SourceID": "M0013652",
+      "Name": "Methylnitrosourea",
+      "Description": "MeSH (Medical Subject Headings) is the U.S. National Library of Medicine's controlled vocabulary thesaurus used for indexing articles for PubMed.",
+      "URL": "https://id.nlm.nih.gov/mesh/M0013652.html",
+      "LicenseNote": "Works produced by the U.S. government are not subject to copyright protection in the United States. Any such works found on National Library of Medicine (NLM) Web sites may be freely used or reproduced without permission in the U.S.",
+      "LicenseURL": "https://www.nlm.nih.gov/copyright.html"
+    }
+  ]
+}

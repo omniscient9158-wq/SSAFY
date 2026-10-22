@@ -1,0 +1,136 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 22890,
+  "RecordTitle": "Allyxycarb",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 2,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Allyxycarb is a member of benzenes.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 10,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Allyxycarb",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-22890"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 13,
+              "ExtendedReference": [
+                {
+                  "Citation": "L795: Fishel F (2009). Pesticide Toxicity Profile: Carbamate Pesticides. University of Florida, IFAS Extension. http://edis.ifas.ufl.edu/PI088",
+                  "Matched": {
+                    "PCLID": 900178123,
+                    "Citation": "L795: Fishel F (2009). Pesticide Toxicity Profile: Carbamate Pesticides. University of Florida, IFAS Extension. http://edis.ifas.ufl.edu/PI088"
+                  }
+                }
+              ],
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Allyxycarb is a carbamate pesticide. Carbamate pesticides are derived from carbamic acid and kill insects in a similar fashion as organophosphate insecticides. They are widely used in homes, gardens and agriculture. The first carbamate, carbaryl, was introduced in 1956 and more of it has been used throughout the world than all other carbamates combined. Because of carbaryl's relatively low mammalian oral and dermal toxicity and broad control spectrum, it has had wide use in lawn and garden settings. Most of the carbamates are extremely toxic to Hymenoptera, and precautions must be taken to avoid exposure to foraging bees or parasitic wasps. Some of the carbamates are translocated within plants, making them an effective systemic treatment. (L795)",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 10,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Allyxycarb",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-22890"
+                      },
+                      {
+                        "Start": 16,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/carbamate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-276"
+                      },
+                      {
+                        "Start": 37,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Carbamate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-276"
+                      },
+                      {
+                        "Start": 75,
+                        "Length": 13,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/carbamic%20acid",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-277"
+                      },
+                      {
+                        "Start": 226,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/carbamate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-276"
+                      },
+                      {
+                        "Start": 237,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/carbaryl",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-6129"
+                      },
+                      {
+                        "Start": 367,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/carbaryl",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-6129"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 2,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:22890",
+      "Name": "Allyxycarb",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:82087",
+      "ANID": 2498144
+    },
+    {
+      "ReferenceNumber": 13,
+      "SourceName": "Toxin and Toxin Target Database (T3DB)",
+      "SourceID": "Compound::T3D0921",
+      "Name": "Allyxycarb",
+      "Description": "The Toxin and Toxin Target Database (T3DB), or, soon to be referred as, the Toxic Exposome Database, is a unique bioinformatics resource that combines detailed toxin data with comprehensive toxin target information.",
+      "URL": "http://www.t3db.ca/toxins/T3D0921",
+      "LicenseNote": "T3DB is offered to the public as a freely available resource. Use and re-distribution of the data, in whole or in part, for commercial purposes requires explicit permission of the authors and explicit acknowledgment of the source material (T3DB) and the original publication.",
+      "LicenseURL": "https://t3db.ca/downloads",
+      "ANID": 20441157
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 38193,
+  "RecordTitle": "2,8-Dichlorodibenzo-p-dioxin",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 15,
+              "ExtendedReference": [
+                {
+                  "Citation": "L177: ATSDR - Agency for Toxic Substances and Disease Registry (1998). Toxicological profile for chlorinated dibenzo-p-dioxins (CDDs). U.S. Public Health Service in collaboration with U.S. Environmental Protection Agency (EPA). http://www.atsdr.cdc.gov/toxprofiles/tp104.html",
+                  "Matched": {
+                    "PCLID": 900177066,
+                    "Citation": "L177: ATSDR - Agency for Toxic Substances and Disease Registry (1998). Toxicological profile for chlorinated dibenzo-p-dioxins (CDDs). U.S. Public Health Service in collaboration with U.S. Environmental Protection Agency (EPA). http://www.atsdr.cdc.gov/toxprofiles/tp104.html"
+                  }
+                },
+                {
+                  "Citation": "L178: Wikipedia. Polychlorinated dibenzodioxins. Last Updated 19 May 2009. http://en.wikipedia.org/wiki/Polychlorinated_dibenzodioxins",
+                  "Matched": {
+                    "PCLID": 900178212,
+                    "Citation": "L178: Wikipedia. Polychlorinated dibenzodioxins. Last Updated 19 May 2009. http://en.wikipedia.org/wiki/Polychlorinated_dibenzodioxins"
+                  }
+                }
+              ],
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "2,8-Dichlorodibenzo-p-dioxin is one of 75 chlorinated dibenzo-p-dioxin (CDD) congeners. CDDs are a class of manufactured chemicals that consist of dioxin skeletel structures with chlorine substituents. They are also persistent organic pollutants (POPs), thus their production is regulated in most areas. Dioxins occur as by-products from the manufacture of organochlorides, the bleaching of paper, chlorination by waste and drinking water treatment plants, municipal solid waste and industrial incinerators, and natural sources such as volcanoes and forest fires. (L177, L178)",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 28,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/2%2C8-Dichlorodibenzo-p-dioxin",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-38193"
+                      },
+                      {
+                        "Start": 147,
+                        "Length": 6,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/dioxin",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-15625"
+                      },
+                      {
+                        "Start": 179,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/element/Chlorine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "Element-Chlorine"
+                      },
+                      {
+                        "Start": 433,
+                        "Length": 5,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/water",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-962"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 17,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "metabolite for 2,3,7,8-TCDD"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 15,
+      "SourceName": "Toxin and Toxin Target Database (T3DB)",
+      "SourceID": "Compound::T3D2052",
+      "Name": "2,8-Dichlorodibenzo-p-dioxin",
+      "Description": "The Toxin and Toxin Target Database (T3DB), or, soon to be referred as, the Toxic Exposome Database, is a unique bioinformatics resource that combines detailed toxin data with comprehensive toxin target information.",
+      "URL": "http://www.t3db.ca/toxins/T3D2052",
+      "LicenseNote": "T3DB is offered to the public as a freely available resource. Use and re-distribution of the data, in whole or in part, for commercial purposes requires explicit permission of the authors and explicit acknowledgment of the source material (T3DB) and the original publication.",
+      "LicenseURL": "https://t3db.ca/downloads",
+      "ANID": 20442151
+    },
+    {
+      "ReferenceNumber": 17,
+      "SourceName": "Medical Subject Headings (MeSH)",
+      "SourceID": "M0188460",
+      "Name": "2,8-dichlorodibenzo-4-dioxin",
+      "Description": "MeSH (Medical Subject Headings) is the U.S. National Library of Medicine's controlled vocabulary thesaurus used for indexing articles for PubMed.",
+      "URL": "https://id.nlm.nih.gov/mesh/M0188460.html",
+      "LicenseNote": "Works produced by the U.S. government are not subject to copyright protection in the United States. Any such works found on National Library of Medicine (NLM) Web sites may be freely used or reproduced without permission in the U.S.",
+      "LicenseURL": "https://www.nlm.nih.gov/copyright.html"
+    }
+  ]
+}

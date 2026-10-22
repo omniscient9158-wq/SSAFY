@@ -1,0 +1,496 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 4192,
+  "RecordTitle": "Midazolam",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 7,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Midazolam is an imidazobenzodiazepine that is 4H-imidazo[1,5-a][1,4]benzodiazepine which is substituted by a methyl, 2-fluorophenyl and chloro groups at positions 1, 6 and 8, respectively. It has a role as an anxiolytic drug, a central nervous system depressant, an antineoplastic agent, an anticonvulsant, a sedative, a general anaesthetic, a muscle relaxant, an apoptosis inducer and a GABAA receptor agonist. It is an imidazobenzodiazepine, an organochlorine compound and a member of monofluorobenzenes.",
+                    "Markup": [
+                      {
+                        "Start": 47,
+                        "Length": 1,
+                        "Type": "Italics"
+                      },
+                      {
+                        "Start": 61,
+                        "Length": 1,
+                        "Type": "Italics"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Midazolam",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-4192"
+                      },
+                      {
+                        "Start": 16,
+                        "Length": 21,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/imidazobenzodiazepine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-66618719"
+                      },
+                      {
+                        "Start": 109,
+                        "Length": 6,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/methyl",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-3034819"
+                      },
+                      {
+                        "Start": 136,
+                        "Length": 6,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/chloro",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-121233788"
+                      },
+                      {
+                        "Start": 421,
+                        "Length": 21,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/imidazobenzodiazepine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-66618719"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 16,
+              "Description": "DEA drug/substance description",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Midazolam is a DEA Schedule IV controlled substance. Substances in the DEA Schedule IV have a low potential for abuse relative to substances in Schedule III. It is a Depressants substance.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Midazolam",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-4192"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 17,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Midazolam is a short-acting hypnotic-sedative drug with anxiolytic, muscle relaxant, anticonvulsant, sedative, hypnotic, and amnesic properties. It belongs to a class of drugs called benzodiazepines. This drug is unique from others in this class due to its rapid onset of effects and short duration of action. Midazolam is available by oral, rectal, intranasal, intramuscular (IM), and intravenous (IV) routes and has been used in various biomedical applications, including dentistry, cardiac surgery, and endoscopic procedures as pre-anesthetic medication, and as an adjunct to local anesthesia.  This drug was initially approved by the US FDA in 1985, and has been approved for various indications since. In late 2018, the intramuscular preparation was approved by the FDA for the treatment of status epilepticus in adults. In May 2019, the nasal spray of midazolam was approved for the acute treatment of distinctive intermittent, stereotypic seizure episodes in patients 12 years of age and older. Midazolam is considered a schedule IV drug in the United States due to the low potential for abuse and low risk of dependence.",
+                    "Markup": [
+                      {
+                        "Start": 183,
+                        "Length": 15,
+                        "Type": "Italics"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Midazolam",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-4192"
+                      },
+                      {
+                        "Start": 310,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Midazolam",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-4192"
+                      },
+                      {
+                        "Start": 858,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/midazolam",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-4192"
+                      },
+                      {
+                        "Start": 1002,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Midazolam",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-4192"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 36,
+              "Description": "FDA Pharmacology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Midazolam is a Benzodiazepine.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Midazolam",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-4192"
+                      },
+                      {
+                        "Start": 15,
+                        "Length": 14,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Benzodiazepine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-134664"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 49,
+              "Description": "LiverTox Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Midazolam is an intravenously administered benzodiazepine used as an anesthetic for conscious sedation for minor procedures and as an adjunct for general anesthesia. Midazolam has not been associated with serum aminotransferase elevations during therapy and has not been linked to cases of clinically apparent liver injury.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Midazolam",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-4192"
+                      },
+                      {
+                        "Start": 43,
+                        "Length": 14,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/benzodiazepine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-134664"
+                      },
+                      {
+                        "Start": 166,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Midazolam",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-4192"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 92,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Midazolam is a short-acting benzodiazepine derivative with an imidazole structure and with anxiolytic, amnestic, hypnotic, anticonvulsant and sedative properties. Midazolam exerts its effect by binding to the benzodiazepine receptor at the gamma-aminobutyric acid (GABA) receptor-chloride ionophore complex in the central nervous system (CNS). This leads to an increase in the opening of chloride channels, membrane hyperpolarization and increases the inhibitory effect of GABA in the CNS. Midazolam may also interfere with the reuptake of GABA, thereby causing accumulation of GABA in the synaptic cleft.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Midazolam",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-4192"
+                      },
+                      {
+                        "Start": 28,
+                        "Length": 14,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/benzodiazepine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-134664"
+                      },
+                      {
+                        "Start": 62,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/imidazole",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-795"
+                      },
+                      {
+                        "Start": 163,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Midazolam",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-4192"
+                      },
+                      {
+                        "Start": 209,
+                        "Length": 14,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/benzodiazepine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-134664"
+                      },
+                      {
+                        "Start": 240,
+                        "Length": 23,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/gamma-aminobutyric%20acid",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-119"
+                      },
+                      {
+                        "Start": 265,
+                        "Length": 4,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/GABA",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-119"
+                      },
+                      {
+                        "Start": 280,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/chloride",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-312"
+                      },
+                      {
+                        "Start": 388,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/chloride",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-312"
+                      },
+                      {
+                        "Start": 473,
+                        "Length": 4,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/GABA",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-119"
+                      },
+                      {
+                        "Start": 490,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Midazolam",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-4192"
+                      },
+                      {
+                        "Start": 540,
+                        "Length": 4,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/GABA",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-119"
+                      },
+                      {
+                        "Start": 578,
+                        "Length": 4,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/GABA",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-119"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 122,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "A short-acting hypnotic-sedative drug with anxiolytic and amnestic properties. It is used in dentistry, cardiac surgery, endoscopic procedures, as preanesthetic medication, and as an adjunct to local anesthesia. The short duration and cardiorespiratory stability makes it useful in poor-risk, elderly, and cardiac patients.  It is water-soluble at pH less than 4 and lipid-soluble at physiological pH. [PubChem] Midazolam is a schedule IV drug in the United States.",
+                    "Markup": [
+                      {
+                        "Start": 331,
+                        "Length": 5,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/water",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-962"
+                      },
+                      {
+                        "Start": 412,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Midazolam",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-4192"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 129,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "A short-acting hypnotic-sedative drug with anxiolytic and amnestic properties. It is used in dentistry, cardiac surgery, endoscopic procedures, as preanesthetic medication, and as an adjunct to local anesthesia. The short duration and cardiorespiratory stability makes it useful in poor-risk, elderly, and cardiac patients. It is water-soluble at pH less than 4 and lipid-soluble at physiological pH."
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 130,
+              "Name": "See Also",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "See also: Alprazolam (related); Triazolam (related); Estazolam (related) ... View More ...",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "#section=Other-Relationships"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 10,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/2118"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 10,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?t=s&cid=2118",
+                        "Type": "Icon"
+                      },
+                      {
+                        "Start": 32,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/5556"
+                      },
+                      {
+                        "Start": 32,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?t=s&cid=5556",
+                        "Type": "Icon"
+                      },
+                      {
+                        "Start": 53,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/3261"
+                      },
+                      {
+                        "Start": 53,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?t=s&cid=3261",
+                        "Type": "Icon"
+                      },
+                      {
+                        "Start": 77,
+                        "Length": 9,
+                        "URL": "#section=Other-Relationships"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 7,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:4192",
+      "Name": "Midazolam",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:6931",
+      "ANID": 2504101
+    },
+    {
+      "ReferenceNumber": 16,
+      "SourceName": "Drug Enforcement Administration (DEA)",
+      "SourceID": "sc-IV-2884-Midazolam",
+      "Name": "Midazolam",
+      "Description": "Drugs and other substances that are considered controlled substances under the Controlled Substances Act (CSA) - Title 21 CFR parts 1308.11 through 1308.15: https://www.ecfr.gov/current/title-21/chapter-II/part-1308/",
+      "URL": "https://www.deadiversion.usdoj.gov/schedules/",
+      "LicenseNote": "Unless otherwise indicated, information on Department of Justice websites is in the public domain and may be copied and distributed without permission. Citation of the Department of Justice as source of the information is appreciated, as appropriate.",
+      "LicenseURL": "https://www.justice.gov/legalpolicies",
+      "ANID": 55556471
+    },
+    {
+      "ReferenceNumber": 17,
+      "SourceName": "DrugBank",
+      "SourceID": "DB00683",
+      "Name": "Midazolam",
+      "Description": "The DrugBank database is a unique bioinformatics and cheminformatics resource that combines detailed drug (i.e. chemical, pharmacological and pharmaceutical) data with comprehensive drug target (i.e. sequence, structure, and pathway) information.",
+      "URL": "https://go.drugbank.com/drugs/DB00683",
+      "LicenseNote": "Creative Common's Attribution-NonCommercial 4.0 International License (http://creativecommons.org/licenses/by-nc/4.0/legalcode)",
+      "LicenseURL": "https://www.drugbank.ca/legal/terms_of_use",
+      "ANID": 3605010
+    },
+    {
+      "ReferenceNumber": 36,
+      "SourceName": "FDA Pharm Classes",
+      "SourceID": "R60L0SM5BC",
+      "Name": "MIDAZOLAM",
+      "Description": "FDA Pharmacologic class is a group of active moieties that share scientifically documented properties and is defined on the basis of any combination of attributes of the active moiety. Read more at https://www.fda.gov/industry/structured-product-labeling-resources/pharmacologic-class",
+      "URL": "https://dailymed.nlm.nih.gov/dailymed/browse-drug-classes.cfm",
+      "LicenseNote": "Unless otherwise noted, the contents of the FDA website (www.fda.gov), both text and graphics, are not copyrighted. They are in the public domain and may be republished, reprinted and otherwise used freely by anyone without the need to obtain permission from FDA. Credit to the U.S. Food and Drug Administration as the source is appreciated but not required.",
+      "LicenseURL": "https://www.fda.gov/about-fda/about-website/website-policies#linking",
+      "ANID": 6490738
+    },
+    {
+      "ReferenceNumber": 49,
+      "SourceName": "LiverTox",
+      "SourceID": "Midazolam",
+      "Name": "Midazolam",
+      "Description": "LIVERTOX provides up-to-date, accurate, and easily accessed information on the diagnosis, cause, frequency, patterns, and management of liver injury attributable to prescription and nonprescription medications, herbals and dietary supplements.",
+      "URL": "https://www.ncbi.nlm.nih.gov/books/n/livertox/Midazolam/",
+      "LicenseURL": "https://www.nlm.nih.gov/copyright.html",
+      "IsToxnet": true,
+      "ANID": 2262166
+    },
+    {
+      "ReferenceNumber": 92,
+      "SourceName": "NCI Thesaurus (NCIt)",
+      "SourceID": "C62049::Compound",
+      "Description": "NCI Thesaurus (NCIt), from the U.S. National Cancer Institute, provides reference terminology for many NCI and other systems. It covers vocabulary for clinical care, translational and basic research, and public information and administrative activities.",
+      "URL": "https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C62049",
+      "LicenseNote": "Unless otherwise indicated, all text within NCI products is free of copyright and may be reused without our permission. Credit the National Cancer Institute as the source.",
+      "LicenseURL": "https://www.cancer.gov/policies/copyright-reuse",
+      "ANID": 14396806
+    },
+    {
+      "ReferenceNumber": 122,
+      "SourceName": "Toxin and Toxin Target Database (T3DB)",
+      "SourceID": "Compound::T3D2859",
+      "Name": "Midazolam",
+      "Description": "The Toxin and Toxin Target Database (T3DB), or, soon to be referred as, the Toxic Exposome Database, is a unique bioinformatics resource that combines detailed toxin data with comprehensive toxin target information.",
+      "URL": "http://www.t3db.ca/toxins/T3D2859",
+      "LicenseNote": "T3DB is offered to the public as a freely available resource. Use and re-distribution of the data, in whole or in part, for commercial purposes requires explicit permission of the authors and explicit acknowledgment of the source material (T3DB) and the original publication.",
+      "LicenseURL": "https://t3db.ca/downloads",
+      "ANID": 20442704
+    },
+    {
+      "ReferenceNumber": 129,
+      "SourceName": "Medical Subject Headings (MeSH)",
+      "SourceID": "M0013843",
+      "Name": "Midazolam",
+      "Description": "MeSH (Medical Subject Headings) is the U.S. National Library of Medicine's controlled vocabulary thesaurus used for indexing articles for PubMed.",
+      "URL": "https://id.nlm.nih.gov/mesh/M0013843.html",
+      "LicenseNote": "Works produced by the U.S. government are not subject to copyright protection in the United States. Any such works found on National Library of Medicine (NLM) Web sites may be freely used or reproduced without permission in the U.S.",
+      "LicenseURL": "https://www.nlm.nih.gov/copyright.html"
+    },
+    {
+      "ReferenceNumber": 130,
+      "SourceName": "PubChem",
+      "SourceID": "PubChem",
+      "Description": "Data deposited in or computed by PubChem",
+      "URL": "https://pubchem.ncbi.nlm.nih.gov"
+    }
+  ]
+}

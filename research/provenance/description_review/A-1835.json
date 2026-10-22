@@ -1,0 +1,191 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 442428,
+  "RecordTitle": "Naringin",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 8,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Naringin is a disaccharide derivative that is (S)-naringenin substituted by a 2-O-(alpha-L-rhamnopyranosyl)-beta-D-glucopyranosyl moiety at position 7 via a glycosidic linkage. It has a role as a metabolite, an antineoplastic agent and an anti-inflammatory agent. It is a member of 4'-hydroxyflavanones, a (2S)-flavan-4-one, a neohesperidoside, a dihydroxyflavanone and a disaccharide derivative. It is functionally related to a (S)-naringenin.",
+                    "Markup": [
+                      {
+                        "Start": 47,
+                        "Length": 1,
+                        "Type": "Italics"
+                      },
+                      {
+                        "Start": 80,
+                        "Length": 1,
+                        "Type": "Italics"
+                      },
+                      {
+                        "Start": 89,
+                        "Length": 1,
+                        "Type": "Small"
+                      },
+                      {
+                        "Start": 113,
+                        "Length": 1,
+                        "Type": "Small"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Naringin",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-442428"
+                      },
+                      {
+                        "Start": 46,
+                        "Length": 14,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/%28S%29-naringenin",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-439246"
+                      },
+                      {
+                        "Start": 306,
+                        "Length": 17,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/%282S%29-flavan-4-one",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-439652"
+                      },
+                      {
+                        "Start": 429,
+                        "Length": 14,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/%28S%29-naringenin",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-439246"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 48,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "naringin has been reported in Salvia officinalis, Citrus japonica, and other organisms with data available.",
+                    "Markup": [
+                      {
+                        "Start": 30,
+                        "Length": 18,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/38868#section=Natural-Products"
+                      },
+                      {
+                        "Start": 50,
+                        "Length": 15,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/76966#section=Natural-Products"
+                      },
+                      {
+                        "Start": 71,
+                        "Length": 15,
+                        "URL": "#section=Taxonomy"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/naringin",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-442428"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 127,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "structure"
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 128,
+              "Name": "See Also",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "See also: Drynaria fortunei root (part of).",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "#section=Other-Relationships"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 22,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Drynaria%20fortunei%20root"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 8,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:442428",
+      "Name": "Naringin",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28819",
+      "ANID": 2488627
+    },
+    {
+      "ReferenceNumber": 48,
+      "SourceName": "LOTUS - the natural products occurrence database",
+      "SourceID": "Q418469",
+      "Name": "naringin",
+      "Description": "LOTUS is one of the largest openly available, collaboratively maintained resources for natural product occurrences. It is free to use without restriction, supports global reuse across languages and communities, and is built on Wikidata, a shared and openly editable knowledge base.",
+      "URL": "https://www.wikidata.org/wiki/Q418469",
+      "LicenseNote": "The LOTUS data is available under CC0 licence.",
+      "LicenseURL": "https://lotus.nprod.net/",
+      "ANID": 19829599
+    },
+    {
+      "ReferenceNumber": 127,
+      "SourceName": "Medical Subject Headings (MeSH)",
+      "SourceID": "M0046707",
+      "Name": "naringin",
+      "Description": "MeSH (Medical Subject Headings) is the U.S. National Library of Medicine's controlled vocabulary thesaurus used for indexing articles for PubMed.",
+      "URL": "https://id.nlm.nih.gov/mesh/M0046707.html",
+      "LicenseNote": "Works produced by the U.S. government are not subject to copyright protection in the United States. Any such works found on National Library of Medicine (NLM) Web sites may be freely used or reproduced without permission in the U.S.",
+      "LicenseURL": "https://www.nlm.nih.gov/copyright.html"
+    },
+    {
+      "ReferenceNumber": 128,
+      "SourceName": "PubChem",
+      "SourceID": "PubChem",
+      "Description": "Data deposited in or computed by PubChem",
+      "URL": "https://pubchem.ncbi.nlm.nih.gov"
+    }
+  ]
+}

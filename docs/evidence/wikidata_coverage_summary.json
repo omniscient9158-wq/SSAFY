@@ -1,0 +1,24 @@
+{
+  "train_rows": 7488,
+  "unique_inchikeys": 7488,
+  "checked_unique_inchikeys": 7488,
+  "complete": true,
+  "match_status_counts": {
+    "matched_unique": 6281,
+    "not_found": 1117,
+    "ambiguous": 90
+  },
+  "unique_match_with_en_wikipedia": 2114,
+  "unique_match_with_ko_wikipedia": 527,
+  "unique_match_with_any_wikipedia": 2116,
+  "unique_match_with_korean_label": 601,
+  "network_batches": 0,
+  "cached_batches": 75,
+  "failures": [],
+  "output": "data/wikidata_compound_links.jsonl",
+  "gms_calls": 0,
+  "document_text_collected": false,
+  "document_approval": false,
+  "endpoint": "https://query.wikidata.org/sparql",
+  "license_source": "https://www.wikidata.org/wiki/Wikidata:Licensing"
+}

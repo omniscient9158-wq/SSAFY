@@ -1,0 +1,92 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 5355863,
+  "RecordTitle": "cis-Mevinphos",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 3,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Mevinphos is a dialkyl phosphate and an organophosphate insecticide. It has a role as an acaricide, an agrochemical, an avicide and an EC 3.1.1.7 (acetylcholinesterase) inhibitor. It is functionally related to a methyl 3-hydroxybut-2-enoate.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Mevinphos",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-9560"
+                      },
+                      {
+                        "Start": 212,
+                        "Length": 28,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/methyl%203-hydroxybut-2-enoate",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-54691070"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 35,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Mevinphos is an organophosphate insecticide that acts as an acetylcholinesterase inhibitor to control insects in a wide range of crops. It is most commonly used for the control of chewing and sucking insects, as well as spider mites.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Mevinphos",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-9560"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 3,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:5355863",
+      "Name": "Mevinphos",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:38725",
+      "ANID": 2460506
+    },
+    {
+      "ReferenceNumber": 35,
+      "SourceName": "Toxin and Toxin Target Database (T3DB)",
+      "SourceID": "Compound::T3D3884",
+      "Name": "Mevinphos",
+      "Description": "The Toxin and Toxin Target Database (T3DB), or, soon to be referred as, the Toxic Exposome Database, is a unique bioinformatics resource that combines detailed toxin data with comprehensive toxin target information.",
+      "URL": "http://www.t3db.ca/toxins/T3D3884",
+      "LicenseNote": "T3DB is offered to the public as a freely available resource. Use and re-distribution of the data, in whole or in part, for commercial purposes requires explicit permission of the authors and explicit acknowledgment of the source material (T3DB) and the original publication.",
+      "LicenseURL": "https://t3db.ca/downloads",
+      "ANID": 20443317
+    }
+  ]
+}

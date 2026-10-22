@@ -1,0 +1,45 @@
+{
+  "compound_id": "E-1274",
+  "query": "아스피린의 문헌상 수용해도 값, 단위, 온도와 원출처를 알려주세요.",
+  "retrieval_mode": "vector",
+  "top_k": 3,
+  "compound_metadata": {
+    "citation_id": "근거 1",
+    "source_type": "AqSolDB compound metadata",
+    "compound_id": "E-1274",
+    "name": "acetylsalicylic_acid",
+    "inchikey": "BSYNRYMUTXBXSQ-UHFFFAOYSA-N",
+    "smiles": "CC(=O)Oc1ccccc1C(=O)O",
+    "experimental_logS": "-1.72",
+    "logS_definition": "log10 of aqueous solubility in mol/L; LogS is not a temperature",
+    "measurement_temperature": "not provided in this local AqSolDB record",
+    "measurement_pH": "not provided in this local AqSolDB record",
+    "split": "train",
+    "source_group_code": "E",
+    "upstream_source_dataset": "Huuskonen et al.; AQUASOL / PHYSPROP-derived dataset",
+    "paper_reference_number": "[1]",
+    "dataset_doi": "https://doi.org/10.7910/DVN/OVHAW8",
+    "dataset_license": "CC0 1.0 (Harvard Dataverse AqSolDB v1)"
+  },
+  "external_evidence": [
+    {
+      "source_type": "reviewed_external_evidence",
+      "compound_id": "E-1274",
+      "excerpt": "화합물: acetylsalicylic_acid (E-1274)\n문서 항목: Physical Properties / Water Solubility\n검토된 발췌: Water Solubility: less than 1 mg/mL at 73°F (NTP, 1992).\n문서 제공자: NOAA CAMEO Chemicals\n원출처: National Toxicology Program Chemical Repository Database (NTP, 1992)",
+      "document_title": "Physical Properties / Water Solubility",
+      "source_provider": "NOAA CAMEO Chemicals",
+      "original_attribution": "National Toxicology Program Chemical Repository Database (NTP, 1992)",
+      "source_url": "https://cameochemicals.noaa.gov/chemical/19712",
+      "source_terms_status": "Limited educational property excerpt only. CAMEO terms and NTP public-domain policy reviewed; restricted DuPont, CAS-supplied identifiers, NFPA, AEGL and ERPG content is excluded.",
+      "terms_basis_url": "https://cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm; https://ntp.niehs.nih.gov/support/policies; https://www.noaa.gov/office-education/outreach-communication/faq",
+      "reviewed_on": "2026-10-22",
+      "scope_note": "Origin: selected candidate pubchem-cid-2244-solubility-ref-9-1. Only water-solubility upper bound, unit, temperature and NTP attribution. Preserve less than; do not turn it into an exact value or convert to AqSolDB LogS. Exclude medical, hazard, handling and safety content.",
+      "citation_id": "근거 2"
+    }
+  ],
+  "answer": "아스피린(화합물 ID: **E-1274**, 이름: **acetylsalicylic_acid**)의 문헌상 수용해도 정보는 다음과 같습니다.\n\n1) **AqSolDB(메타데이터) LogS 값**\n- 수용해도(상용로그, LogS): **-1.72** [근거 1]  \n- 단위/정의: **log10 of aqueous solubility in mol/L** (표기된 대로 “LogS is not a temperature”) [근거 1]  \n- 온도: **not provided in this local AqSolDB record** [근거 1]  \n- 원출처(데이터셋 계통): **Huuskonen et al.; AQUASOL / PHYSPROP-derived dataset** [근거 1]  \n\n2) **외부 문헌 발췌(수용해도 상한, mg/mL)**\n- 수용해도: **less than 1 mg/mL** [근거 2]  \n- 온도: **73°F** [근거 2]  \n- 단위: **mg/mL** [근거 2]  \n- 원출처(문서 제공자/기원): **NOAA CAMEO Chemicals** 발췌, **National Toxicology Program Chemical Repository Database (NTP, 1992)** [근거 2]",
+  "cited_evidence_ids": [
+    "근거 1",
+    "근거 2"
+  ]
+}

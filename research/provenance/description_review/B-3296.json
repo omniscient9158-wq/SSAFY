@@ -1,0 +1,62 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 101525,
+  "RecordTitle": "Primisulfuron-methyl",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 39,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Primisulfuron-methyl is a urea herbicide that is used on crop and non- crop areas for the control of grass weeds and many kinds of broad-leaved weeds. The compound is a selective postemergence systemic herbicide that is rapidly absorbed by plants and transported throughout the plant roots and foliage. The herbicide works by blocking cell growth in the active growing regions of the plant. The herbicide also acts to inhibit photosynthesis",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 20,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Primisulfuron-methyl",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-101525"
+                      },
+                      {
+                        "Start": 26,
+                        "Length": 4,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/urea",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-1176"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 39,
+      "SourceName": "Toxin and Toxin Target Database (T3DB)",
+      "SourceID": "Compound::T3D3902",
+      "Name": "Primisulfuron-methyl",
+      "Description": "The Toxin and Toxin Target Database (T3DB), or, soon to be referred as, the Toxic Exposome Database, is a unique bioinformatics resource that combines detailed toxin data with comprehensive toxin target information.",
+      "URL": "http://www.t3db.ca/toxins/T3D3902",
+      "LicenseNote": "T3DB is offered to the public as a freely available resource. Use and re-distribution of the data, in whole or in part, for commercial purposes requires explicit permission of the authors and explicit acknowledgment of the source material (T3DB) and the original publication.",
+      "LicenseURL": "https://t3db.ca/downloads",
+      "ANID": 20443335
+    }
+  ]
+}

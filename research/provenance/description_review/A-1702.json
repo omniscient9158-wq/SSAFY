@@ -1,0 +1,176 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 8914,
+  "RecordTitle": "1-Nonanol",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 3,
+              "Description": "Physical Description",
+              "Reference": [
+                "U.S. Coast Guard. 1999. Chemical Hazard Response Information System (CHRIS) - Hazardous Chemical Data. Commandant Instruction 16465.12C. Washington, D.C.: U.S. Government Printing Office."
+              ],
+              "ExtendedReference": [
+                {
+                  "Citation": "U.S. Coast Guard. 1999. Chemical Hazard Response Information System (CHRIS) - Hazardous Chemical Data. Commandant Instruction 16465.12C. Washington, D.C.: U.S. Government Printing Office.",
+                  "Matched": {
+                    "PCLID": 900163264,
+                    "Citation": "U.S. Coast Guard. 1999. Chemical Hazard Response Information System (CHRIS) - Hazardous Chemical Data. Commandant Instruction 16465.12C. Washington, D.C.: U.S. Government Printing Office."
+                  }
+                }
+              ],
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Nonanol appears as colorless liquid with a rose or fruity odor. Floats on water. Freezing point 23 °F. (USCG, 1999)",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 7,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Nonanol",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-8914"
+                      },
+                      {
+                        "Start": 74,
+                        "Length": 5,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/water",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-962"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 6,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Nonan-1-ol is a nonanol that is nonane substituted by a hydroxy group at position 1. It has been isolated as a component of volatile oils from plants like Hordeum vulgare. It has a role as a volatile oil component, a flavouring agent, an antifungal agent and a plant metabolite. It is a primary alcohol and a nonanol.",
+                    "Markup": [
+                      {
+                        "Start": 155,
+                        "Length": 15,
+                        "Type": "Italics"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 10,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Nonan-1-ol",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-21832663"
+                      },
+                      {
+                        "Start": 16,
+                        "Length": 7,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/nonanol",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-8914"
+                      },
+                      {
+                        "Start": 32,
+                        "Length": 6,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/nonane",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-8141"
+                      },
+                      {
+                        "Start": 309,
+                        "Length": 7,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/nonanol",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-8914"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 54,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "1-nonanol has been reported in Humulus lupulus, Zea mays, and other organisms with data available.",
+                    "Markup": [
+                      {
+                        "Start": 31,
+                        "Length": 15,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/3486#section=Natural-Products"
+                      },
+                      {
+                        "Start": 48,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/4577#section=Natural-Products"
+                      },
+                      {
+                        "Start": 62,
+                        "Length": 15,
+                        "URL": "#section=Taxonomy"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 9,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/1-nonanol",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-8914"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 3,
+      "SourceName": "CAMEO Chemicals",
+      "SourceID": "8911",
+      "Name": "NONANOL",
+      "Description": "CAMEO Chemicals is a chemical database designed for people who are involved in hazardous material incident response and planning. CAMEO Chemicals contains a library with thousands of datasheets containing response-related information and recommendations for hazardous materials that are commonly transported, used, or stored in the United States. CAMEO Chemicals was developed by the National Oceanic and Atmospheric Administration's Office of Response and Restoration in partnership with the Environmental Protection Agency's Office of Emergency Management.",
+      "URL": "https://cameochemicals.noaa.gov/chemical/8911",
+      "LicenseNote": "CAMEO Chemicals and all other CAMEO products are available at no charge to those organizations and individuals (recipients) responsible for the safe handling of chemicals. However, some of the chemical data itself is subject to the copyright restrictions of the companies or organizations that provided the data.",
+      "LicenseURL": "https://cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm?d_f=false",
+      "ANID": 759929
+    },
+    {
+      "ReferenceNumber": 6,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:8914",
+      "Name": "Nonan-1-ol",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:35986",
+      "ANID": 2484724
+    },
+    {
+      "ReferenceNumber": 54,
+      "SourceName": "LOTUS - the natural products occurrence database",
+      "SourceID": "Q161662",
+      "Name": "1-nonanol",
+      "Description": "LOTUS is one of the largest openly available, collaboratively maintained resources for natural product occurrences. It is free to use without restriction, supports global reuse across languages and communities, and is built on Wikidata, a shared and openly editable knowledge base.",
+      "URL": "https://www.wikidata.org/wiki/Q161662",
+      "LicenseNote": "The LOTUS data is available under CC0 licence.",
+      "LicenseURL": "https://lotus.nprod.net/",
+      "ANID": 19825784
+    }
+  ]
+}

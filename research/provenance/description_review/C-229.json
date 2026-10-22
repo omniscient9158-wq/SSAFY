@@ -1,0 +1,62 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 7449,
+  "RecordTitle": "3-Nitrobenzaldehyde",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 8,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "3-nitrobenzaldehyde is a benzaldehyde carrying a nitro group at the 3-position. It is a member of benzaldehydes and a C-nitro compound.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 19,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/3-nitrobenzaldehyde",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-7449"
+                      },
+                      {
+                        "Start": 25,
+                        "Length": 12,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/benzaldehyde",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-240"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 8,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:7449",
+      "Name": "3-nitrobenzaldehyde",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:231487",
+      "ANID": 49085380
+    }
+  ]
+}

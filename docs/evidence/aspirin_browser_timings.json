@@ -1,0 +1,9 @@
+{
+  "mode": "local retrieval + GMS generation",
+  "same_session": true,
+  "server_already_running": true,
+  "displayed_timings_newest_first": [
+    "근거 검색 0.06초 · 답변 생성 18.72초",
+    "근거 검색 0.05초 · 답변 생성 4.85초"
+  ]
+}

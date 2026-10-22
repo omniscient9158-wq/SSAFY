@@ -1,0 +1,274 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 7108,
+  "RecordTitle": "Phenothiazine",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 6,
+              "Description": "Physical Description",
+              "Reference": [
+                "National Toxicology Program, Institute of Environmental Health Sciences, National Institutes of Health (NTP). 1992. National Toxicology Program Chemical Repository Database. Research Triangle Park, North Carolina."
+              ],
+              "ExtendedReference": [
+                {
+                  "Citation": "National Toxicology Program, Institute of Environmental Health Sciences, National Institutes of Health (NTP). 1992. National Toxicology Program Chemical Repository Database. Research Triangle Park, North Carolina.",
+                  "Matched": {
+                    "PCLID": 900163266,
+                    "Citation": "National Toxicology Program, Institute of Environmental Health Sciences, National Institutes of Health (NTP). 1992. National Toxicology Program Chemical Repository Database. Research Triangle Park, North Carolina."
+                  }
+                }
+              ],
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Phenothiazine is a light green to steel-blue powder. Acquires a greenish-brown tint under exposure to sunlight. (NTP, 1992)",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 13,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Phenothiazine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-7108"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 9,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "10H-phenothiazine is the 10H-tautomer of phenothiazine. It has a role as a ferroptosis inhibitor, a radical scavenger and a plant metabolite. It is a tautomer of a 4aH-phenothiazine, a 1H-phenothiazine and a 3H-phenothiazine.",
+                    "Markup": [
+                      {
+                        "Start": 27,
+                        "Length": 1,
+                        "Type": "Italics"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 17,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/10H-phenothiazine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-67431816"
+                      },
+                      {
+                        "Start": 41,
+                        "Length": 13,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/phenothiazine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-7108"
+                      },
+                      {
+                        "Start": 164,
+                        "Length": 17,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/4aH-phenothiazine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-16019991"
+                      },
+                      {
+                        "Start": 185,
+                        "Length": 16,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/1H-phenothiazine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-15607651"
+                      },
+                      {
+                        "Start": 208,
+                        "Length": 16,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/3H-phenothiazine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-16019990"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 20,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Phenothiazine (PTZ) is an organic thiazine compound.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 13,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Phenothiazine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-7108"
+                      },
+                      {
+                        "Start": 34,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/thiazine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-15789247"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 48,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "phenothiazine has been reported in Mimosa pudica with data available.",
+                    "Markup": [
+                      {
+                        "Start": 35,
+                        "Length": 13,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/76306#section=Natural-Products"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 13,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/phenothiazine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-7108"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 68,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Phenothiazine is a class of agents exhibiting antiemetic, antipsychotic, antihistaminic, and anticholinergic activities.  Phenothiazines antagonize the dopamine D2-receptor in the chemoreceptor trigger zone (CTZ) of the brain, potentially preventing chemotherapy-induced emesis.  In addition, these agents have peripherally or centrally antagonistic activity against alpha adrenergic, serotonergic, histaminic, and muscarinic receptors. (NCI)",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 13,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Phenothiazine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-7108"
+                      },
+                      {
+                        "Start": 152,
+                        "Length": 11,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/dopamine-D2",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-18598488"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 104,
+              "Name": "See Also",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "See also: Phenothiazine; Piperazine-carbon Disulfide Complex (component of) ... View More ...",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 8,
+                        "URL": "#section=Other-Relationships"
+                      },
+                      {
+                        "Start": 10,
+                        "Length": 50,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Phenothiazine%3B%20Piperazine%2Dcarbon%20Disulfide%20Complex"
+                      },
+                      {
+                        "Start": 80,
+                        "Length": 9,
+                        "URL": "#section=Other-Relationships"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 6,
+      "SourceName": "CAMEO Chemicals",
+      "SourceID": "20886",
+      "Name": "PHENOTHIAZINE",
+      "Description": "CAMEO Chemicals is a chemical database designed for people who are involved in hazardous material incident response and planning. CAMEO Chemicals contains a library with thousands of datasheets containing response-related information and recommendations for hazardous materials that are commonly transported, used, or stored in the United States. CAMEO Chemicals was developed by the National Oceanic and Atmospheric Administration's Office of Response and Restoration in partnership with the Environmental Protection Agency's Office of Emergency Management.",
+      "URL": "https://cameochemicals.noaa.gov/chemical/20886",
+      "LicenseNote": "CAMEO Chemicals and all other CAMEO products are available at no charge to those organizations and individuals (recipients) responsible for the safe handling of chemicals. However, some of the chemical data itself is subject to the copyright restrictions of the companies or organizations that provided the data.",
+      "LicenseURL": "https://cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm?d_f=false",
+      "ANID": 760297
+    },
+    {
+      "ReferenceNumber": 9,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:7108",
+      "Name": "10H-phenothiazine",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:37931",
+      "ANID": 2493818
+    },
+    {
+      "ReferenceNumber": 20,
+      "SourceName": "DrugBank",
+      "SourceID": "DB11447",
+      "Name": "Phenothiazine",
+      "Description": "The DrugBank database is a unique bioinformatics and cheminformatics resource that combines detailed drug (i.e. chemical, pharmacological and pharmaceutical) data with comprehensive drug target (i.e. sequence, structure, and pathway) information.",
+      "URL": "https://go.drugbank.com/drugs/DB11447",
+      "LicenseNote": "Creative Common's Attribution-NonCommercial 4.0 International License (http://creativecommons.org/licenses/by-nc/4.0/legalcode)",
+      "LicenseURL": "https://www.drugbank.ca/legal/terms_of_use",
+      "ANID": 7759827
+    },
+    {
+      "ReferenceNumber": 48,
+      "SourceName": "LOTUS - the natural products occurrence database",
+      "SourceID": "Q410846",
+      "Name": "phenothiazine",
+      "Description": "LOTUS is one of the largest openly available, collaboratively maintained resources for natural product occurrences. It is free to use without restriction, supports global reuse across languages and communities, and is built on Wikidata, a shared and openly editable knowledge base.",
+      "URL": "https://www.wikidata.org/wiki/Q410846",
+      "LicenseNote": "The LOTUS data is available under CC0 licence.",
+      "LicenseURL": "https://lotus.nprod.net/",
+      "ANID": 20136921
+    },
+    {
+      "ReferenceNumber": 68,
+      "SourceName": "NCI Thesaurus (NCIt)",
+      "SourceID": "C740::Compound",
+      "Description": "NCI Thesaurus (NCIt), from the U.S. National Cancer Institute, provides reference terminology for many NCI and other systems. It covers vocabulary for clinical care, translational and basic research, and public information and administrative activities.",
+      "URL": "https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C740",
+      "LicenseNote": "Unless otherwise indicated, all text within NCI products is free of copyright and may be reused without our permission. Credit the National Cancer Institute as the source.",
+      "LicenseURL": "https://www.cancer.gov/policies/copyright-reuse",
+      "ANID": 14394787
+    },
+    {
+      "ReferenceNumber": 104,
+      "SourceName": "PubChem",
+      "SourceID": "PubChem",
+      "Description": "Data deposited in or computed by PubChem",
+      "URL": "https://pubchem.ncbi.nlm.nih.gov"
+    }
+  ]
+}

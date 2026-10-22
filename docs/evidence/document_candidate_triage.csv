@@ -1,0 +1,95 @@
+﻿AqSolDB_ID,document_url,identity_matches_stored_audit,description_characters,has_original_citation,triage_status,next_step,index_eligible
+A-1004,https://pubchem.ncbi.nlm.nih.gov/compound/7311,True,246,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+B-1097,https://pubchem.ncbi.nlm.nih.gov/compound/68290,True,41,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+C-1037,https://pubchem.ncbi.nlm.nih.gov/compound/5556,True,106,False,replace_out_of_scope_description,Find physical-property text rather than health or handling guidance.,no
+D-101,https://pubchem.ncbi.nlm.nih.gov/compound/8023,True,376,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+E-1187,https://pubchem.ncbi.nlm.nih.gov/compound/10871,True,151,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+F-192,https://pubchem.ncbi.nlm.nih.gov/compound/67944,True,80,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-1068,https://pubchem.ncbi.nlm.nih.gov/compound/31260,True,179,True,hold_original_source_and_terms_review,"Inspect original source, compound identity, excerpt relevance and reuse conditions.",no
+B-1198,https://pubchem.ncbi.nlm.nih.gov/compound/11240,True,198,True,hold_citation_subject_conflict,Pentene description cites Pentane; verify the original article and revision before reuse.,no
+C-1148,https://pubchem.ncbi.nlm.nih.gov/compound/10894,True,30,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+D-1360,https://pubchem.ncbi.nlm.nih.gov/compound/6270,True,63,True,hold_identity_conflict,Stored hydroxy compound name conflicts with amino compound CID 6270; see docs/03_출처_검토_보고서.md.,no
+E-329,https://pubchem.ncbi.nlm.nih.gov/compound/999,True,585,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+F-266,https://pubchem.ncbi.nlm.nih.gov/compound/108714,True,34,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-1185,https://pubchem.ncbi.nlm.nih.gov/compound/58488538,True,60,False,replace_non_substantive_description,Find a substantive compound-specific property description.,no
+B-1241,https://pubchem.ncbi.nlm.nih.gov/compound/3871,True,73,False,replace_non_substantive_description,Find a substantive compound-specific property description.,no
+C-1239,https://pubchem.ncbi.nlm.nih.gov/compound/4724,True,85,False,replace_non_substantive_description,Find a substantive compound-specific property description.,no
+D-1894,https://pubchem.ncbi.nlm.nih.gov/compound/16238,True,29,False,replace_non_substantive_description,Find a substantive compound-specific property description.,no
+E-51,https://pubchem.ncbi.nlm.nih.gov/compound/7580,True,84,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+F-644,https://pubchem.ncbi.nlm.nih.gov/compound/44251561,True,80,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-1327,https://pubchem.ncbi.nlm.nih.gov/compound/73864,True,237,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+B-1371,https://pubchem.ncbi.nlm.nih.gov/compound/125,True,282,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+C-1318,https://pubchem.ncbi.nlm.nih.gov/compound/42586,True,356,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+E-793,https://pubchem.ncbi.nlm.nih.gov/compound/5147,True,232,True,hold_original_source_and_terms_review,"Inspect original source, compound identity, excerpt relevance and reuse conditions.",no
+F-67,https://pubchem.ncbi.nlm.nih.gov/compound/7108,True,123,True,hold_original_source_and_terms_review,"Inspect original source, compound identity, excerpt relevance and reuse conditions.",no
+A-1399,https://pubchem.ncbi.nlm.nih.gov/compound/18689,True,328,True,replace_out_of_scope_description,Find physical-property text rather than health or handling guidance.,no
+B-1415,https://pubchem.ncbi.nlm.nih.gov/compound/12340,True,151,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+C-137,https://pubchem.ncbi.nlm.nih.gov/compound/7470,True,54,True,hold_original_source_and_terms_review,"Inspect original source, compound identity, excerpt relevance and reuse conditions.",no
+A-146,https://pubchem.ncbi.nlm.nih.gov/compound/247573,True,105,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+B-1465,https://pubchem.ncbi.nlm.nih.gov/compound/12699,True,96,True,hold_original_source_and_terms_review,"Inspect original source, compound identity, excerpt relevance and reuse conditions.",no
+C-1447,https://pubchem.ncbi.nlm.nih.gov/compound/92384,True,664,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-1473,https://pubchem.ncbi.nlm.nih.gov/compound/24096,True,102,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+B-1523,https://pubchem.ncbi.nlm.nih.gov/compound/64115,True,33,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+C-1537,https://pubchem.ncbi.nlm.nih.gov/compound/31246,True,213,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-1541,https://pubchem.ncbi.nlm.nih.gov/compound/103402,True,103,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+B-1576,https://pubchem.ncbi.nlm.nih.gov/compound/61250,True,265,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+C-1780,https://pubchem.ncbi.nlm.nih.gov/compound/30976,True,311,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-1702,https://pubchem.ncbi.nlm.nih.gov/compound/8914,True,115,True,hold_original_source_and_terms_review,"Inspect original source, compound identity, excerpt relevance and reuse conditions.",no
+B-1622,https://pubchem.ncbi.nlm.nih.gov/compound/14337,True,97,False,replace_out_of_scope_description,Find physical-property text rather than health or handling guidance.,no
+C-2090,https://pubchem.ncbi.nlm.nih.gov/compound/17776,True,60,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-1773,https://pubchem.ncbi.nlm.nih.gov/compound/95392,True,80,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+B-171,https://pubchem.ncbi.nlm.nih.gov/compound/6341,True,811,True,hold_original_source_and_terms_review,"Inspect original source, compound identity, excerpt relevance and reuse conditions.",no
+C-2267,https://pubchem.ncbi.nlm.nih.gov/compound/72074,True,101,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-1835,https://pubchem.ncbi.nlm.nih.gov/compound/442428,True,444,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+B-1775,https://pubchem.ncbi.nlm.nih.gov/compound/16115,True,301,True,hold_original_source_and_terms_review,"Inspect original source, compound identity, excerpt relevance and reuse conditions.",no
+C-229,https://pubchem.ncbi.nlm.nih.gov/compound/7449,True,135,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-1913,https://pubchem.ncbi.nlm.nih.gov/compound/11906,True,90,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+B-1821,https://pubchem.ncbi.nlm.nih.gov/compound/75184,True,25,False,replace_non_substantive_description,Find a substantive compound-specific property description.,no
+C-2463,https://pubchem.ncbi.nlm.nih.gov/compound/4192,True,506,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-2073,https://pubchem.ncbi.nlm.nih.gov/compound/6625,True,41,True,hold_original_source_and_terms_review,"Inspect original source, compound identity, excerpt relevance and reuse conditions.",no
+B-1862,https://pubchem.ncbi.nlm.nih.gov/compound/712377,True,44,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+C-2527,https://pubchem.ncbi.nlm.nih.gov/compound/54677971,True,744,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-2149,https://pubchem.ncbi.nlm.nih.gov/compound/75628,True,56,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+B-1905,https://pubchem.ncbi.nlm.nih.gov/compound/17414,True,50,False,replace_non_substantive_description,Find a substantive compound-specific property description.,no
+C-553,https://pubchem.ncbi.nlm.nih.gov/compound/5184,True,40,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-219,https://pubchem.ncbi.nlm.nih.gov/compound/56842667,True,26,False,replace_non_substantive_description,Find a substantive compound-specific property description.,no
+B-2026,https://pubchem.ncbi.nlm.nih.gov/compound/19509,True,47,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+C-9,https://pubchem.ncbi.nlm.nih.gov/compound/5257127,True,159,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-2402,https://pubchem.ncbi.nlm.nih.gov/compound/31386,True,181,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+B-2158,https://pubchem.ncbi.nlm.nih.gov/compound/222209,True,68,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-2577,https://pubchem.ncbi.nlm.nih.gov/compound/62810,True,207,False,replace_out_of_scope_description,Find physical-property text rather than health or handling guidance.,no
+B-2243,https://pubchem.ncbi.nlm.nih.gov/compound/22890,True,755,True,replace_out_of_scope_description,Find physical-property text rather than health or handling guidance.,no
+A-2688,https://pubchem.ncbi.nlm.nih.gov/compound/69286,True,517,False,replace_out_of_scope_description,Find physical-property text rather than health or handling guidance.,no
+B-2337,https://pubchem.ncbi.nlm.nih.gov/compound/5355863,True,241,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-2727,https://pubchem.ncbi.nlm.nih.gov/compound/94454,True,207,True,replace_out_of_scope_description,Find physical-property text rather than health or handling guidance.,no
+B-2383,https://pubchem.ncbi.nlm.nih.gov/compound/3289,True,134,True,hold_original_source_and_terms_review,"Inspect original source, compound identity, excerpt relevance and reuse conditions.",no
+A-2773,https://pubchem.ncbi.nlm.nih.gov/compound/90004,True,32,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+B-2427,https://pubchem.ncbi.nlm.nih.gov/compound/26541,True,205,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-3,https://pubchem.ncbi.nlm.nih.gov/compound/70708,True,215,True,replace_out_of_scope_description,Find physical-property text rather than health or handling guidance.,no
+B-2565,https://pubchem.ncbi.nlm.nih.gov/compound/1241420,True,212,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-3024,https://pubchem.ncbi.nlm.nih.gov/compound/6072,True,333,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+B-2659,https://pubchem.ncbi.nlm.nih.gov/compound/639661,True,27,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-3364,https://pubchem.ncbi.nlm.nih.gov/compound/2734981,True,42,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+B-2710,https://pubchem.ncbi.nlm.nih.gov/compound/34468,True,34,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-3442,https://pubchem.ncbi.nlm.nih.gov/compound/136699112,True,26,False,replace_non_substantive_description,Find a substantive compound-specific property description.,no
+B-2769,https://pubchem.ncbi.nlm.nih.gov/compound/36392,True,35,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-3514,https://pubchem.ncbi.nlm.nih.gov/compound/31229,True,179,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+B-2856,https://pubchem.ncbi.nlm.nih.gov/compound/38193,True,576,True,hold_original_source_and_terms_review,"Inspect original source, compound identity, excerpt relevance and reuse conditions.",no
+A-3599,https://pubchem.ncbi.nlm.nih.gov/compound/8416,True,90,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+B-2899,https://pubchem.ncbi.nlm.nih.gov/compound/39327,True,80,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-3673,https://pubchem.ncbi.nlm.nih.gov/compound/6992086,True,293,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+B-2952,https://pubchem.ncbi.nlm.nih.gov/compound/40482,True,412,True,hold_original_source_and_terms_review,"Inspect original source, compound identity, excerpt relevance and reuse conditions.",no
+A-379,https://pubchem.ncbi.nlm.nih.gov/compound/31219,True,88,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+B-3048,https://pubchem.ncbi.nlm.nih.gov/compound/63098,True,410,True,hold_original_source_and_terms_review,"Inspect original source, compound identity, excerpt relevance and reuse conditions.",no
+A-3842,https://pubchem.ncbi.nlm.nih.gov/compound/9731,True,238,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+B-3239,https://pubchem.ncbi.nlm.nih.gov/compound/93460,True,275,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-3919,https://pubchem.ncbi.nlm.nih.gov/compound/7914,True,144,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+B-3296,https://pubchem.ncbi.nlm.nih.gov/compound/101525,True,440,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-3999,https://pubchem.ncbi.nlm.nih.gov/compound/4684,True,154,True,hold_original_source_and_terms_review,"Inspect original source, compound identity, excerpt relevance and reuse conditions.",no
+B-3382,https://pubchem.ncbi.nlm.nih.gov/compound/153909,True,85,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-4083,https://pubchem.ncbi.nlm.nih.gov/compound/149220038,True,41,False,replace_non_substantive_description,Find a substantive compound-specific property description.,no
+B-3588,https://pubchem.ncbi.nlm.nih.gov/compound/11936,True,31,False,replace_non_substantive_description,Find a substantive compound-specific property description.,no
+A-4217,https://pubchem.ncbi.nlm.nih.gov/compound/171391238,True,26,False,replace_non_substantive_description,Find a substantive compound-specific property description.,no
+B-364,https://pubchem.ncbi.nlm.nih.gov/compound/7124,True,211,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+A-4301,https://pubchem.ncbi.nlm.nih.gov/compound/2723949,True,102,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no
+B-3654,https://pubchem.ncbi.nlm.nih.gov/compound/11414,True,39,False,hold_missing_original_attribution,Resolve annotation provider and original source before checking reuse terms.,no

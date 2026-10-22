@@ -1,0 +1,70 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 31386,
+  "RecordTitle": "Diphenyl sulfone",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 3,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Diphenyl sulfone is a sulfone compound having two S-phenyl substituents. It has been found in plants like Gnidia glauca and Dioscorea bulbifera. It has a role as a plant metabolite.",
+                    "Markup": [
+                      {
+                        "Start": 50,
+                        "Length": 1,
+                        "Type": "Italics"
+                      },
+                      {
+                        "Start": 106,
+                        "Length": 13,
+                        "Type": "Italics"
+                      },
+                      {
+                        "Start": 124,
+                        "Length": 19,
+                        "Type": "Italics"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 16,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Diphenyl%20sulfone",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-31386"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 3,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:31386",
+      "Name": "Diphenyl sulfone",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:78360",
+      "ANID": 2521422
+    }
+  ]
+}

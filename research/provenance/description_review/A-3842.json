@@ -1,0 +1,148 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 9731,
+  "RecordTitle": "4-Fluoroaniline",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 3,
+              "Description": "Physical Description",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "4-fluoroaniline is a light-colored oily liquid. Mixture of three isomers. Insoluble in water and denser than water. Contact may cause irritation to skin, eyes, and mucous membranes. May be toxic by ingestion. Used to make other chemicals.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 15,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/4-fluoroaniline",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-9731"
+                      },
+                      {
+                        "Start": 87,
+                        "Length": 5,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/water",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-962"
+                      },
+                      {
+                        "Start": 109,
+                        "Length": 5,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/water",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-962"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 5,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "4-fluoroaniline is a primary arylamine that is the derivative of aniline in which the hydrogen at position 4 has been substituted by fluorine. It is used as an intermediate in the manufacture of pharmaceuticals, herbicides and plant growth regulators. It is a fluoroaniline and a primary arylamine.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 15,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/4-fluoroaniline",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-9731"
+                      },
+                      {
+                        "Start": 65,
+                        "Length": 7,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/aniline",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-6115"
+                      },
+                      {
+                        "Start": 86,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/element/Hydrogen",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "Element-Hydrogen"
+                      },
+                      {
+                        "Start": 133,
+                        "Length": 8,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/element/Fluorine",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "Element-Fluorine"
+                      },
+                      {
+                        "Start": 260,
+                        "Length": 13,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/fluoroaniline",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-17888012"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 72,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "chemical intermediate manufactured by the Halex process; RN given refers to parent cpd; structure given in first source"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 3,
+      "SourceName": "CAMEO Chemicals",
+      "SourceID": "3503",
+      "Name": "4-FLUOROANILINE",
+      "Description": "CAMEO Chemicals is a chemical database designed for people who are involved in hazardous material incident response and planning. CAMEO Chemicals contains a library with thousands of datasheets containing response-related information and recommendations for hazardous materials that are commonly transported, used, or stored in the United States. CAMEO Chemicals was developed by the National Oceanic and Atmospheric Administration's Office of Response and Restoration in partnership with the Environmental Protection Agency's Office of Emergency Management.",
+      "URL": "https://cameochemicals.noaa.gov/chemical/3503",
+      "LicenseNote": "CAMEO Chemicals and all other CAMEO products are available at no charge to those organizations and individuals (recipients) responsible for the safe handling of chemicals. However, some of the chemical data itself is subject to the copyright restrictions of the companies or organizations that provided the data.",
+      "LicenseURL": "https://cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm?d_f=false",
+      "ANID": 758650
+    },
+    {
+      "ReferenceNumber": 5,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:9731",
+      "Name": "4-fluoroaniline",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28546",
+      "ANID": 2448871
+    },
+    {
+      "ReferenceNumber": 72,
+      "SourceName": "Medical Subject Headings (MeSH)",
+      "SourceID": "M0127882",
+      "Name": "4-fluoroaniline",
+      "Description": "MeSH (Medical Subject Headings) is the U.S. National Library of Medicine's controlled vocabulary thesaurus used for indexing articles for PubMed.",
+      "URL": "https://id.nlm.nih.gov/mesh/M0127882.html",
+      "LicenseNote": "Works produced by the U.S. government are not subject to copyright protection in the United States. Any such works found on National Library of Medicine (NLM) Web sites may be freely used or reproduced without permission in the U.S.",
+      "LicenseURL": "https://www.nlm.nih.gov/copyright.html"
+    }
+  ]
+}

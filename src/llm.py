@@ -15,11 +15,13 @@ def _api_key() -> str:
     return key
 
 
-def get_llm() -> ChatOpenAI:
+def get_llm(*, timeout: float | None = None, max_retries: int = 2) -> ChatOpenAI:
     return ChatOpenAI(
         model=config.CHAT_MODEL,
         api_key=_api_key(),
         base_url=config.GMS_BASE_URL,
+        timeout=timeout,
+        max_retries=max_retries,
     )
 
 

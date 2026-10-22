@@ -1,0 +1,94 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 26541,
+  "RecordTitle": "Dibenzo-18-crown-6",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 4,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Dibenzo-18-crown-6 is a crown ether that is 18-crown-6 ortho-fused to two benzene rings at positions 8-9 and 17-18. It has a role as a phase-transfer catalyst. It is a member of benzenes and a crown ether.",
+                    "Markup": [
+                      {
+                        "Start": 55,
+                        "Length": 5,
+                        "Type": "Italics"
+                      },
+                      {
+                        "Start": 0,
+                        "Length": 18,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Dibenzo-18-crown-6",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-26541"
+                      },
+                      {
+                        "Start": 44,
+                        "Length": 10,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/18-crown-6",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-28557"
+                      },
+                      {
+                        "Start": 74,
+                        "Length": 7,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/benzene",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-241"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceNumber": 41,
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "structure"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 4,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:26541",
+      "Name": "Dibenzo-18-crown-6",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:358732",
+      "ANID": 2506526
+    },
+    {
+      "ReferenceNumber": 41,
+      "SourceName": "Medical Subject Headings (MeSH)",
+      "SourceID": "M0043219",
+      "Name": "dibenzo-18-crown-6",
+      "Description": "MeSH (Medical Subject Headings) is the U.S. National Library of Medicine's controlled vocabulary thesaurus used for indexing articles for PubMed.",
+      "URL": "https://id.nlm.nih.gov/mesh/M0043219.html",
+      "LicenseNote": "Works produced by the U.S. government are not subject to copyright protection in the United States. Any such works found on National Library of Medicine (NLM) Web sites may be freely used or reproduced without permission in the U.S.",
+      "LicenseURL": "https://www.nlm.nih.gov/copyright.html"
+    }
+  ]
+}

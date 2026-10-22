@@ -12,7 +12,7 @@
 
 ### 화합물 메타데이터 컬렉션 (F2001-F2002)
 
-- 로컬에는 train/test 9,982개가 있다. 현재 임베딩 컬렉션은 test 분할을 건드리지 않고 train에서 뽑은 100개 출처 균형 샘플만 색인한다. F2001 최소 100건을 넘기면서 GMS 사용량을 제한하는 선택이다. 표본에는 세 승인 문서의 대상과 아스피린·카페인을 반드시 포함한다.
+- 로컬에는 train/test 9,982개가 있다. 현재 임베딩 컬렉션은 test 분할을 건드리지 않고 train에서 뽑은 100개 출처 균형 샘플만 색인한다. F2001 최소 100건을 넘기면서 GMS 사용량을 제한하는 선택이다. 현재 기본 표본은 data/document_discovery_manifest.csv의 100종이다. 각 항목의 설명 문서 확보 근거와 검토 상태를 기록하며, 승인 문헌이 있는 6종을 포함한다. 미검토 설명 본문은 임베딩하지 않는다.
 - 최소 필드: `ID`, `Name`, `InChIKey`, `SMILES`, `Y`, 사용 가능한 descriptor, `Group`, AqSolDB ID 원자료 코드(A-I), canonical DOI
 - 한 화합물 행을 핵심 이름·별칭·SMILES·LogS 해석·주요 descriptor를 포함한 검색용 단일 텍스트로 만들고, 전체 descriptor는 Chroma metadata에 보존하며 고정 `chunk_id=ID`로 저장한다. 재실행 시 기존 ID를 건너뛰고 로드/색인 건수를 표시한다.
 - 검색/필터: 이름, ID, InChIKey 검색; `Y`·분자량 등 숫자 조건은 허용 필드와 범위를 검증한 뒤 적용
@@ -71,15 +71,15 @@
 
 ## 9. 데이터 품질 우선순위
 
-- 후보 문서 목록과 승인된 색인 입력을 분리한다. 승인 입력은 `research/provenance/approved_external_sources.csv`의 `index_eligible=yes` 행으로만 제한한다.
+- 후보 문서 목록과 승인된 색인 입력을 분리한다. 승인 입력은 `data/approved_external_sources.csv`의 `index_eligible=yes` 행으로만 제한한다.
 - 각 문서는 AqSolDB ID·InChIKey·PubChem CID·공식 문서의 CAS/이름을 교차 확인한다. PubChem CID 단독 일치는 구조 이성질체 혼동을 배제하지 못하므로 원문 식별자도 확인한다.
 - 문장마다 원출처 attribution, 문서 URL, 출처 조건 근거 URL, 검토일, 색인 허용 범위 및 제외 범위를 함께 보존한다.
 - 측정 조건(단위·온도)이 있는 물성값은 원형 그대로 전달한다. AqSolDB의 logS와 등가라고 처리하려면 측정 방법·단위 변환·조건을 별도로 확인한다.
-- `src/external_documents.py`는 선택된 세 AqSolDB ID와 InChIKey를 로컬 표본과 대조하고, 승인된 발췌만 외부 문서 레코드로 만든다. `src/index_external_documents.py` 기본 실행은 `data/curated_external_documents.jsonl`을 생성하며 네트워크를 호출하지 않는다. 실제 임베딩/Chroma 적재는 `--index`를 명시한 경우에만 실행하도록 분리했다. 색인 시 `CHUNK_SIZE`/`CHUNK_OVERLAP`을 적용하고 `compound_id:document_id:sequence` ID를 부여한다.
+- `src/external_documents.py`는 외부 문서가 승인된 네 AqSolDB ID와 InChIKey를 로컬 표본과 대조하고, 승인된 발췌만 외부 문서 레코드로 만든다. `src/index_external_documents.py` 기본 실행은 `data/curated_external_documents.jsonl`을 생성하며 네트워크를 호출하지 않는다. 실제 임베딩/Chroma 적재는 `--index`를 명시한 경우에만 실행하도록 분리했다. 색인 시 `CHUNK_SIZE`/`CHUNK_OVERLAP`을 적용하고 `compound_id:document_id:sequence` ID를 부여한다.
 - `src/discover_wikipedia_candidates.py`는 선택 화합물과 질문에서 GMS JSON 검색어를 추출하고 Wikipedia 검색 및 PubChem PUG-REST/PUG-View 용해도 주석을 후보로 가져온 뒤 GMS JSON 선별을 기록한다. 성공한 화합물/질문 검색은 `research/provenance/external_document_search_cache.jsonl`에 검색어·후보 ID·선별 결정을 캐시한다. 반복 실행은 캐시를 사용하고 `--refresh`로만 재수집한다. 후보에는 원문 URL·발췌·언어/주석·화합물 ID·InChIKey·원출처 인용·제공된 이용 조건 메모를 보존한다. 기본으로 색인하지 않으며 사람이 원문 식별, 출처 attribution과 페이지/기여자별 이용 조건을 확인한 뒤에만 승인 자료로 옮긴다.
 - E-1274에서 후보 흐름을 실행해 이번 실행에서 신규 후보 10건을 저장했고, 이 가운데 PubChem 용해도 주석 6건은 전부 선별 후보에 포함됐다. 이 실행은 검색·선별의 정상 동작을 확인한 것이며 외부 출처의 유효성 승인이나 RAG 색인을 의미하지 않는다. PubChem 후보별 라이선스 메모가 다르므로 사람이 검토해야 한다.
 - 승인된 세 개의 좁은 발췌는 JSONL과 `indexes/aqsoldb_documents` Chroma 컬렉션에 색인했다(초기 실행: 기존 0, 추가 3, 총 3 청크). 문서별 청크 크기·중복 설정 비교와 검색 결과 확인은 아직 필요하다.
-- 메타데이터 컬렉션은 `indexes/aqsoldb_compounds`에 train 출처 균형 표본 100건으로 색인했다. 재실행은 기존 100 / 신규 0 / 총 100으로 멱등성을 확인했다. 색인 단계에서 평가용 test.csv는 임베딩하지 않는다.
+- 메타데이터 컬렉션은 `indexes/aqsoldb_compounds_linked`에 문서 연결 Train 표본 100건으로 색인했다. 재실행은 기존 100 / 신규 0 / 총 100으로 멱등성을 확인했다. 색인 단계에서 평가용 test.csv는 임베딩하지 않는다.
 
 ### 로컬 검색 프로토타입
 
@@ -92,7 +92,7 @@
 
 - `src/rag_graph.py`는 `retrieve` → `generate` 두 노드로 구성한다. 검색은 기본 로컬 모드이며, vector 모드를 선택한 코드 경로는 외부 문서 컬렉션에서 선택 ID 필터와 Top-k를 적용한다.
 - 생성 노드는 검색 근거만 프롬프트에 넣고 메타데이터와 외부 자료의 성격을 구분하도록 지시한다. 반환된 답변의 `[근거 N]` 표기를 추출해 UI가 실제 인용된 자료를 가릴 수 있게 한다.
-- `app.py`는 선택된 세 화합물의 실험값·구조·로컬 근거를 표시하고 대화 기록을 ID별로 나눈다. 답변 생성을 위해 사용자가 비용 안내 체크박스와 버튼을 직접 선택해야 한다.
+- `app.py`는 검색 가능한 AqSolDB 화합물의 실험값·구조를 표시하고, 승인 외부 근거가 있는 선택 화합물만 해당 문헌 근거를 검색하며 대화 기록을 ID별로 나눈다. 답변 생성을 위해 사용자가 비용 안내 체크박스와 버튼을 직접 선택해야 한다.
 - A-4518의 측정 조건 질문 한 건을 GMS로 실행했다. LogS와 외부 문헌의 단위·온도를 구분하고, `[근거 1]`, `[근거 2]`를 실제 제공 근거와 일치하게 반환했다. 외부 근거가 없는 pKa 질문은 모델 호출 없이 보류하는 동작을 로컬 경로에서 확인했다. 브라우저 UI의 인용 목록 표시와 키 누락 안내는 후속 확인 대상이다.
 
 ### 자연어 조건 검색 초안
@@ -113,3 +113,10 @@
 - train/test 및 외부 문서 출처 필드가 보존되는지
 - 출처 인용이 답변에서 원문 청크까지 역추적되는지
 - 과제 체크리스트의 F2001-F2012 각 항목과 이 문서의 설계/구현/증거가 연결되는지
+
+
+## 현재 문서 범위와 UI 검증
+
+현재 활성 메타데이터 컬렉션은 aqsoldb_compounds_linked 100건, 외부 문헌 컬렉션은 aqsoldb_documents 9건(6종)이다. 100종의 문서 확보 기록과 94종의 검토 대기 상태는 docs/03_출처_검토_보고서.md에 기록한다. 문서 발견을 전체 RAG 준비 완료로 취급하지 않는다.
+
+실제 브라우저에서 키 누락, 빈 색인, 검색 진행/실패 상태와 GMS 생성 중 안내를 확인했다. 각 질문에 검색·생성 소요 시간을 표시한다. 아스피린 첫 질문은 검색 0.05초·생성 4.85초, 동일 세션 후속 질문은 0.06초·18.72초였다. 이는 서버가 이미 실행 중인 상태의 사례이며 모델 응답 캐시나 일반 응답시간 보장을 뜻하지 않는다.

@@ -1,0 +1,17 @@
+{
+  "compound_id": "E-1274",
+  "candidate_count": 6,
+  "request_statuses": [
+    200,
+    200,
+    200
+  ],
+  "minimum_interval_seconds": 1.0,
+  "retry_total": 3,
+  "retry_after_respected": true,
+  "wikimedia_missing_contact_blocked": true,
+  "automatic_approval": false,
+  "controlled_minimum_request_start_gap_seconds": 1.2000000000000028,
+  "retry_after_429_parsed_seconds": 2,
+  "missing_contact_prevents_http_request": true
+}

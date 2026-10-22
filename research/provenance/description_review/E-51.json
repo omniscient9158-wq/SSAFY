@@ -1,0 +1,62 @@
+{
+  "RecordType": "CID",
+  "RecordNumber": 7580,
+  "RecordTitle": "Diphenylmethane",
+  "Section": [
+    {
+      "TOCHeading": "Names and Identifiers",
+      "Description": "Chemical names, synonyms, identifiers, and descriptors.",
+      "Section": [
+        {
+          "TOCHeading": "Record Description",
+          "Description": "Summary Information",
+          "DisplayControls": {
+            "HideThisSection": true,
+            "MoveToTop": true
+          },
+          "Information": [
+            {
+              "ReferenceNumber": 9,
+              "Name": "Record Description",
+              "Description": "Ontology Summary",
+              "Value": {
+                "StringWithMarkup": [
+                  {
+                    "String": "Diphenylmethane is a diarylmethane that is methane substituted by two phenyl groups.",
+                    "Markup": [
+                      {
+                        "Start": 0,
+                        "Length": 15,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Diphenylmethane",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-7580"
+                      },
+                      {
+                        "Start": 43,
+                        "Length": 7,
+                        "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/methane",
+                        "Type": "PubChem Internal Link",
+                        "Extra": "CID-297"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Reference": [
+    {
+      "ReferenceNumber": 9,
+      "SourceName": "ChEBI",
+      "SourceID": "CHEBI:OBO:7580",
+      "Name": "Diphenylmethane",
+      "Description": "Chemical Entities of Biological Interest (ChEBI) is a database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies effort. The term \"molecular entity\" refers to any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.",
+      "URL": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:38884",
+      "ANID": 2517737
+    }
+  ]
+}
