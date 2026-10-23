@@ -1,0 +1,95 @@
+﻿AqSolDB_ID,name,source_record_cached,pubchem_identity_matches,cameo_original_cached,previous_triage_status,excerpt_review_stage,reviewed_excerpt_source,index_eligible
+A-1004,"2,4-di-tert-butylphenol",True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+B-1097,isovaleryl diethylamide,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+C-1037,triazolam,True,True,False,replace_out_of_scope_description,hold_original_definition_verification,,no
+D-101,ethyl vinyl ether,True,True,True,hold_missing_original_attribution,exclude_cached_source_no_eligible_water_solubility,https://cameochemicals.noaa.gov/chemical/4770,no
+E-1187,4-chloroacetanilide,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+F-192,"1,3-benzothiazole-2-sulfonamide",True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+A-1068,Fusel oil,True,True,True,hold_original_source_and_terms_review,hold_identity_or_citation_conflict,https://cameochemicals.noaa.gov/chemical/3659,no
+B-1198,2-methyl-1-butene,True,True,True,hold_citation_subject_conflict,hold_identity_or_citation_conflict,https://cameochemicals.noaa.gov/chemical/19053; https://cameochemicals.noaa.gov/chemical/18044,no
+C-1148,4-iodophenol,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+D-1360,"1-propanone, 1-(4-hydroxyphenyl)-",True,True,True,hold_identity_conflict,hold_identity_or_citation_conflict,https://cameochemicals.noaa.gov/chemical/10011,no
+E-329,phenylacetic_acid,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+F-266,"9-methyl-3,7-dihydropurine-2,6,8-trione",True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+A-1185,3-amino-4-hydroxybenzene-1-sulfonic acid,True,True,False,replace_non_substantive_description,hold_original_definition_verification,,no
+B-1241,lactitol,True,True,False,replace_non_substantive_description,hold_original_definition_verification,,no
+C-1239,penbutolol,True,True,False,replace_non_substantive_description,hold_original_definition_verification,,no
+D-1894,2-isopropyl naphthalene,True,True,False,replace_non_substantive_description,hold_original_definition_verification,,no
+E-51,diphenylmethane,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+F-644,4-nitro-3-phenylphenol,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+A-1327,"4-[1,1,1,3,3,3-hexafluoro-2-(4-hydroxyphenyl)propan-2-yl]phenol",True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+B-1371,p-hydroxybenzyl alcohol,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+C-1318,metalaxyl;  apron   (racemate),True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+E-793,Salicylamide,True,True,True,hold_original_source_and_terms_review,approved_bounded_excerpt,https://cameochemicals.noaa.gov/chemical/20494,yes
+F-67,10H-Phenothiazine,True,True,True,hold_original_source_and_terms_review,approved_bounded_excerpt,https://cameochemicals.noaa.gov/chemical/20886,yes
+A-1399,"2,2-bis({[(2-methylprop-2-enoyl)oxy]methyl})butyl 2-methylprop-2-enoate",True,True,False,replace_out_of_scope_description,hold_original_definition_verification,,no
+B-1415,ethyl propyl ether,True,True,True,hold_missing_original_attribution,exclude_cached_source_no_eligible_water_solubility,https://cameochemicals.noaa.gov/chemical/3449,no
+C-137,4-methylbenzoic acid,True,True,True,hold_original_source_and_terms_review,approved_bounded_excerpt,https://cameochemicals.noaa.gov/chemical/21128,yes
+A-146,"(1R,2R,4R)-1,7,7-trimethylbicyclo[2.2.1]heptan-2-yl acetate (1S,2S,4S)-1,7,7-trimethylbicyclo[2.2.1]heptan-2-yl acetate",True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+B-1465,1-nitroso-1-methylurea,True,True,True,hold_original_source_and_terms_review,approved_bounded_excerpt,https://cameochemicals.noaa.gov/chemical/16117,yes
+C-1447,"2,2',3,3',4,4'-hexachlorodiphenyl  ether",True,True,True,hold_missing_original_attribution,exclude_cached_source_no_eligible_water_solubility,https://cameochemicals.noaa.gov/chemical/25009,no
+A-1473,diisopropyl sebacate,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+B-1523,"1h-purine-2,6-dione, 3,7-dihydro-1,3,7,8-tetrame",True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+C-1537,4-heptanone;  dipropyl  ketone,True,True,True,hold_missing_original_attribution,hold_alternative_source_terms,https://cameochemicals.noaa.gov/chemical/3317,no
+A-1541,"2,2,5-trimethyl-5-pentylcyclopentanone",True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+B-1576,1-pentyl nitrate,True,True,True,hold_missing_original_attribution,exclude_cached_source_no_eligible_water_solubility,https://cameochemicals.noaa.gov/chemical/2477,no
+C-1780,"2,6-diaminopurine",True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+A-1702,nonan-1-ol,True,True,True,hold_original_source_and_terms_review,exclude_cached_source_no_eligible_water_solubility,https://cameochemicals.noaa.gov/chemical/8911,no
+B-1622,cycloate,True,True,True,replace_out_of_scope_description,exclude_cached_source_no_eligible_water_solubility,https://cameochemicals.noaa.gov/chemical/18083,no
+C-2090,dinoseb  acetate,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+A-1773,"ethyl 2-(2,4-dimethyl-1,3-dioxolan-2-yl)acetate",True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+B-171,ethylamine,True,True,True,hold_original_source_and_terms_review,approved_bounded_excerpt,https://cameochemicals.noaa.gov/chemical/3987; https://cameochemicals.noaa.gov/chemical/3376,yes
+C-2267,"amicarbalide;  n,n'-di(3-amidinophenyl)urea",True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+A-1835,"7-{[(2S,3R,4S,5S,6R)-4,5-dihydroxy-6-(hydroxymethyl)-3-{[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxy}oxan-2-yl]oxy}-5-hydroxy-2-(4-hydroxyphenyl)-3,4-dihydro-2H-1-benzopyran-4-one",True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+B-1775,chloroxuron,True,True,True,hold_original_source_and_terms_review,exclude_cached_source_no_eligible_water_solubility,https://cameochemicals.noaa.gov/chemical/4919,no
+C-229,3-nitrobenzaldehyde,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+A-1913,1-chloro-2-(chloromethyl)benzene,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+B-1821,"1-naphthalenecarboxylic acid, 8-nitro-",True,True,False,replace_non_substantive_description,hold_original_definition_verification,,no
+C-2463,midazolam,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+A-2073,1-chloro-4-(4-chlorobenzenesulfonyl)benzene,True,True,True,hold_original_source_and_terms_review,approved_bounded_excerpt,https://cameochemicals.noaa.gov/chemical/20154,yes
+B-1862,2(3h)-benzoxazolethione,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+C-2527,tenoxicam,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+A-2149,diphenyl 4-(propan-2-yl)phenyl phosphate phenyl bis[4-(propan-2-yl)phenyl] phosphate triphenyl phosphate tris[4-(propan-2-yl)phenyl] phosphate,True,True,True,hold_missing_original_attribution,exclude_cached_source_no_eligible_water_solubility,https://cameochemicals.noaa.gov/chemical/20552,no
+B-1905,c.i. disperse orange 1,True,True,False,replace_non_substantive_description,hold_original_definition_verification,,no
+C-553,scopolamine;  hyoscine,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+A-219,(3-aminopropyl)[(9Z)-octadec-9-en-1-yl]amine; bis((9Z)-octadec-9-enoic acid),True,True,False,replace_non_substantive_description,hold_original_definition_verification,,no
+B-2026,2-pyridinemethaneamine,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+C-9,glycine,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+A-2402,"1,1'-sulfonyldibenzene",True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+B-2158,"4h-pyran-3,5-dicarboxylic acid, 2,6-dimethyl-4-o",True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+A-2577,hexadecyl hexadecyloxy dicarbonate,True,True,True,replace_out_of_scope_description,exclude_cached_source_no_eligible_water_solubility,https://cameochemicals.noaa.gov/chemical/3121,no
+B-2243,allyxycarb [bsi:iso],True,True,False,replace_out_of_scope_description,hold_original_definition_verification,,no
+A-2688,"1,3-bis(heptanoyloxy)propan-2-yl heptanoate",True,True,False,replace_out_of_scope_description,hold_original_definition_verification,,no
+B-2337,mevinphos,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+A-2727,hexyl dodecanoate,True,True,False,replace_out_of_scope_description,hold_original_definition_verification,,no
+B-2383,"o-ethyl s,s-dipropyl phosphorodithioate",True,True,True,hold_original_source_and_terms_review,exclude_cached_source_no_eligible_water_solubility,https://cameochemicals.noaa.gov/chemical/4989,no
+A-2773,"3-(3,5-di-tert-butyl-4-hydroxyphenyl)-N-{6-[3-(3,5-di-tert-butyl-4-hydroxyphenyl)propanamido]hexyl}propanamide",True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+B-2427,Dibenzo-18-crown-6,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+A-3,"N,N,N-trimethyloctadecan-1-aminium bromide",True,True,False,replace_out_of_scope_description,hold_original_definition_verification,,no
+B-2565,"d-leucine, n-acetyl-",True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+A-3024,"1-(2,4-dihydroxy-6-{[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy}phenyl)-3-(4-hydroxyphenyl)propan-1-one",True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+B-2659,hexene - mixture of isomers,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+A-3364,calcium dipropanoate,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+B-2710,dinitramine,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+A-3442,"disodium 4,4'-bis[[4-anilino-6-[(2-carbamoylethyl)(2-hydroxyethyl)amino]-1,3,5,-triazin-2-yl]amino]stilbene-2,2'-disulphonate",True,True,False,replace_non_substantive_description,hold_original_definition_verification,,no
+B-2769,fluchloralin,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+A-3514,phenyl acetate,True,True,True,hold_missing_original_attribution,exclude_cached_source_no_eligible_water_solubility,https://cameochemicals.noaa.gov/chemical/12353,no
+B-2856,"2,8-dichlorodibenzo-p-dioxin",True,True,False,hold_original_source_and_terms_review,hold_original_definition_verification,,no
+A-3599,2-[(2-hydroxyethyl)(phenyl)amino]ethan-1-ol,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+B-2899,oxyfluorfen,True,True,True,hold_missing_original_attribution,exclude_cached_source_no_eligible_water_solubility,https://cameochemicals.noaa.gov/chemical/18185,no
+A-3673,(2S)-2-amino-4-carbamoylbutanoic acid,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+B-2952,"2,2',3,3',4,5,5',6'-octachlorobiphenyl",True,True,False,hold_original_source_and_terms_review,hold_original_definition_verification,,no
+A-379,benzyl propanoate,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+B-3048,"1,1'-biphenyl, 2,2',3,4,4',5,6'-heptachloro-",True,True,False,hold_original_source_and_terms_review,hold_original_definition_verification,,no
+A-3842,4-fluoroaniline,True,True,True,hold_missing_original_attribution,exclude_cached_source_no_eligible_water_solubility,https://cameochemicals.noaa.gov/chemical/3503,no
+B-3239,pyraclofos,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+A-3919,2-(propan-2-yloxy)propane,True,True,True,hold_missing_original_attribution,hold_alternative_source_terms,https://cameochemicals.noaa.gov/chemical/3232,no
+B-3296,primisulfuron-methyl,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+A-3999,4-chlorophenol,True,True,True,hold_original_source_and_terms_review,approved_bounded_excerpt,https://cameochemicals.noaa.gov/chemical/2906,yes
+B-3382,tribenuron-methyl,True,True,True,hold_missing_original_attribution,exclude_cached_source_no_eligible_water_solubility,https://cameochemicals.noaa.gov/chemical/18238,no
+A-4083,sodium 4-aminobenzene-1-sulfonate,True,True,False,replace_non_substantive_description,hold_original_definition_verification,,no
+B-3588,2-methylanthracene,True,True,False,replace_non_substantive_description,hold_original_definition_verification,,no
+A-4217,"disodium 4-{4-[(E)-2-[5-(2-bromoprop-2-enamido)-2-sulfonatophenyl]diazen-1-yl]-3-methyl-5-oxo-4,5-dihydro-1H-pyrazol-1-yl}-2,5-dichlorobenzene-1-sulfonate",True,True,False,replace_non_substantive_description,hold_original_definition_verification,,no
+B-364,2-quinolinecarboxylic acid,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no
+A-4301,ethanethioamide,True,True,True,hold_missing_original_attribution,approved_bounded_excerpt,https://cameochemicals.noaa.gov/chemical/16062,yes
+B-3654,o-dibromobenzene,True,True,False,hold_missing_original_attribution,hold_original_definition_verification,,no

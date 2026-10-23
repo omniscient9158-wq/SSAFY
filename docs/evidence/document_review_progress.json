@@ -1,0 +1,23 @@
+{
+  "source_snapshot_assembled_on": "2026-10-22T06:44:12.588973+00:00",
+  "reviewed_candidate_scope": 94,
+  "pending_approval_compounds": 86,
+  "approved_compounds_total": 14,
+  "source_records_cached": 94,
+  "pubchem_identity_matches": 94,
+  "original_pages_cached": 31,
+  "original_pages_failed": 1,
+  "compounds_with_cached_cameo_original": 27,
+  "staged_excerpt_reviews": 5,
+  "review_stage_counts": {
+    "hold_original_definition_verification": 67,
+    "exclude_cached_source_no_eligible_water_solubility": 14,
+    "hold_identity_or_citation_conflict": 3,
+    "approved_bounded_excerpt": 8,
+    "hold_alternative_source_terms": 2
+  },
+  "new_approved_documents": 8,
+  "network_calls": 0,
+  "model_calls": 0,
+  "scope": "Preserved 94-candidate snapshot review. Approval follows the bounded-excerpt decision CSV; approval and vector indexing are separate stages."
+}

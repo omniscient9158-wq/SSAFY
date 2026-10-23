@@ -64,6 +64,45 @@ class LocalChecks(unittest.TestCase):
             chat.assert_not_called()
             embeddings.assert_not_called()
 
+    def test_additional_reviewed_evidence(self):
+        from compare_measurements import compare_measurements
+        from retrieve_local_evidence import retrieve
+        from external_documents import reviewed_scope
+
+        expected = {"E-793": ("less than 1", "68°F"), "F-67": ("less than 1", "68°F"),
+                    "C-137": ("less than 1", "66°F"), "A-2073": ("less than 1", "68°F"),
+                    "B-1465": ("less than 1", "64°F"), "A-3999": ("10 to 50", "59°F"),
+                    "A-4301": ("5 to 10", "68°F")}
+        for compound_id, (value, temperature) in expected.items():
+            with self.subTest(compound_id=compound_id):
+                result = retrieve(compound_id, "문헌 수용해도 값 단위 온도 원출처")
+                self.assertEqual(result["compound_metadata"]["compound_id"], compound_id)
+                self.assertEqual(len(result["external_evidence"]), 1)
+                self.assertIn("NTP", result["external_evidence"][0]["original_attribution"])
+                comparison = compare_measurements(compound_id)
+                self.assertEqual(comparison["records"][1]["기록된 값"], value)
+                self.assertEqual(comparison["records"][1]["온도"], temperature)
+        qualitative = retrieve("B-171", "water solubility")
+        self.assertIn("Very soluble", qualitative["external_evidence"][0]["excerpt"])
+        self.assertEqual(len(compare_measurements("B-171")["records"]), 1)
+        self.assertTrue(set(expected) | {"B-171"} <= set(reviewed_scope()["compound_ids"]))
+
+    def test_unindexed_compound_does_not_call_embeddings(self):
+        from streamlit.testing.v1 import AppTest
+        with patch("llm.get_embeddings", side_effect=AssertionError("Embeddings forbidden")) as embeddings, patch(
+            "vector_store.has_persisted_evidence", return_value=False
+        ), patch("vector_store.count_persisted", return_value=9):
+            app = AppTest.from_file(str(ROOT / "app.py"), default_timeout=60).run()
+            app.selectbox(key="quick-compound").select("E-793").run()
+            app.session_state["retrieval-choice"] = "의미 유사도"
+            app.run()
+            app.checkbox(key="vector-search-consent").check().run()
+            app.text_input(key="question-input-E-793").set_value("수용해도 값과 온도는?")
+            next(button for button in app.button if button.label == "근거 검색").click().run()
+            self.assertEqual(len(app.exception), 0)
+            self.assertTrue(any("색인이 아직 준비되지" in error.value for error in app.error))
+            embeddings.assert_not_called()
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

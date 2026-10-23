@@ -1,0 +1,40 @@
+{
+  "reviewed_on": "2026-10-23",
+  "approved_compounds": 14,
+  "approved_excerpts": 17,
+  "candidate_scope": 100,
+  "unapproved_candidates": 86,
+  "metadata_index_count": 100,
+  "document_index_count": 9,
+  "indexed_compounds": [
+    "A-454",
+    "A-5538",
+    "A-4518",
+    "B-524",
+    "C-533",
+    "E-1274"
+  ],
+  "pending_index_compounds": [
+    "A-2073",
+    "A-3999",
+    "A-4301",
+    "B-1465",
+    "B-171",
+    "C-137",
+    "E-793",
+    "F-67"
+  ],
+  "local_unittest_cases_passed": 6,
+  "new_embedding_attempt": "blocked_gms_no_token_left",
+  "new_generation_executed": false,
+  "new_approved_ids": [
+    "E-793",
+    "F-67",
+    "C-137",
+    "A-2073",
+    "B-1465",
+    "B-171",
+    "A-3999",
+    "A-4301"
+  ]
+}

@@ -1,9 +1,9 @@
 [theme]
 base = "light"
-primaryColor = "#245B7A"
+primaryColor = "#1F6F8B"
 backgroundColor = "#FFFFFF"
-secondaryBackgroundColor = "#F3F6F8"
-textColor = "#172B3A"
+secondaryBackgroundColor = "#F2F7F9"
+textColor = "#1B2B34"
 font = "sans-serif"
 baseRadius = "medium"
 buttonRadius = "medium"
@@ -12,7 +12,7 @@ showSidebarBorder = true
 linkUnderline = false
 
 [theme.sidebar]
-backgroundColor = "#F3F6F8"
+backgroundColor = "#F2F7F9"
 secondaryBackgroundColor = "#E9EFF3"
-textColor = "#172B3A"
+textColor = "#1B2B34"
 borderColor = "#D6E0E6"

@@ -41,3 +41,20 @@ def existing_ids(store: Chroma, ids: list[str]) -> set[str]:
     for start in range(0, len(ids), 500):
         found.update(store.get(ids=ids[start:start + 500]).get("ids", []))
     return found
+
+
+def has_persisted_evidence(collection_name: str, compound_id: str) -> bool:
+    """Check compound coverage in an existing index without API clients."""
+    import chromadb
+
+    path = config.INDEX_DIR / collection_name
+    if not path.is_dir():
+        return False
+    try:
+        client = chromadb.PersistentClient(path=str(path))
+        result = client.get_collection(collection_name).get(
+            where={"compound_id": compound_id}, limit=1, include=[]
+        )
+        return bool(result["ids"])
+    except Exception:
+        return False

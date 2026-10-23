@@ -12,6 +12,7 @@
 - `retrieve_local_evidence.py`: 선택한 화합물의 근거 검색
 - `rag_graph.py`: retrieve → generate 두 노드 그래프
 - `filter_compounds.py`: 분자량, LogP 같은 숫자 조건 검색
+- `question_examples.py`: 질문 예시와 자동 입력에 쓰는 문구
 - `compare_measurements.py`: 문헌 값과 AqSolDB 값 비교
 - `solubility_model.py`, `smiles_prediction.py`: LogS 예측(보조 기능). 둘 다 `source_aware_evaluation.py`의 함수를 쓴다.
 
@@ -24,4 +25,5 @@
 - `compare_rag.py`: RAG 전후 비교(F2015)
 - `baseline_solubility.py`, `source_aware_evaluation.py`: 회귀 기준선, 출처별 평가
 - `verify_local.py`: 로컬 점검 테스트
+- `document_review_progress.py`: 저장된 원출처·원문 캐시와 발췌 검토 기록을 연결해 재개용 진행표 생성
 - `review_document_candidates.py`, `search_metadata.py`, `package_submission.py`: 출처 점검, 이름 검색, 제출 zip 만들기

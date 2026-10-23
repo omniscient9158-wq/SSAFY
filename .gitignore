@@ -4,6 +4,7 @@ __pycache__/
 *.py[cod]
 indexes/
 outputs/
+제출물/*.zip
 .DS_Store
 .env.*
 !.env.example

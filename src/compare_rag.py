@@ -29,7 +29,7 @@ def main() -> None:
     parser.add_argument("--generate", action="store_true", help="GMS 답변 최대 10회 생성 (크레딧 사용)")
     parser.add_argument("--mode", choices=["local", "vector"], default="local")
     parser.add_argument("--top-k", type=int, choices=range(1, 11), default=3)
-    parser.add_argument("--output", type=Path, default=config.BASE_DIR / "outputs/rag_comparison.json")
+    parser.add_argument("--output", type=Path, default=config.BASE_DIR / "research/runs/rag_comparison.json")
     args = parser.parse_args()
     if args.mode == "vector" and not args.generate:
         parser.error("API 없는 사전 점검은 --mode local을 사용하세요.")

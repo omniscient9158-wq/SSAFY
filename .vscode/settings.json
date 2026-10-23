@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^python src/verify_local\\.py$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

@@ -1,6 +1,5 @@
 """AqSolDB aqueous-solubility analysis and evidence review interface."""
 from __future__ import annotations
-from smiles_prediction import solubility_band
 
 import os
 import sys
@@ -22,7 +21,8 @@ from filter_compounds import search_train_compounds
 from retrieve_local_evidence import retrieve
 from question_examples import COMMON_QUESTION_EXAMPLES
 from solubility_model import predict_for_compound, similar_descriptor_compounds
-from smiles_prediction import molecular_formula, molecule_image, predict_smiles
+from smiles_prediction import molecular_formula, molecule_image, predict_smiles, solubility_band
+from external_documents import reviewed_scope
 
 st.set_page_config(
     page_title="AqSolDB 화합물 근거 탐색",
@@ -31,13 +31,34 @@ st.set_page_config(
     initial_sidebar_state="auto",
 )
 
+st.markdown("""
+<style>
+.st-key-hero { background: #F2F7F9; border-radius: 12px; }
+[data-testid="stMetricValue"] { color: #1F6F8B; }
+</style>
+""", unsafe_allow_html=True)
+
+
+def solubility_bar(log_s: float) -> str:
+    """Show a fixed LogS reference scale; clamp only the marker position."""
+    pos = (min(max(log_s, -10), 2) + 10) / 12 * 100
+    return f"""<div role="img" aria-label="LogS {log_s:.2f}, 참고 눈금 -10에서 2"
+style="position:relative;height:10px;border-radius:5px;background:linear-gradient(90deg,#d9534f,#f0ad4e,#5cb85c);margin:18px 0 6px;">
+<div style="position:absolute;left:{pos}%;transform:translateX(-50%);top:-5px;width:4px;height:20px;background:#1B2B34;border-radius:2px;"></div></div>
+<div style="display:flex;justify-content:space-between;font-size:12px;color:#667;">
+<span>잘 안 녹음 · -10</span><span>잘 녹음 · 2</span></div>"""
+
+
 st.title("AqSolDB 화합물 근거 탐색")
 st.caption("화합물을 선택하고, AqSolDB 기록과 출처가 확인된 문헌을 근거로 질문하세요.")
 st.badge("AqSolDB v1 · 전체 9,982행 · 앱 검색 Train 7,488행", icon=":material/database:", color="blue")
-st.caption("문헌 답변: 검토된 6종의 발췌 9건 · 문서 확보 대상 100종 중 나머지 94종은 검토 대기입니다.")
+EVIDENCE_SCOPE = reviewed_scope()
+DEMO_IDS = EVIDENCE_SCOPE["compound_ids"]
+with st.expander("데이터와 범위"):
+    st.caption(f"승인 문헌: {EVIDENCE_SCOPE['compound_count']}종 · 발췌 {EVIDENCE_SCOPE['excerpt_count']}건 · 문서 확보 대상 {EVIDENCE_SCOPE['target_count']}종 중 승인 전 후보 {EVIDENCE_SCOPE['pending_count']}종")
+    st.caption("승인 전 후보도 원출처 조회와 1차 분류를 마쳤습니다. 후보별 보류 사유와 추가 검토 단계는 제출 문서에 기록했습니다.")
+    st.caption("외부 문헌이 없는 화합물은 AqSolDB 실험 기록만 제공합니다. 후보 문서 링크는 승인된 근거와 구분합니다.")
 
-DEMO_IDS = ("A-454", "A-5538", "A-4518", "B-524", "C-533", "E-1274")
-VECTOR_INDEXED_IDS = ("A-454", "A-5538", "A-4518", "B-524", "C-533", "E-1274")
 compound_data.refresh_name_links()
 TRAIN_ROWS = [row for row in compound_data.load_compounds() if row["_split"] == "train"]
 rows = {row["ID"]: row for row in TRAIN_ROWS}
@@ -110,7 +131,7 @@ st.selectbox(
     placeholder="타우린·카페인·아스피린 또는 이름을 입력해 찾으세요",
     key="quick-compound", on_change=select_compound,
 )
-st.caption("문헌이 준비된 6종을 먼저 표시합니다. 전체 Train 화합물도 이름으로 검색·선택할 수 있습니다.")
+st.caption(f"문헌 발췌가 준비된 {len(DEMO_IDS)}종을 먼저 표시합니다. 전체 Train 화합물도 이름으로 검색·선택할 수 있습니다.")
 
 with st.expander("등록된 화합물 찾아보기 · 7,488종", icon=":material/list_alt:"):
     catalog = catalog_items()
@@ -147,11 +168,9 @@ with st.expander("등록된 화합물 찾아보기 · 7,488종", icon=":material
         st.info("목록에 일치하는 항목이 없습니다. 영문명이나 다른 별칭으로도 찾아보세요.")
 
 
-with st.container(border=True):
+with st.container(border=True, key="hero"):
     st.subheader("어떤 화합물을 분석할까요?")
     st.caption("한글명·영문명·별칭이나 AqSolDB ID로 찾거나, SMILES를 입력해 새 구조를 확인하세요.")
-    st.caption("LogS는 수용해도를 나타내는 로그 값으로, 값이 클수록 물에 더 잘 녹습니다.")
-    st.caption("외부 문헌 근거는 현재 일부 화합물에만 연결되어 있습니다. 문헌을 찾지 못하면 AqSolDB 기록과 구분해 안내합니다.")
     with st.form("compound-search-form"):
         compound_query = st.text_input(
             "화합물 이름 또는 SMILES",
@@ -285,6 +304,8 @@ if analysis and analysis["kind"] == "record":
             result_col.caption(f"데이터셋 이름: {row['Name']} · 별칭: {', '.join(compound_data.searchable_aliases(row)[:8])}")
         result_col.badge(f"AqSolDB ID · {selected_id}", color="blue")
         result_col.metric("AqSolDB 실험 LogS", f"{float(row['Y']):.2f}")
+        result_col.markdown(solubility_bar(float(row["Y"])), unsafe_allow_html=True)
+        result_col.caption("LogS가 클수록 물에 더 잘 녹습니다. 막대는 -10~2 참고 눈금입니다.")
         measured_band, _ = solubility_band(float(row["Y"]))
         source = compound_data.source_info(row)
         source_name = source.get("Original_source_dataset") or f"통합 출처 코드 {source_code}"
@@ -305,6 +326,8 @@ elif analysis and analysis["kind"] == "smiles":
         result_col.subheader(analysis["name"])
         result_col.write(f"모델 예측: **{plain_summary}** · 해석 구간: **{band}**")
         result_col.metric("예측 LogS", f"{prediction['predicted_logS']:.2f}")
+        result_col.markdown(solubility_bar(prediction["predicted_logS"]), unsafe_allow_html=True)
+        result_col.caption("LogS가 클수록 물에 더 잘 녹습니다. 막대는 -10~2 참고 눈금입니다.")
         result_col.caption("새 구조라 AqSolDB 실험값과 연결되지 않았습니다. 표시한 용해도 구간은 분류 확률이 아닙니다.")
         st.code(analysis["smiles"], language=None)
 
@@ -319,12 +342,14 @@ if selected_id:
     with st.container(border=True):
         st.subheader("근거 기반 질문")
         st.caption("선택한 화합물의 AqSolDB 기록은 항상 포함됩니다. 외부 문헌은 현재 출처·이용 조건 검토를 마친 자료만 검색합니다.")
-        if selected_id == "C-533" and selected_id not in VECTOR_INDEXED_IDS:
-            st.info("카페인 문헌 발췌는 검토를 마쳤지만 의미 검색 색인에는 아직 추가하지 않았습니다. 단어 일치 검색으로 확인할 수 있습니다.")
+        if retrieval_mode == "vector" and selected_id in DEMO_IDS:
+            import vector_store
+            if not vector_store.has_persisted_evidence(config.DOC_COLLECTION, selected_id):
+                st.info("이 화합물은 승인 문헌의 의미 검색 색인이 아직 준비되지 않았습니다. 단어 일치 검색으로 발췌를 확인할 수 있습니다.")
         with st.expander("무엇을, 어떻게 검색하나요?", icon=":material/help:"):
             st.markdown(
                 "**검색 순서**\n"
-                "1. 화면 위 검색창에서 화합물을 선택합니다. 출처 검토와 색인을 마친 외부 발췌는 9건이며 6개 화합물에 연결되어 있습니다. Wikipedia 자료는 원문에 적힌 범위 안의 보조 자료로 표시합니다.\n"
+                f"1. 화면 위 검색창에서 화합물을 선택합니다. 출처 검토를 마친 외부 발췌는 {EVIDENCE_SCOPE['excerpt_count']}건이며 {EVIDENCE_SCOPE['compound_count']}개 화합물에 연결되어 있습니다. Wikipedia 자료는 원문에 적힌 범위 안의 보조 자료로 표시합니다.\n"
                 "2. 수용해도·분자 구조·외관처럼 궁금한 내용을 질문합니다. 단어 일치 검색은 지원하는 한글 표현을 영어 용어로도 찾아보고, 의미 유사도 검색은 문장의 의미를 비교합니다.\n"
                 "3. 결과에서 발췌, 원출처, 링크, 인용 범위를 확인합니다. 결과 없음은 현재 승인된 발췌에서 일치 항목을 찾지 못했다는 뜻입니다.\n\n"
                 "**검색 범위**\n"
@@ -375,6 +400,10 @@ if selected_id:
                             if vector_store.count_persisted(config.DOC_COLLECTION) == 0:
                                 raise RuntimeError(
                                     "외부 문서 색인이 없습니다. 색인을 준비한 뒤 다시 시도해 주세요."
+                                )
+                            if not vector_store.has_persisted_evidence(config.DOC_COLLECTION, selected_id):
+                                raise RuntimeError(
+                                    "이 화합물의 의미 검색 색인이 아직 준비되지 않았습니다. 단어 일치 검색을 사용하거나 승인 문헌 색인을 갱신해 주세요."
                                 )
                             from rag_graph import retrieve_node
 

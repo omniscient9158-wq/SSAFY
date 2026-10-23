@@ -21,13 +21,13 @@ def load_reviewed_documents() -> list[dict[str, Any]]:
     with APPROVED_SOURCES.open("r", encoding="utf-8-sig", newline="") as stream:
         for source in csv.DictReader(stream):
             compound_id = source["AqSolDB_ID"].strip()
-            if compound_id not in DEMO_COMPOUND_IDS:
-                continue
             if source.get("index_eligible", "").lower() != "yes":
                 raise ValueError(f"External document is not approved for indexing: {source['document_id']}")
             row = compounds.get(compound_id)
             if row is None:
                 raise ValueError(f"Selected AqSolDB compound not found: {compound_id}")
+            if row["_split"] != "train":
+                raise ValueError(f"Test compound cannot enter reviewed search evidence: {compound_id}")
             if source["InChIKey"].strip() != row["InChIKey"].strip():
                 raise ValueError(f"InChIKey mismatch for {compound_id}; refusing to include the document")
             if not source["approved_excerpt"].strip() or not source["source_url"].startswith("https://"):
@@ -68,4 +68,15 @@ def load_reviewed_documents() -> list[dict[str, Any]]:
     if missing:
         raise ValueError(f"Selected demo compounds lack reviewed evidence: {', '.join(missing)}")
     demo_order = {compound_id: order for order, compound_id in enumerate(DEMO_COMPOUND_IDS)}
-    return sorted(selected, key=lambda item: (demo_order[item["metadata"]["compound_id"]], item["metadata"]["chunk_id"]))
+    return sorted(selected, key=lambda item: (demo_order.get(item["metadata"]["compound_id"], len(demo_order)), item["metadata"]["compound_id"], item["metadata"]["chunk_id"]))
+
+
+def reviewed_scope(documents: list[dict[str, Any]] | None = None) -> dict[str, Any]:
+    """Derive UI counts from approved evidence and the preserved discovery scope."""
+    documents = load_reviewed_documents() if documents is None else documents
+    compound_ids = tuple(dict.fromkeys(doc["metadata"]["compound_id"] for doc in documents))
+    with (PROJECT_DIR / "data/document_discovery_manifest.csv").open(encoding="utf-8-sig", newline="") as stream:
+        manifest_ids = {row["AqSolDB_ID"] for row in csv.DictReader(stream)}
+    return {"compound_ids": compound_ids, "compound_count": len(compound_ids),
+            "excerpt_count": len(documents), "target_count": len(manifest_ids),
+            "pending_count": len(manifest_ids - set(compound_ids))}
